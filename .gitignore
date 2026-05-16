@@ -1,0 +1,14 @@
+node_modules/
+.next/
+out/
+*.tar.gz
+.env
+deploy/
+out/
+node_modules/
+.next/
+.env
+*.tar.gz
+out/
+deploy/
+.gitignore_backup
