@@ -12,3 +12,6 @@ node_modules/
 out/
 deploy/
 .gitignore_backup
+scripts/seo-models.json
+scripts/extract-models.cjs
+workers/ai-consultant.js

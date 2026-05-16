@@ -3,6 +3,8 @@ import { PART_CATEGORIES } from '@/app/types'
 import Link from 'next/link'
 import type { Metadata } from 'next'
 import ViewCounter from '@/components/ViewCounterWrapper'
+import AIAgent from '@/components/AIAgent'
+import seoTexts from '@/app/display-seo.json'
 
 // Slug helpers
 function slug(text: string): string {
@@ -108,6 +110,10 @@ export default async function DisplayPage({ params }: Props) {
   const pageTitle = `Дисплей для ${b.name} ${m.modelName}`
   const canonicalUrl = `https://777111.com.ua/${brand}/display/${model}`
 
+  // Get AI-generated SEO text for this model
+  const seoKey = `${brand}:${m.modelCode}`
+  const seoText = (seoTexts as Record<string, string>)[seoKey] || ''
+
   const jsonLd = {
     '@context': 'https://schema.org',
     '@type': 'Product',
@@ -209,6 +215,10 @@ export default async function DisplayPage({ params }: Props) {
             <h2 className="text-lg font-semibold text-gray-900 mb-3">
               Заміна дисплею {b.name} {m.modelName} в Вознесенську
             </h2>
+            {seoText ? (
+              <p>{seoText}</p>
+            ) : (
+              <>
             <p>
               Потребуєте заміни екрану на {b.name} {m.modelName}? Ми пропонуємо
               якісний ремонт з використанням оригінальних запчастин та якісних
@@ -226,6 +236,8 @@ export default async function DisplayPage({ params }: Props) {
             <p className="font-medium">
               Приходьте — промаємо, порадимо, зробимо якісно!
             </p>
+            </>
+            )}
           </div>
 
           {/* Map */}
@@ -285,6 +297,15 @@ export default async function DisplayPage({ params }: Props) {
           </div>
         </footer>
       </div>
+
+      <AIAgent
+        brand={b.name}
+        model={m.modelName}
+        productName={`${b.name} ${m.modelName}`}
+        copyPrice={copyVariant?.partCost || 0}
+        origPrice={origVariant?.partCost || 0}
+        origFramePrice={origFrameVariant?.partCost || 0}
+      />
     </>
   )
 }
