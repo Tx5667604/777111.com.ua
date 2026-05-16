@@ -2,6 +2,7 @@ import { brandPartsData } from '@/app/phone-parts-data'
 import { PART_CATEGORIES } from '@/app/types'
 import Link from 'next/link'
 import type { Metadata } from 'next'
+import ViewCounter from '@/components/ViewCounterWrapper'
 
 // Slug helpers
 function slug(text: string): string {
@@ -132,6 +133,7 @@ export default async function DisplayPage({ params }: Props) {
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
       />
+      <ViewCounter pagePath={`/${brand}/display/${model}`} />
       <div className="min-h-screen bg-gray-50">
         {/* Top bar */}
         <div className="bg-white border-b sticky top-0 z-30">

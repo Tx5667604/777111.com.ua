@@ -47,6 +47,7 @@ import {
   Save,
   Upload,
   Download,
+  BarChart3,
   Eye,
   MessageCircle,
 } from "lucide-react"
@@ -54,7 +55,8 @@ import { brandPartsData } from "@/app/phone-parts-data"
 import type { PartVariant, BrandParts, PartCategory } from "@/app/types"
 import { PART_CATEGORIES } from "@/app/types"
 import { useAdmins, isSuperadmin } from "@/lib/admin"
-import VisitCalendar from "@/components/admin/VisitCalendar"
+import VisitCalendar from '@/components/admin/VisitCalendar'
+import PageViewsTab from '@/components/admin/PageViewsTab'
 import AdminChat from "@/components/chat/AdminChat"
 
 const ADMIN_EMAILS = ["fit5667604@gmail.com", "pavlovich2008@gmail.com", "vihnykov354@gmail.com", "perpetoto@gmail.com"]
@@ -1189,6 +1191,7 @@ export default function AdminPage() {
               <TabsTrigger value="orders"><ShoppingCart className="w-4 h-4" />Замовлення</TabsTrigger>
               <TabsTrigger value="phones"><Smartphone className="w-4 h-4" />Телефони</TabsTrigger>
               <TabsTrigger value="stats"><Eye className="w-4 h-4" />Статистика</TabsTrigger>
+              <TabsTrigger value="pageviews"><BarChart3 className="w-4 h-4" />Перегляди</TabsTrigger>
               {isSuper && <TabsTrigger value="admins"><Users className="w-4 h-4" />Адміни</TabsTrigger>}
               <TabsTrigger value="chats" className="relative">
                 <MessageCircle className="w-4 h-4" />Чати
@@ -1205,6 +1208,7 @@ export default function AdminPage() {
           <TabsContent value="orders"><OrdersTab /></TabsContent>
           <TabsContent value="phones"><PhonesTab /></TabsContent>
           <TabsContent value="stats"><VisitCalendar /></TabsContent>
+          <TabsContent value="pageviews"><PageViewsTab /></TabsContent>
           <TabsContent value="chats"><AdminChat /></TabsContent>
           {isSuper && <TabsContent value="admins"><AdminsManagement /></TabsContent>}
         </Tabs>
