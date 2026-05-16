@@ -3,7 +3,6 @@ import { PART_CATEGORIES } from '@/app/types'
 import Link from 'next/link'
 import type { Metadata } from 'next'
 import ViewCounter from '@/components/ViewCounterWrapper'
-import AIAgent from '@/components/AIAgent'
 import seoTexts from '@/app/display-seo.json'
 
 // Slug helpers
@@ -297,15 +296,6 @@ export default async function DisplayPage({ params }: Props) {
           </div>
         </footer>
       </div>
-
-      <AIAgent
-        brand={b.name}
-        model={m.modelName}
-        productName={`${b.name} ${m.modelName}`}
-        copyPrice={copyVariant?.partCost || 0}
-        origPrice={origVariant?.partCost || 0}
-        origFramePrice={origFrameVariant?.partCost || 0}
-      />
     </>
   )
 }
