@@ -4,6 +4,7 @@ import Link from 'next/link'
 import type { Metadata } from 'next'
 import ViewCounter from '@/components/ViewCounterWrapper'
 import seoTexts from '@/app/display-seo.json'
+import seoTextsRu from '@/app/display-seo-ru.json'
 
 // Slug helpers
 function slug(text: string): string {
@@ -112,6 +113,7 @@ export default async function DisplayPage({ params }: Props) {
   // Get AI-generated SEO text for this model
   const seoKey = `${brand}:${m.modelCode}`
   const seoText = (seoTexts as Record<string, string>)[seoKey] || ''
+  const seoTextRu = (seoTextsRu as Record<string, string>)[seoKey] || ''
 
   const jsonLd = {
     '@context': 'https://schema.org',
@@ -236,6 +238,21 @@ export default async function DisplayPage({ params }: Props) {
               Приходьте — промаємо, порадимо, зробимо якісно!
             </p>
             </>
+            )}
+            {/* Russian SEO text */}
+            {seoTextRu && (
+              <div className="mt-4 pt-3 border-t border-gray-100">
+                <p className="text-sm leading-relaxed text-gray-700">
+                  {seoTextRu}
+                </p>
+              </div>
+            )}
+            {/* Fallback Russian keywords */}
+            {!seoTextRu && (
+            <p className="text-xs text-gray-400 mt-2 border-t pt-2 italic">
+              Ремонт телефонов в Вознесенске — замена дисплея, экрана телефона {b.name} {m.modelName}.
+              Мастер по ремонту телефонов. Центральный рынок, сектор Б, к. 96.
+            </p>
             )}
           </div>
 
