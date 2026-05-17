@@ -1,75 +1,69 @@
-// Script to generate sitemap with all display pages
-// Run after npm run build: node scripts/generate-sitemap.cjs
+// Generate split sitemaps + keep sitemap.xml for backward compat
+// node scripts/generate-sitemap.cjs
 
 const fs = require('fs')
 const path = require('path')
 
 const BASE = 'https://777111.com.ua'
+const TODAY = new Date().toISOString().split('T')[0]
 
-// Parse the phone-parts-data.ts to get all display pages
+const mainPages = [
+  { loc: `${BASE}/`, priority: '1.0', changefreq: 'weekly' },
+  { loc: `${BASE}/zamina-ekrana`, priority: '0.9', changefreq: 'monthly' },
+  { loc: `${BASE}/remont-iphone`, priority: '0.9', changefreq: 'monthly' },
+  { loc: `${BASE}/zamina-akumuliatora`, priority: '0.9', changefreq: 'monthly' },
+  { loc: `${BASE}/rozblokuvannja-icloud`, priority: '0.9', changefreq: 'monthly' },
+  { loc: `${BASE}/remont-samsung`, priority: '0.9', changefreq: 'monthly' },
+  { loc: `${BASE}/remont-xiaomi`, priority: '0.9', changefreq: 'monthly' },
+  { loc: `${BASE}/proshivka-telefonu`, priority: '0.9', changefreq: 'monthly' },
+  { loc: `${BASE}/remont-pislya-zalyvky`, priority: '0.9', changefreq: 'monthly' },
+  { loc: `${BASE}/vidnovleni-telefony`, priority: '0.9', changefreq: 'monthly' },
+  { loc: `${BASE}/returns`, priority: '0.6', changefreq: 'monthly' },
+  { loc: `${BASE}/account`, priority: '0.3', changefreq: 'monthly' },
+  { loc: `${BASE}/admin`, priority: '0.1', changefreq: 'monthly' },
+]
+
+function xmlUrl(url) {
+  return `  <url>\n    <loc>${url.loc}</loc>\n    <lastmod>${TODAY}</lastmod>\n    <changefreq>${url.changefreq}</changefreq>\n    <priority>${url.priority}</priority>\n  </url>`
+}
+
+function writeSitemap(name, urls) {
+  const content = `<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">\n${urls.map(xmlUrl).join('\n')}\n</urlset>`
+  fs.writeFileSync(path.join(__dirname, '..', 'public', name), content)
+}
+
+// --- Display pages ---
 const data = fs.readFileSync(
   path.join(__dirname, '..', 'src', 'app', 'phone-parts-data.ts'),
   'utf-8'
 )
 
 function slug(text) {
-  return text
-    .toLowerCase()
-    .replace(/[^a-z0-9]+/g, '-')
-    .replace(/^-+|-+$/g, '')
+  return text.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-+|-+$/g, '')
 }
 
-// Extract brand IDs and model codes
-const brandRegex = /id:\s*'(\w+)'/g
-const modelRegex = /modelCode:\s*'([^']+)'/g
-
-const brands = []
-let m
-while ((m = brandRegex.exec(data)) !== null) {
-  brands.push(m[1])
-}
-
-// We need to associate models with brands. Let's parse structure.
-// Simple approach: read sections
 const sections = data.split("id: '")
-const pages = []
+const displayUrls = []
 
 for (let i = 1; i < sections.length; i++) {
   const section = sections[i]
   const brandId = section.match(/^(\w+)/)?.[1]
   if (!brandId) continue
-
-  const modelRegex2 = /modelCode:\s*'([^']+)'/g
-  let m2
-  while ((m2 = modelRegex2.exec(section)) !== null) {
-    pages.push({
-      loc: `${BASE}/${brandId}/display/${slug(m2[1])}`,
-      priority: '0.6',
-      changefreq: 'weekly',
-    })
+  const modelRegex = /modelCode:\s*'([^']+)'/g
+  let m
+  while ((m = modelRegex.exec(section)) !== null) {
+    displayUrls.push({ loc: `${BASE}/${brandId}/display/${slug(m[1])}`, priority: '0.6', changefreq: 'weekly' })
   }
 }
 
-// Read existing sitemap
-const sitemapPath = path.join(__dirname, '..', 'public', 'sitemap.xml')
-let existing
-try {
-  existing = fs.readFileSync(sitemapPath, 'utf-8')
-} catch {
-  existing = `<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n</urlset>`
-}
+// Write split sitemaps
+writeSitemap('sitemap-pages.xml', mainPages)
+writeSitemap('sitemap-displays.xml', displayUrls)
 
-// Replace closing tag with display pages + closing tag
-const closeTag = '</urlset>'
-const existingBody = existing.replace(closeTag, '')
+// Write combined sitemap (backward compat for Search Console)
+const allUrls = [...mainPages, ...displayUrls]
+writeSitemap('sitemap.xml', allUrls)
 
-const today = new Date().toISOString().split('T')[0]
-
-let sitemap = existingBody
-for (const page of pages) {
-  sitemap += `  <url>\n    <loc>${page.loc}</loc>\n    <lastmod>${today}</lastmod>\n    <changefreq>${page.changefreq}</changefreq>\n    <priority>${page.priority}</priority>\n  </url>\n`
-}
-sitemap += closeTag
-
-fs.writeFileSync(sitemapPath, sitemap)
-console.log(`✓ Sitemap generated: ${pages.length} display pages + existing pages`)
+console.log(`✓ sitemap.xml (combined): ${allUrls.length} URLs`)
+console.log(`✓ sitemap-pages.xml: ${mainPages.length} URLs`)
+console.log(`✓ sitemap-displays.xml: ${displayUrls.length} URLs`)

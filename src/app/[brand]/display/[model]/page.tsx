@@ -64,7 +64,6 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const title = `Дисплей для ${b.name} ${m.modelName} — заміна екрану в Вознесенську | 777111.com.ua`
   const description = `✱ Заміна дисплею для ${b.name} ${m.modelName} у Вознесенську. ${priceStr}. Оригінал та копія. Гарантія. Безкоштовна діагностика. Центральний ринок, сектор Б, к. 96.`
   const path = `/${brand}/${'display'}/${model}`
-
   return {
     title,
     description,
@@ -76,10 +75,15 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
       locale: 'uk_UA',
       type: 'website',
     },
+    robots: 'index, follow',
     alternates: {
       canonical: `https://777111.com.ua${path}`,
+      languages: {
+        'uk': `https://777111.com.ua${path}`,
+        'ru': `https://777111.com.ua${path}`,
+        'x-default': `https://777111.com.ua${path}`,
+      },
     },
-    robots: 'index, follow',
   }
 }
 
@@ -131,6 +135,18 @@ export default async function DisplayPage({ params }: Props) {
           : 'https://schema.org/RefurbishedCondition',
       availability: 'https://schema.org/InStock',
       url: canonicalUrl,
+      seller: {
+        '@type': 'Person',
+        name: 'Олександр Панібратенко',
+        telephone: '+380960777111',
+        address: {
+          '@type': 'PostalAddress',
+          streetAddress: 'Центральний ринок, сектор Б, к. 96',
+          addressLocality: 'Вознесенськ',
+          addressRegion: 'Миколаївська область',
+          addressCountry: 'UA',
+        },
+      },
     })),
   }
 
