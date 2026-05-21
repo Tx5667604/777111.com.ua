@@ -1115,6 +1115,164 @@ function AdminsManagement() {
   )
 }
 
+// ========== Pages Tab (всі 1300+ сторінок дисплеїв) ==========
+function PagesTab() {
+  const [brands, setBrands] = useState<any[]>([])
+  const [expandedBrand, setExpandedBrand] = useState<string | null>(null)
+  const [search, setSearch] = useState("")
+  const [sortBy, setSortBy] = useState<"name" | "price" | "brand">("brand")
+
+  useEffect(() => {
+    // Filter brands to only those with display-capable models
+    const withDisplay = brandPartsData.map((b: any) => ({
+      ...b,
+      models: b.models.filter((m: any) => m.parts && m.parts.display)
+    })).filter((b: any) => b.models.length > 0)
+    setBrands(withDisplay)
+  }, [])
+
+  const slug = (text: string) =>
+    text.toLowerCase().replace(/[^a-z0-9]+/g, "-").replace(/^-+|-+$/g, "")
+
+  const minPrice = (model: any) => {
+    const p = model.parts?.display
+    if (!p || !Array.isArray(p)) return 0
+    return Math.min(...p.map((x: any) => x.partCost || 0))
+  }
+
+  const maxPrice = (model: any) => {
+    const p = model.parts?.display
+    if (!p || !Array.isArray(p)) return 0
+    return Math.max(...p.map((x: any) => x.partCost || 0))
+  }
+
+  const totalDisplayPages = brands.reduce((s: number, b: any) => s + b.models.length, 0)
+
+  const filteredBrands = brands
+    .map((b: any) => ({
+      ...b,
+      models: b.models.filter((m: any) => {
+        if (!search) return true
+        const q = search.toLowerCase()
+        return m.modelName.toLowerCase().includes(q) ||
+               m.modelCode.toLowerCase().includes(q) ||
+               b.name.toLowerCase().includes(q)
+      }),
+    }))
+    .filter((b: any) => b.models.length > 0)
+
+  const sortModels = (models: any[]) => {
+    if (sortBy === "price") return [...models].sort((a, b) => minPrice(a) - minPrice(b))
+    if (sortBy === "name") return [...models].sort((a, b) => a.modelName.localeCompare(b.modelName))
+    return models
+  }
+
+  return (
+    <div>
+      <div className="flex items-center gap-4 mb-4 flex-wrap">
+        <div className="relative flex-1 max-w-sm">
+          <Search className="absolute left-3 top-1/2 -translate-y-1/2 w-4 h-4 text-muted-foreground" />
+          <Input placeholder="Пошук..." value={search} onChange={(e) => setSearch(e.target.value)} className="pl-9" />
+        </div>
+        <p className="text-sm text-muted-foreground">{totalDisplayPages} сторінок</p>
+        <select value={sortBy} onChange={(e) => setSortBy(e.target.value as any)}
+          className="h-9 text-xs border rounded-md px-2 bg-background">
+          <option value="brand">Бренд</option>
+          <option value="name">Назва</option>
+          <option value="price">Ціна</option>
+        </select>
+      </div>
+
+      {filteredBrands.length === 0 && (
+        <p className="text-center text-muted-foreground py-8">Нічого не знайдено</p>
+      )}
+
+      {filteredBrands.map((brand: any) => {
+        const sorted = sortModels(brand.models)
+        return (
+          <Card key={brand.id} className="mb-2">
+            <button onClick={() => setExpandedBrand(expandedBrand === brand.id ? null : brand.id)}
+              className="w-full text-left p-4 flex items-center gap-3 hover:bg-accent/30 transition-colors">
+              {expandedBrand === brand.id
+                ? <ChevronDown className="w-4 h-4 shrink-0" />
+                : <ChevronRight className="w-4 h-4 shrink-0" />}
+              <Smartphone className="w-5 h-5 text-muted-foreground shrink-0" />
+              <span className="font-medium">{brand.name}</span>
+              <span className="text-sm text-muted-foreground">({sorted.length})</span>
+            </button>
+            {expandedBrand === brand.id && (
+              <CardContent className="pt-0 pb-4 px-4">
+                <div className="overflow-x-auto">
+                  <table className="w-full text-xs">
+                    <thead>
+                      <tr className="border-b text-left text-muted-foreground">
+                        <th className="pb-2 font-medium pr-2">Модель</th>
+                        <th className="pb-2 font-medium px-2 text-right">Копія</th>
+                        <th className="pb-2 font-medium px-2 text-right">Ориг.</th>
+                        <th className="pb-2 font-medium px-2 text-right">Рамка</th>
+                        <th className="pb-2 font-medium px-2">Посилання</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      {sorted.map((model: any, idx: number) => {
+                        const p = model.parts?.display || []
+                        const copy = p.find((x: any) => x.quality === "copy")
+                        const orig = p.find((x: any) => x.quality === "original")
+                        const frame = p.find((x: any) => x.quality === "original_with_frame")
+                        const modelSlug = slug(model.modelCode)
+                        const url = `/${brand.id}/display/${modelSlug}`
+                        return (
+                          <tr key={idx} className="border-b hover:bg-muted/20">
+                            <td className="py-1.5 pr-2">
+                              <span className="font-mono text-[11px]" title={model.modelCode}>
+                                {model.modelName || model.modelCode}
+                              </span>
+                            </td>
+                            <td className="py-1.5 px-2 text-right font-medium">
+                              {copy ? `${copy.partCost.toLocaleString("uk-UA")}₴` : "—"}
+                            </td>
+                            <td className="py-1.5 px-2 text-right font-medium">
+                              {orig ? `${orig.partCost.toLocaleString("uk-UA")}₴` : "—"}
+                            </td>
+                            <td className="py-1.5 px-2 text-right font-medium">
+                              {frame ? `${frame.partCost.toLocaleString("uk-UA")}₴` : "—"}
+                            </td>
+                            <td className="py-1.5 px-2">
+                              <a href={url} target="_blank" rel="noopener noreferrer"
+                                className="text-primary hover:underline font-mono text-[10px]"
+                                title={url}>/{brand.id}/display/{modelSlug}</a>
+                            </td>
+                          </tr>
+                        )
+                      })}
+                    </tbody>
+                  </table>
+                </div>
+              </CardContent>
+            )}
+          </Card>
+        )
+      })}
+
+      <Card className="mt-4 bg-primary/5 border-primary/10">
+        <CardContent className="p-4 flex items-center justify-between gap-4">
+          <p className="text-sm font-semibold">Загальна статистика</p>
+          <div className="flex gap-6 text-sm">
+            <div className="text-center">
+              <div className="text-2xl font-bold text-primary">{brands.length}</div>
+              <div className="text-[10px] text-muted-foreground">Брендів</div>
+            </div>
+            <div className="text-center">
+              <div className="text-2xl font-bold text-primary">{totalDisplayPages}</div>
+              <div className="text-[10px] text-muted-foreground">Сторінок</div>
+            </div>
+          </div>
+        </CardContent>
+      </Card>
+    </div>
+  )
+}
+
 // ========== Main Admin Page ==========
 export default function AdminPage() {
   const { user, loading } = useAuth()
@@ -1190,6 +1348,7 @@ export default function AdminPage() {
               <TabsTrigger value="calculator"><Calculator className="w-4 h-4" />Калькулятор</TabsTrigger>
               <TabsTrigger value="orders"><ShoppingCart className="w-4 h-4" />Замовлення</TabsTrigger>
               <TabsTrigger value="phones"><Smartphone className="w-4 h-4" />Телефони</TabsTrigger>
+              <TabsTrigger value="pages"><Smartphone className="w-4 h-4" />Сторінки</TabsTrigger>
               <TabsTrigger value="stats"><Eye className="w-4 h-4" />Статистика</TabsTrigger>
               <TabsTrigger value="pageviews"><BarChart3 className="w-4 h-4" />Перегляди</TabsTrigger>
               {isSuper && <TabsTrigger value="admins"><Users className="w-4 h-4" />Адміни</TabsTrigger>}
@@ -1207,6 +1366,7 @@ export default function AdminPage() {
           <TabsContent value="calculator"><CalculatorTab /></TabsContent>
           <TabsContent value="orders"><OrdersTab /></TabsContent>
           <TabsContent value="phones"><PhonesTab /></TabsContent>
+          <TabsContent value="pages"><PagesTab /></TabsContent>
           <TabsContent value="stats"><VisitCalendar /></TabsContent>
           <TabsContent value="pageviews"><PageViewsTab /></TabsContent>
           <TabsContent value="chats"><AdminChat /></TabsContent>
