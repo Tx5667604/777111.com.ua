@@ -11,6 +11,9 @@ DATA_FILE = os.path.expanduser("~/Desktop/777111/src/app/phone-parts-data.ts")
 OUTPUT = os.path.expanduser("~/Desktop/777111/public/merchant-feed.xml")
 SITE_URL = "https://777111.com.ua"
 
+def slug(text):
+    return re.sub(r'[^a-z0-9]+', '-', text.lower()).strip('-')
+
 GOOGLE_CATS = {"display":"267","battery":"3605","back_cover":"5121","speaker":"5070",
     "glass":"3033","charging_flex":"5070","camera":"6808","microphone":"5070","buttons":"5070","connector":"5070"}
 
@@ -176,15 +179,15 @@ def parse():
                                 "id": pid,
                                 "title": title,
                                 "description": f"{PART_NAMES[part_id]} для {brand_name} {mname} ({ql}). Ремонт телефонів у Вознесенську",
-                                "link": f"{SITE_URL}/#calculator",
+                                "link": f"{SITE_URL}/{brand_id}/display/{slug(mname)}",
                                 "price": f"{pc + lc} UAH",
                                 "availability": "in_stock",
                                 "brand": brand_name,
-                                "condition": "refurbished" if quality=="copy" else "new",
+                                "condition": "new" if quality in ("original", "original_with_frame") else "refurbished",
                                 "google_product_category": GOOGLE_CATS.get(part_id, "5070"),
                                 "product_type": f"Ремонт телефонів > {PART_NAMES[part_id]} > {brand_name}",
                                 "image_link": img_url,
-                                "mpn": f"{brand_id.upper()}-{code}-{part_id}".replace(" ",""),
+                                "mpn": f"{brand_id.upper()}-{re.sub(chr(39)+'| ', '', code).upper()}-DISP",
                             })
                     
                     mi = mend

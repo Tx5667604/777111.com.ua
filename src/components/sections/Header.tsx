@@ -89,7 +89,7 @@ export default function Header() {
               size="sm"
               className="hidden sm:inline-flex border-primary/30 text-primary hover:bg-primary/5 hover:text-primary gap-1 text-xs px-2.5"
             >
-              <a href="https://www.google.com/maps/dir/?api=1&destination=47.5627,31.3382" target="_blank" rel="noopener noreferrer" onClick={trackRouteClick}>
+              <a href="https://www.google.com/maps/dir/?api=1&destination=%D0%9E%D0%BB%D0%B5%D0%BA%D1%81%D0%B0%D0%BD%D0%B4%D1%80+%D0%9F%D0%B0%D0%BD%D1%96%D0%B1%D1%80%D0%B0%D1%82%D0%B5%D0%BD%D0%BA%D0%BE+%D0%A6%D0%B5%D0%BD%D1%82%D1%80%D0%B0%D0%BB%D1%8C%D0%BD%D0%B8%D0%B9+%D1%80%D0%B8%D0%BD%D0%BE%D0%BA+%D1%81%D0%B5%D0%BA%D1%82%D0%BE%D1%80+%D0%91+%D0%BA%D0%BE%D0%BD%D1%82%D0%B5%D0%B9%D0%BD%D0%B5%D1%80+96+%D0%92%D0%BE%D0%B7%D0%BD%D0%B5%D1%81%D0%B5%D0%BD%D1%81%D1%8C%D0%BA" target="_blank" rel="noopener noreferrer" onClick={trackRouteClick}>
                 <MapPin className="w-3.5 h-3.5" />
                 Маршрут
               </a>
@@ -121,7 +121,7 @@ export default function Header() {
               size="icon"
               className="sm:hidden size-10 border-primary/30 text-primary hover:bg-primary/5 p-0"
             >
-              <a href="https://www.google.com/maps/dir/?api=1&destination=47.5627,31.3382" target="_blank" rel="noopener noreferrer" onClick={trackRouteClick}>
+              <a href="https://www.google.com/maps/dir/?api=1&destination=%D0%9E%D0%BB%D0%B5%D0%BA%D1%81%D0%B0%D0%BD%D0%B4%D1%80+%D0%9F%D0%B0%D0%BD%D1%96%D0%B1%D1%80%D0%B0%D1%82%D0%B5%D0%BD%D0%BA%D0%BE+%D0%A6%D0%B5%D0%BD%D1%82%D1%80%D0%B0%D0%BB%D1%8C%D0%BD%D0%B8%D0%B9+%D1%80%D0%B8%D0%BD%D0%BE%D0%BA+%D1%81%D0%B5%D0%BA%D1%82%D0%BE%D1%80+%D0%91+%D0%BA%D0%BE%D0%BD%D1%82%D0%B5%D0%B9%D0%BD%D0%B5%D1%80+96+%D0%92%D0%BE%D0%B7%D0%BD%D0%B5%D1%81%D0%B5%D0%BD%D1%81%D1%8C%D0%BA" target="_blank" rel="noopener noreferrer" onClick={trackRouteClick}>
                 <MapPin className="w-4 h-4" />
               </a>
             </Button>
@@ -176,7 +176,7 @@ export default function Header() {
                     variant="outline"
                     className="w-full border-primary/30 text-primary hover:bg-primary/5 gap-2"
                   >
-                    <a href="https://www.google.com/maps/dir/?api=1&destination=47.5627,31.3382" target="_blank" rel="noopener noreferrer" onClick={trackRouteClick}>
+                    <a href="https://www.google.com/maps/dir/?api=1&destination=%D0%9E%D0%BB%D0%B5%D0%BA%D1%81%D0%B0%D0%BD%D0%B4%D1%80+%D0%9F%D0%B0%D0%BD%D1%96%D0%B1%D1%80%D0%B0%D1%82%D0%B5%D0%BD%D0%BA%D0%BE+%D0%A6%D0%B5%D0%BD%D1%82%D1%80%D0%B0%D0%BB%D1%8C%D0%BD%D0%B8%D0%B9+%D1%80%D0%B8%D0%BD%D0%BE%D0%BA+%D1%81%D0%B5%D0%BA%D1%82%D0%BE%D1%80+%D0%91+%D0%BA%D0%BE%D0%BD%D1%82%D0%B5%D0%B9%D0%BD%D0%B5%D1%80+96+%D0%92%D0%BE%D0%B7%D0%BD%D0%B5%D1%81%D0%B5%D0%BD%D1%81%D1%8C%D0%BA" target="_blank" rel="noopener noreferrer" onClick={trackRouteClick}>
                       <MapPin className="w-4 h-4" />
                       Прокласти маршрут
                     </a>

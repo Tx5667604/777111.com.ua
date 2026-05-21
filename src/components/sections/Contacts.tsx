@@ -215,7 +215,7 @@ export default function Contacts() {
             transition={{ duration: 0.5 }}
           >
             <a
-              href="https://www.google.com/maps/dir/?api=1&destination=47.5627,31.3382"
+              href="https://www.google.com/maps/dir/?api=1&destination=%D0%9E%D0%BB%D0%B5%D0%BA%D1%81%D0%B0%D0%BD%D0%B4%D1%80+%D0%9F%D0%B0%D0%BD%D1%96%D0%B1%D1%80%D0%B0%D1%82%D0%B5%D0%BD%D0%BA%D0%BE+%D0%A6%D0%B5%D0%BD%D1%82%D1%80%D0%B0%D0%BB%D1%8C%D0%BD%D0%B8%D0%B9+%D1%80%D0%B8%D0%BD%D0%BE%D0%BA+%D1%81%D0%B5%D0%BA%D1%82%D0%BE%D1%80+%D0%91+%D0%BA%D0%BE%D0%BD%D1%82%D0%B5%D0%B9%D0%BD%D0%B5%D1%80+96+%D0%92%D0%BE%D0%B7%D0%BD%D0%B5%D1%81%D0%B5%D0%BD%D1%81%D1%8C%D0%BA"
               target="_blank"
               rel="noopener noreferrer"
               onClick={trackRouteClick}

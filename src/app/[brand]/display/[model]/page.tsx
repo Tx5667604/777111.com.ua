@@ -125,6 +125,9 @@ export default async function DisplayPage({ params }: Props) {
     name: `Дисплей для ${b.name} ${m.modelName}`,
     description: `Заміна дисплею для ${b.name} ${m.modelName}. Ціна: від ${Math.min(...displayParts.map((p) => p.partCost)).toLocaleString('uk-UA')} грн.`,
     brand: { '@type': 'Brand', name: b.name },
+    sku: `DISP-${brand.toUpperCase()}-${model.toUpperCase()}-${m.modelCode.replace(/[^a-zA-Z0-9]/g, '-').toUpperCase()}`,
+    mpn: `${brand.toUpperCase()}-${m.modelCode.replace(/[^a-zA-Z0-9]/g, '').toUpperCase()}-DISP`,
+    category: 'Дисплей для телефону',
     offers: displayParts.map((p) => ({
       '@type': 'Offer',
       price: p.partCost,
@@ -132,9 +135,12 @@ export default async function DisplayPage({ params }: Props) {
       itemCondition:
         p.quality === 'original'
           ? 'https://schema.org/NewCondition'
-          : 'https://schema.org/RefurbishedCondition',
+          : p.quality === 'original_with_frame'
+            ? 'https://schema.org/NewCondition'
+            : 'https://schema.org/RefurbishedCondition',
       availability: 'https://schema.org/InStock',
       url: canonicalUrl,
+      priceValidUntil: new Date(Date.now() + 90 * 24 * 60 * 60 * 1000).toISOString().split('T')[0],
       seller: {
         '@type': 'Person',
         name: 'Олександр Панібратенко',
@@ -282,7 +288,7 @@ export default async function DisplayPage({ params }: Props) {
             </p>
             <div className="aspect-video rounded-lg overflow-hidden border">
               <iframe
-                src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d2697.9466804053873!2d31.3338907!3d47.569012!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40c61955dca38d3f%3A0x47a6413f2e1ffc99!2z0JTQu9GPINC90LDRgQ!5e0!3m2!1sru!2sua!4v1688111111111"
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2697.9466804053873!2d31.3338907!3d47.569012!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40c61955dca38d3f%3A0x47a6413f2e1ffc99!2z0J7Qu9C10LrRgdCw0L3QtNGAINCf0LDQvdGW0LHRgNCw0YLQtdC90LrQviDQoNC10LzQvtC90YIg0YLQtdC70LXRhNC-0L3RltCy!5e0!3m2!1suk!2sua!4v1700000000000"
                 width="100%"
                 height="100%"
                 style={{ border: 0, minHeight: 300 }}

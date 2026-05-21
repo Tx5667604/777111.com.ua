@@ -32,7 +32,7 @@ export const metadata: Metadata = {
   description:
     "Професійний ремонт телефонів у Вознесенську, Миколаївська область. Заміна екрана, дисплея, скла, акумулятора. Розблокування iCloud, прошивка. Ремонт iPhone, Samsung, Xiaomi. Відновлені телефони. Безкоштовна діагностика. Гарантія до 12 місяців. +38 (096) 077-71-11",
   keywords: [
-    // Українською
+    // Українською (чітке семантичне ядро)
     "ремонт телефонів Вознесенськ",
     "ремонт смартфонів Вознесенськ",
     "заміна екрана Вознесенськ",
@@ -51,22 +51,6 @@ export const metadata: Metadata = {
     "безкоштовна діагностика телефону",
     "майстер по ремонту телефонів Вознесенськ",
     "ремонт телефонів Миколаївська область",
-    // Русский (для русскоязычных запросов)
-    "ремонт телефонов Вознесенск",
-    "ремонт смартфонов Вознесенск",
-    "замена экрана Вознесенск",
-    "замена стекла на телефоне Вознесенск",
-    "замена дисплея Вознесенск",
-    "замена аккумулятора Вознесенск",
-    "ремонт айфон Вознесенск",
-    "разблокировка iCloud",
-    "прошивка телефона Вознесенск",
-    "восстановленные телефоны Вознесенск",
-    "ремонт телефонов цены Вознесенск",
-    "ремонт телефонов недорого Вознесенск",
-    "срочный ремонт телефонов Вознесенск",
-    "мастер по ремонту телефонов Вознесенск",
-    "ремонт телефонов Николаевская область",
   ],
   authors: [{ name: "Олександр Панібратенко" }],
   metadataBase: new URL(siteUrl),
@@ -226,15 +210,89 @@ export default function RootLayout({
           <VisitTracker />
           <ChatWidget />
           <Toaster richColors position="top-right" />
-          {/* Google Analytics */}
+          {/* Google Analytics with PII sanitizer */}
           <Script src={`https://www.googletagmanager.com/gtag/js?id=${GA_ID}`} strategy="afterInteractive" />
           <Script id="ga-init" strategy="afterInteractive">
             {`
               window.dataLayer = window.dataLayer || [];
               function gtag(){dataLayer.push(arguments);}
+
+              // PII sanitizer — intercept gtag calls and strip personally identifiable information
+              // Also sanitizes URL parameters before they reach Google Analytics
+              const PII_FIELDS = ['name','email','phone','tel','user_name','user_email',
+                'form_name','form_email','form_phone','first_name','last_name',
+                'client_name','client_email','client_phone','sender_name','sender_email',
+                'to_name','to_email','from_name','from_email','customer_name',
+                'customer_email','customer_phone','full_name','address','street_address',
+                'user_address','contact_name','contact_email','contact_phone',
+                'billing_name','billing_email','billing_phone','shipping_name',
+                'shipping_email','shipping_phone'];
+
+              // Sanitize URL — strip query params that look like PII
+              function sanitizeUrl(url) {
+                try {
+                  const u = new URL(url);
+                  const cleanParams = new URLSearchParams();
+                  let hasPii = false;
+                  for (const [key, val] of u.searchParams) {
+                    const lowerKey = key.toLowerCase();
+                    if (PII_FIELDS.includes(lowerKey) ||
+                        lowerKey.includes('phone') ||
+                        lowerKey.includes('email') ||
+                        lowerKey.includes('name') ||
+                        lowerKey.includes('address') ||
+                        lowerKey.includes('contact') ||
+                        lowerKey.includes('client')) {
+                      hasPii = true;
+                      continue;
+                    }
+                    cleanParams.append(key, val);
+                  }
+                  const cleanSearch = cleanParams.toString();
+                  const result = u.origin + u.pathname + (cleanSearch ? '?' + cleanSearch : '') + u.hash;
+                  return hasPii ? result : url;
+                } catch(e) {
+                  return url;
+                }
+              }
+
+              const _gtagPush = dataLayer.push.bind(dataLayer);
+              dataLayer.push = function() {
+                for (let i = 0; i < arguments.length; i++) {
+                  const arg = arguments[i];
+                  if (typeof arg === 'object' && arg !== null) {
+                    // Strip PII from event parameters
+                    if (arg[0] === 'event' || arg[0] === 'set' || arg[0] === 'config') {
+                      const params = arg[2];
+                      if (params && typeof params === 'object') {
+                        for (const field of PII_FIELDS) {
+                          if (field in params) {
+                            params[field] = '[REDACTED]';
+                          }
+                        }
+                        // Sanitize page_location and page_referrer
+                        if (params.page_location) {
+                          params.page_location = sanitizeUrl(params.page_location);
+                        }
+                        if (params.page_referrer) {
+                          params.page_referrer = sanitizeUrl(params.page_referrer);
+                        }
+                        // Sanitize page_path — only keep the path, strip query
+                        if (params.page_path && params.page_path.includes('?')) {
+                          params.page_path = params.page_path.split('?')[0];
+                        }
+                      }
+                    }
+                  }
+                }
+                return _gtagPush.apply(this, arguments);
+              };
+
+              // Also sanitize initial page_view
               gtag('js', new Date());
               gtag('config', '${GA_ID}', {
-                page_path: window.location.pathname,
+                page_path: sanitizeUrl(window.location.href).split(window.location.host)[1] || window.location.pathname,
+                page_location: sanitizeUrl(window.location.href),
               });
             `}
           </Script>

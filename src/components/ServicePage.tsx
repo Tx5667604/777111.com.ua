@@ -18,6 +18,12 @@ interface ServicePageProps {
 }
 
 export default function ServicePage({ title, description, content, benefits, price, slug, parentTitle }: ServicePageProps) {
+  // Parse price to numeric (e.g. "від 650 грн" → 650)
+  const priceNum = price ? parseInt(price.replace(/[^0-9]/g, ''), 10) || 0 : 0
+
+  // Build price difference (price range)
+  const priceHigh = priceNum > 0 ? Math.round(priceNum * 3) : 0
+
   return (
     <div className="min-h-screen flex flex-col">
       <Header />
@@ -35,6 +41,43 @@ export default function ServicePage({ title, description, content, benefits, pri
           }),
         }}
       />
+      {/* Product JSON-LD for Google Merchant Center */}
+      {priceNum > 0 && (
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "Product",
+            name: title,
+            description: description,
+            image: "https://777111.com.ua/og-image.png",
+            url: `https://777111.com.ua/${slug}`,
+            brand: {
+              "@type": "Brand",
+              name: "Олександр Панібратенко",
+            },
+            sku: `SVC-${slug.toUpperCase().replace(/-/g, '_')}`,
+            mpn: `777111-SVC-${slug.replace(/-/g, '').toUpperCase()}`,
+            category: "Ремонт телефонів",
+            offers: {
+              "@type": "Offer",
+              price: priceNum,
+              priceCurrency: "UAH",
+              priceValidUntil: new Date(Date.now() + 180 * 24 * 60 * 60 * 1000).toISOString().split("T")[0],
+              availability: "https://schema.org/InStock",
+              itemCondition: "https://schema.org/NewCondition",
+              url: `https://777111.com.ua/${slug}`,
+              seller: {
+                "@type": "Person",
+                name: "Олександр Панібратенко",
+                telephone: "+380960777111",
+              },
+            },
+          }),
+        }}
+      />
+      )}
       <main className="flex-1">
         {/* Hero */}
         <section className="bg-gradient-to-br from-orange-500 via-amber-500 to-orange-600 py-20 sm:py-28">
