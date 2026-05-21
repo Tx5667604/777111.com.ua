@@ -3,6 +3,7 @@
 
 import React, { useState } from "react";
 import { useAuth } from "@/lib/auth-context";
+import { User } from "lucide-react";
 
 export function GoogleLoginButton({ variant = "icon" }: { variant?: "icon" | "full" }) {
   const { user, profile, loading, loginWithGoogle, logout } = useAuth();
@@ -24,19 +25,9 @@ export function GoogleLoginButton({ variant = "icon" }: { variant?: "icon" | "fu
     return (
       <div className="relative group flex items-center gap-2">
         <div className="flex items-center gap-2 cursor-pointer" onClick={logout}>
-          {profile.photoURL ? (
-            <img
-              src={profile.photoURL}
-              alt={profile.name}
-              className="w-9 h-9 rounded-full border-2 border-primary object-cover"
-            />
-          ) : (
-            <div className="w-9 h-9 rounded-full bg-primary/10 flex items-center justify-center">
-              <span className="text-sm font-medium text-primary">
-                {profile.name.charAt(0).toUpperCase()}
-              </span>
+          <div className="w-9 h-9 rounded-full bg-primary/10 flex items-center justify-center">
+              <User className="w-5 h-5 text-primary" />
             </div>
-          )}
           {variant === "full" && (
             <span className="text-sm text-foreground hidden sm:inline truncate max-w-[120px]">
               {profile.name}

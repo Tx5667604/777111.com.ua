@@ -261,13 +261,9 @@ export default function AccountPage() {
             <CardContent className="p-6 -mt-12">
               <div className="flex flex-col sm:flex-row items-start sm:items-end gap-4">
                 <div className="w-20 h-20 rounded-full border-4 border-background shadow-lg overflow-hidden bg-background">
-                  {profile?.photoURL ? (
-                    <img src={profile.photoURL} alt="" className="w-full h-full object-cover" />
-                  ) : (
-                    <div className="w-full h-full bg-primary/10 flex items-center justify-center">
+                  <div className="w-full h-full bg-primary/10 flex items-center justify-center">
                       <User className="w-8 h-8 text-primary" />
                     </div>
-                  )}
                 </div>
                 <div className="flex-1 min-w-0 pt-2 sm:pt-0">
                   <h1 className="text-2xl font-bold truncate">

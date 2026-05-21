@@ -41,19 +41,9 @@ export default function UserMenu() {
           onClick={() => setMenuOpen(!menuOpen)}
           className="flex items-center gap-1.5 rounded-lg hover:bg-accent transition-colors px-1.5 py-1"
         >
-          {profile?.photoURL ? (
-            <img
-              src={profile.photoURL}
-              alt=""
-              className="w-8 h-8 rounded-full border-2 border-primary object-cover"
-            />
-          ) : (
-            <div className="w-8 h-8 rounded-full bg-primary/10 border-2 border-primary flex items-center justify-center">
-              <span className="text-sm font-bold text-primary">
-                {(profile?.name || user.email || "U").charAt(0).toUpperCase()}
-              </span>
+          <div className="w-8 h-8 rounded-full bg-primary/10 border-2 border-primary flex items-center justify-center">
+              <User className="w-4 h-4 text-primary" />
             </div>
-          )}
           <ChevronDown className={`w-3.5 h-3.5 text-muted-foreground transition-transform ${menuOpen ? 'rotate-180' : ''}`} />
         </button>
 

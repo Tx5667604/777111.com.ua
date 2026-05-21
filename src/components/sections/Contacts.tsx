@@ -215,14 +215,14 @@ export default function Contacts() {
             transition={{ duration: 0.5 }}
           >
             <a
-              href="https://www.google.com/maps/dir/?api=1&destination=%D0%9E%D0%BB%D0%B5%D0%BA%D1%81%D0%B0%D0%BD%D0%B4%D1%80+%D0%9F%D0%B0%D0%BD%D1%96%D0%B1%D1%80%D0%B0%D1%82%D0%B5%D0%BD%D0%BA%D0%BE+%D0%A6%D0%B5%D0%BD%D1%82%D1%80%D0%B0%D0%BB%D1%8C%D0%BD%D0%B8%D0%B9+%D1%80%D0%B8%D0%BD%D0%BE%D0%BA+%D1%81%D0%B5%D0%BA%D1%82%D0%BE%D1%80+%D0%91+%D0%BA%D0%BE%D0%BD%D1%82%D0%B5%D0%B9%D0%BD%D0%B5%D1%80+96+%D0%92%D0%BE%D0%B7%D0%BD%D0%B5%D1%81%D0%B5%D0%BD%D1%81%D1%8C%D0%BA"
+              href="https://www.google.com/maps/dir/?api=1&destination=place_id:0x40c61955dca38d3f:0x47a6413f2e1ffc99"
               target="_blank"
               rel="noopener noreferrer"
               onClick={trackRouteClick}
               className="block rounded-xl overflow-hidden h-80 lg:h-full min-h-[320px] shadow-lg hover:shadow-xl transition-shadow group relative"
             >
               <iframe
-                src="https://www.google.com/maps?q=47.5627,31.3382&hl=uk&z=15&output=embed"
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2697.9466804053873!2d31.3338907!3d47.569012!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40c61955dca38d3f%3A0x47a6413f2e1ffc99!2z0J7Qu9C10LrRgdCw0L3QtNGAINCf0LDQvdGW0LHRgNCw0YLQtdC90LrQviDQoNC10LzQvtC90YIg0YLQtdC70LXRhNC-0L3RltCy!5e0!3m2!1suk!2sua!4v1700000000000"
                 width="100%"
                 height="100%"
                 style={{ border: 0, minHeight: '320px', pointerEvents: 'none' }}
@@ -251,13 +251,9 @@ export default function Contacts() {
               {/* Auth status badge */}
               {profile ? (
                 <div className="flex items-center gap-3 mb-6 p-3 bg-primary/5 rounded-lg border border-primary/10">
-                  {profile.photoURL ? (
-                    <img src={profile.photoURL} alt="" className="w-10 h-10 rounded-full object-cover" />
-                  ) : (
-                    <div className="w-10 h-10 rounded-full bg-primary/10 flex items-center justify-center">
+                  <div className="w-10 h-10 rounded-full bg-primary/10 flex items-center justify-center">
                       <User className="w-5 h-5 text-primary" />
                     </div>
-                  )}
                   <div className="flex-1 min-w-0">
                     <p className="text-sm font-medium text-foreground truncate">{profile.name}</p>
                     <p className="text-xs text-muted-foreground truncate">{profile.email}</p>
