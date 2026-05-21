@@ -48,7 +48,7 @@ export default function Appointment() {
             {/* Address — opens Google Maps */}
             <a
               onClick={trackRouteClick}
-              href="https://www.google.com/maps/dir/?api=1&destination=47.5627,31.3382"
+              href="https://maps.app.goo.gl/Qj2mRAwwWJDh9Uif8"
               target="_blank"
               rel="noopener noreferrer"
               className="block"
