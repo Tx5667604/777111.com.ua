@@ -132,7 +132,7 @@ export default async function DisplayPage({ params }: Props) {
     aggregateRating: {
       '@type': 'AggregateRating',
       ratingValue: 5,
-      reviewCount: 12,
+      reviewCount: 0,
       bestRating: 5,
       worstRating: 1,
     },
@@ -164,8 +164,9 @@ export default async function DisplayPage({ params }: Props) {
     })),
   }
 
-  // Review — добавляем только если есть отзывы (reviewCount > 0)
-  const reviewCount = 12
+  // Review — добавляем ТОЛЬКО если есть реальные отзывы (reviewCount > 0)
+  // На этих страницах реальных отзывов нет → review полностью исключается из JSON-LD
+  const reviewCount = 0
   if (reviewCount > 0) {
     jsonLd.review = [
       {

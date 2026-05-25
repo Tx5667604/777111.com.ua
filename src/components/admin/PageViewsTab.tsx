@@ -1,7 +1,7 @@
 'use client'
 
 import { useState, useEffect } from 'react'
-import { collection, query, orderBy, limit, getDocs } from 'firebase/firestore'
+import { collection, query, orderBy, limit, getDocs, deleteDoc, doc } from 'firebase/firestore'
 import { initFirebase } from '@/lib/firebase'
 
 interface PageStat {
@@ -13,32 +13,56 @@ interface PageStat {
 export default function PageViewsTab() {
   const [pages, setPages] = useState<PageStat[]>([])
   const [loading, setLoading] = useState(true)
+  const [resetting, setResetting] = useState(false)
   const [sortBy, setSortBy] = useState<'count' | 'path'>('count')
 
-  useEffect(() => {
-    const fetchStats = async () => {
-      try {
-        const { db } = initFirebase()
-        const q = query(
-          collection(db, 'page_views'),
-          orderBy('count', 'desc'),
-          limit(200)
-        )
-        const snap = await getDocs(q)
-        const list: PageStat[] = snap.docs.map((d) => ({
-          path: d.data().path || d.id,
-          count: d.data().count || 0,
-          url: d.data().path || '',
-        }))
-        setPages(list)
-      } catch (e) {
-        console.error('Failed to load page views:', e)
-      } finally {
-        setLoading(false)
-      }
+  const fetchStats = async () => {
+    try {
+      const { db } = initFirebase()
+      const q = query(
+        collection(db, 'page_views'),
+        orderBy('count', 'desc'),
+        limit(200)
+      )
+      const snap = await getDocs(q)
+      const list: PageStat[] = snap.docs.map((d) => ({
+        path: d.data().path || d.id,
+        count: d.data().count || 0,
+        url: d.data().path || '',
+      }))
+      setPages(list)
+    } catch (e) {
+      console.error('Failed to load page views:', e)
+    } finally {
+      setLoading(false)
     }
+  }
+
+  useEffect(() => {
     fetchStats()
   }, [])
+
+  const handleReset = async () => {
+    if (!confirm('Скинути всю статистику переглядів? Цю дію неможливо відмінити.')) return
+
+    setResetting(true)
+    try {
+      const { db } = initFirebase()
+      const q = query(collection(db, 'page_views'), limit(500))
+      const snap = await getDocs(q)
+
+      const promises = snap.docs.map((d) => deleteDoc(doc(db, 'page_views', d.id)))
+      await Promise.all(promises)
+
+      setPages([])
+      alert('Статистику скинуто!')
+    } catch (e) {
+      console.error('Failed to reset stats:', e)
+      alert('Помилка при скиданні статистики')
+    } finally {
+      setResetting(false)
+    }
+  }
 
   if (loading) {
     return (
@@ -54,16 +78,25 @@ export default function PageViewsTab() {
 
   return (
     <div className="p-4 space-y-4">
-      <div className="flex items-center justify-between">
+      <div className="flex items-center justify-between gap-4 flex-wrap">
         <h3 className="text-lg font-semibold">Перегляди сторінок дисплеїв</h3>
-        <select
-          value={sortBy}
-          onChange={(e) => setSortBy(e.target.value as 'count' | 'path')}
-          className="border rounded px-3 py-1.5 text-sm bg-white"
-        >
-          <option value="count">За кількістю переглядів</option>
-          <option value="path">За назвою</option>
-        </select>
+        <div className="flex items-center gap-2">
+          <button
+            onClick={handleReset}
+            disabled={resetting || pages.length === 0}
+            className="px-3 py-1.5 text-sm rounded border border-red-300 text-red-600 hover:bg-red-50 disabled:opacity-40 disabled:cursor-not-allowed transition-colors"
+          >
+            {resetting ? 'Скидаю...' : 'Скинути статистику'}
+          </button>
+          <select
+            value={sortBy}
+            onChange={(e) => setSortBy(e.target.value as 'count' | 'path')}
+            className="border rounded px-3 py-1.5 text-sm bg-white"
+          >
+            <option value="count">За кількістю переглядів</option>
+            <option value="path">За назвою</option>
+          </select>
+        </div>
       </div>
 
       {sorted.length === 0 ? (
