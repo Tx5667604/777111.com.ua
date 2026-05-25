@@ -6,7 +6,7 @@ import Services from '@/components/sections/Services'
 import Advantages from '@/components/sections/Advantages'
 import PriceCalculator from '@/components/sections/PriceCalculator'
 import PhoneGallery from '@/components/sections/PhoneGallery'
-import PopularDisplays from '@/components/sections/PopularDisplays'
+import SEOLinks from '@/components/sections/SEOLinks'
 import FAQ from '@/components/sections/FAQ'
 import Reviews from '@/components/sections/Reviews'
 import Appointment from '@/components/sections/Appointment'
@@ -23,7 +23,6 @@ export default function Home() {
         <Advantages />
         <PriceCalculator />
         <PhoneGallery />
-        <PopularDisplays />
         <FAQ />
         <Reviews />
         <Appointment />
@@ -55,6 +54,7 @@ export default function Home() {
           </p>
         </div>
       </section>
+      <SEOLinks />
       <Footer />
     </div>
   )
