@@ -89,7 +89,7 @@ export default function Header() {
               size="sm"
               className="hidden sm:inline-flex border-primary/30 text-primary hover:bg-primary/5 hover:text-primary gap-1 text-xs px-2.5"
             >
-              <a href="https://maps.app.goo.gl/Qj2mRAwwWJDh9Uif8" target="_blank" rel="noopener noreferrer" onClick={trackRouteClick}>
+              <a href="https://maps.app.goo.gl/XRhaZaVCwTfE8W7Q7" target="_blank" rel="noopener noreferrer" onClick={trackRouteClick}>
                 <MapPin className="w-3.5 h-3.5" />
                 Маршрут
               </a>
@@ -121,7 +121,7 @@ export default function Header() {
               size="icon"
               className="sm:hidden size-10 border-primary/30 text-primary hover:bg-primary/5 p-0"
             >
-              <a href="https://maps.app.goo.gl/Qj2mRAwwWJDh9Uif8" target="_blank" rel="noopener noreferrer" onClick={trackRouteClick}>
+              <a href="https://maps.app.goo.gl/XRhaZaVCwTfE8W7Q7" target="_blank" rel="noopener noreferrer" onClick={trackRouteClick}>
                 <MapPin className="w-4 h-4" />
               </a>
             </Button>
@@ -176,7 +176,7 @@ export default function Header() {
                     variant="outline"
                     className="w-full border-primary/30 text-primary hover:bg-primary/5 gap-2"
                   >
-                    <a href="https://maps.app.goo.gl/Qj2mRAwwWJDh9Uif8" target="_blank" rel="noopener noreferrer" onClick={trackRouteClick}>
+                    <a href="https://maps.app.goo.gl/XRhaZaVCwTfE8W7Q7" target="_blank" rel="noopener noreferrer" onClick={trackRouteClick}>
                       <MapPin className="w-4 h-4" />
                       Прокласти маршрут
                     </a>

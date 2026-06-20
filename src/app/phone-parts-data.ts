@@ -73,7 +73,7 @@ export const brandPartsData: BrandParts[] = [
         modelCode: 'A013',
         modelName: 'Galaxy A13',
         parts: {
-          display: display(350, 600, 200),
+          display: display(250, 460, 200),
           battery: two(300, 400, 150),
           back_cover: two(250, 300, 150),
           speaker: only(200, 150),
@@ -89,7 +89,7 @@ export const brandPartsData: BrandParts[] = [
         modelCode: 'A015F',
         modelName: 'Galaxy A015F',
         parts: {
-          display: display(350, 600, 200),
+          display: display(250, 460, 200),
           battery: two(300, 400, 150),
           back_cover: two(250, 300, 150),
           speaker: only(200, 150),
@@ -105,7 +105,7 @@ export const brandPartsData: BrandParts[] = [
         modelCode: 'A015M',
         modelName: 'Galaxy A015M',
         parts: {
-          display: display(350, 600, 200),
+          display: display(240, 440, 200),
           battery: two(300, 400, 150),
           back_cover: two(250, 300, 150),
           speaker: only(200, 150),
@@ -121,7 +121,7 @@ export const brandPartsData: BrandParts[] = [
         modelCode: 'A022',
         modelName: 'Galaxy A22',
         parts: {
-          display: display(350, 600, 200),
+          display: display(280, 500, 200),
           battery: two(300, 400, 150),
           back_cover: two(250, 300, 150),
           speaker: only(200, 150),
@@ -137,7 +137,7 @@ export const brandPartsData: BrandParts[] = [
         modelCode: 'A025',
         modelName: 'Galaxy A25',
         parts: {
-          display: display(350, 600, 200),
+          display: display(150, 250, 200),
           battery: two(300, 400, 150),
           back_cover: two(250, 300, 150),
           speaker: only(200, 150),
@@ -153,7 +153,7 @@ export const brandPartsData: BrandParts[] = [
         modelCode: 'A025F',
         modelName: 'Galaxy A025F',
         parts: {
-          display: display(350, 600, 200),
+          display: display(300, 540, 200),
           battery: two(300, 400, 150),
           back_cover: two(250, 300, 150),
           speaker: only(200, 150),
@@ -169,7 +169,7 @@ export const brandPartsData: BrandParts[] = [
         modelCode: 'A025G',
         modelName: 'Galaxy A025G',
         parts: {
-          display: display(350, 600, 200),
+          display: display(290, 530, 200),
           battery: two(300, 400, 150),
           back_cover: two(250, 300, 150),
           speaker: only(200, 150),
@@ -185,7 +185,7 @@ export const brandPartsData: BrandParts[] = [
         modelCode: 'A032',
         modelName: 'Galaxy A32',
         parts: {
-          display: display(350, 600, 200),
+          display: display(230, 410, 200),
           battery: two(300, 400, 150),
           back_cover: two(250, 300, 150),
           speaker: only(200, 150),
@@ -201,7 +201,7 @@ export const brandPartsData: BrandParts[] = [
         modelCode: 'A035',
         modelName: 'Galaxy A35',
         parts: {
-          display: display(350, 600, 200),
+          display: display(150, 250, 200),
           battery: two(300, 400, 150),
           back_cover: two(250, 300, 150),
           speaker: only(200, 150),
@@ -217,7 +217,7 @@ export const brandPartsData: BrandParts[] = [
         modelCode: 'A035F',
         modelName: 'Galaxy A035F',
         parts: {
-          display: display(350, 600, 200),
+          display: display(280, 510, 200),
           battery: two(300, 400, 150),
           back_cover: two(250, 300, 150),
           speaker: only(200, 150),
@@ -233,7 +233,7 @@ export const brandPartsData: BrandParts[] = [
         modelCode: 'A035G',
         modelName: 'Galaxy A035G',
         parts: {
-          display: display(350, 600, 200),
+          display: display(400, 730, 200),
           battery: two(300, 400, 150),
           back_cover: two(250, 300, 150),
           speaker: only(200, 150),
@@ -249,7 +249,7 @@ export const brandPartsData: BrandParts[] = [
         modelCode: 'A037',
         modelName: 'Galaxy A37',
         parts: {
-          display: display(350, 600, 200),
+          display: display(150, 250, 200),
           battery: two(300, 400, 150),
           back_cover: two(250, 300, 150),
           speaker: only(200, 150),
@@ -265,7 +265,7 @@ export const brandPartsData: BrandParts[] = [
         modelCode: 'A037F',
         modelName: 'Galaxy A037F',
         parts: {
-          display: display(350, 600, 200),
+          display: display(290, 520, 200),
           battery: two(300, 400, 150),
           back_cover: two(250, 300, 150),
           speaker: only(200, 150),
@@ -281,7 +281,7 @@ export const brandPartsData: BrandParts[] = [
         modelCode: 'A037G',
         modelName: 'Galaxy A037G',
         parts: {
-          display: display(350, 600, 200),
+          display: display(250, 460, 200),
           battery: two(300, 400, 150),
           back_cover: two(250, 300, 150),
           speaker: only(200, 150),
@@ -297,7 +297,7 @@ export const brandPartsData: BrandParts[] = [
         modelCode: 'A042',
         modelName: 'Galaxy A42',
         parts: {
-          display: display(350, 600, 200),
+          display: display(300, 550, 200),
           battery: two(300, 400, 150),
           back_cover: two(250, 300, 150),
           speaker: only(200, 150),
@@ -313,7 +313,7 @@ export const brandPartsData: BrandParts[] = [
         modelCode: 'A045',
         modelName: 'Galaxy A45',
         parts: {
-          display: display(350, 600, 200),
+          display: display(230, 430, 200),
           battery: two(300, 400, 150),
           back_cover: two(250, 300, 150),
           speaker: only(200, 150),
@@ -329,7 +329,7 @@ export const brandPartsData: BrandParts[] = [
         modelCode: 'A047',
         modelName: 'Galaxy A47',
         parts: {
-          display: display(350, 600, 200),
+          display: display(220, 400, 200),
           battery: two(300, 400, 150),
           back_cover: two(250, 300, 150),
           speaker: only(200, 150),
@@ -345,7 +345,7 @@ export const brandPartsData: BrandParts[] = [
         modelCode: 'A055',
         modelName: 'Galaxy A55',
         parts: {
-          display: display(350, 600, 200),
+          display: display(220, 410, 200),
           battery: two(300, 400, 150),
           back_cover: two(250, 300, 150),
           speaker: only(200, 150),
@@ -361,7 +361,7 @@ export const brandPartsData: BrandParts[] = [
         modelCode: 'A057',
         modelName: 'Galaxy A57',
         parts: {
-          display: display(350, 600, 200),
+          display: display(250, 460, 200),
           battery: two(300, 400, 150),
           back_cover: two(250, 300, 150),
           speaker: only(200, 150),
@@ -377,7 +377,7 @@ export const brandPartsData: BrandParts[] = [
         modelCode: 'A065',
         modelName: 'Galaxy A65',
         parts: {
-          display: display(350, 600, 200),
+          display: display(180, 330, 200),
           battery: two(300, 400, 150),
           back_cover: two(250, 300, 150),
           speaker: only(200, 150),
@@ -393,7 +393,7 @@ export const brandPartsData: BrandParts[] = [
         modelCode: 'A066',
         modelName: 'Galaxy A66',
         parts: {
-          display: display(350, 600, 200),
+          display: display(300, 540, 200),
           battery: two(300, 400, 150),
           back_cover: two(250, 300, 150),
           speaker: only(200, 150),
@@ -409,7 +409,7 @@ export const brandPartsData: BrandParts[] = [
         modelCode: 'A075',
         modelName: 'Galaxy A75',
         parts: {
-          display: display(350, 600, 200),
+          display: display(320, 580, 200),
           battery: two(300, 400, 150),
           back_cover: two(250, 300, 150),
           speaker: only(200, 150),
@@ -425,7 +425,7 @@ export const brandPartsData: BrandParts[] = [
         modelCode: 'A105',
         modelName: 'Galaxy A105',
         parts: {
-          display: display(350, 600, 200),
+          display: display(180, 330, 200),
           battery: two(300, 400, 150),
           back_cover: two(250, 300, 150),
           speaker: only(200, 150),
@@ -441,7 +441,7 @@ export const brandPartsData: BrandParts[] = [
         modelCode: 'A107',
         modelName: 'Galaxy A107',
         parts: {
-          display: display(350, 600, 200),
+          display: display(230, 410, 200),
           battery: two(300, 400, 150),
           back_cover: two(250, 300, 150),
           speaker: only(200, 150),
@@ -457,7 +457,7 @@ export const brandPartsData: BrandParts[] = [
         modelCode: 'A115',
         modelName: 'Galaxy A115',
         parts: {
-          display: display(350, 600, 200),
+          display: display(220, 410, 200),
           battery: two(300, 400, 150),
           back_cover: two(250, 300, 150),
           speaker: only(200, 150),
@@ -473,7 +473,7 @@ export const brandPartsData: BrandParts[] = [
         modelCode: 'A125',
         modelName: 'Galaxy A125',
         parts: {
-          display: display(350, 600, 200),
+          display: display(250, 460, 200),
           battery: two(300, 400, 150),
           back_cover: two(250, 300, 150),
           speaker: only(200, 150),
@@ -489,7 +489,7 @@ export const brandPartsData: BrandParts[] = [
         modelCode: 'A135',
         modelName: 'Galaxy A135',
         parts: {
-          display: display(350, 600, 200),
+          display: display(280, 520, 200),
           battery: two(300, 400, 150),
           back_cover: two(250, 300, 150),
           speaker: only(200, 150),
@@ -505,7 +505,7 @@ export const brandPartsData: BrandParts[] = [
         modelCode: 'A136',
         modelName: 'Galaxy A136',
         parts: {
-          display: display(350, 600, 200),
+          display: display(190, 350, 200),
           battery: two(300, 400, 150),
           back_cover: two(250, 300, 150),
           speaker: only(200, 150),
@@ -521,7 +521,7 @@ export const brandPartsData: BrandParts[] = [
         modelCode: 'A145',
         modelName: 'Galaxy A145',
         parts: {
-          display: display(350, 600, 200),
+          display: display(280, 520, 200),
           battery: two(300, 400, 150),
           back_cover: two(250, 300, 150),
           speaker: only(200, 150),
@@ -537,7 +537,7 @@ export const brandPartsData: BrandParts[] = [
         modelCode: 'A146',
         modelName: 'Galaxy A146',
         parts: {
-          display: display(350, 600, 200),
+          display: display(380, 690, 200),
           battery: two(300, 400, 150),
           back_cover: two(250, 300, 150),
           speaker: only(200, 150),
@@ -553,7 +553,7 @@ export const brandPartsData: BrandParts[] = [
         modelCode: 'A146B',
         modelName: 'Galaxy A146B',
         parts: {
-          display: display(350, 600, 200),
+          display: display(230, 420, 200),
           battery: two(300, 400, 150),
           back_cover: two(250, 300, 150),
           speaker: only(200, 150),
@@ -569,7 +569,7 @@ export const brandPartsData: BrandParts[] = [
         modelCode: 'A155',
         modelName: 'Galaxy A155',
         parts: {
-          display: display(350, 600, 200),
+          display: display(530, 970, 200),
           battery: two(300, 400, 150),
           back_cover: two(250, 300, 150),
           speaker: only(200, 150),
@@ -585,7 +585,7 @@ export const brandPartsData: BrandParts[] = [
         modelCode: 'A165',
         modelName: 'Galaxy A165',
         parts: {
-          display: display(350, 600, 200),
+          display: display(670, 1210, 200),
           battery: two(300, 400, 150),
           back_cover: two(250, 300, 150),
           speaker: only(200, 150),
@@ -601,7 +601,7 @@ export const brandPartsData: BrandParts[] = [
         modelCode: 'A166',
         modelName: 'Galaxy A166',
         parts: {
-          display: display(350, 600, 200),
+          display: display(850, 1550, 200),
           battery: two(300, 400, 150),
           back_cover: two(250, 300, 150),
           speaker: only(200, 150),
@@ -617,7 +617,7 @@ export const brandPartsData: BrandParts[] = [
         modelCode: 'A175',
         modelName: 'Galaxy A175',
         parts: {
-          display: display(350, 600, 200),
+          display: display(700, 1280, 200),
           battery: two(300, 400, 150),
           back_cover: two(250, 300, 150),
           speaker: only(200, 150),
@@ -633,7 +633,7 @@ export const brandPartsData: BrandParts[] = [
         modelCode: 'A176',
         modelName: 'Galaxy A176',
         parts: {
-          display: display(350, 600, 200),
+          display: display(760, 1380, 200),
           battery: two(300, 400, 150),
           back_cover: two(250, 300, 150),
           speaker: only(200, 150),
@@ -649,7 +649,7 @@ export const brandPartsData: BrandParts[] = [
         modelCode: 'A202',
         modelName: 'Galaxy A202',
         parts: {
-          display: display(350, 600, 200),
+          display: display(310, 570, 200),
           battery: two(300, 400, 150),
           back_cover: two(250, 300, 150),
           speaker: only(200, 150),
@@ -665,7 +665,7 @@ export const brandPartsData: BrandParts[] = [
         modelCode: 'A205',
         modelName: 'Galaxy A205',
         parts: {
-          display: display(350, 600, 200),
+          display: display(390, 710, 200),
           battery: two(300, 400, 150),
           back_cover: two(250, 300, 150),
           speaker: only(200, 150),
@@ -681,7 +681,7 @@ export const brandPartsData: BrandParts[] = [
         modelCode: 'A207',
         modelName: 'Galaxy A207',
         parts: {
-          display: display(350, 600, 200),
+          display: display(240, 440, 200),
           battery: two(300, 400, 150),
           back_cover: two(250, 300, 150),
           speaker: only(200, 150),
@@ -697,7 +697,7 @@ export const brandPartsData: BrandParts[] = [
         modelCode: 'A215',
         modelName: 'Galaxy A215',
         parts: {
-          display: display(350, 600, 200),
+          display: display(440, 810, 200),
           battery: two(300, 400, 150),
           back_cover: two(250, 300, 150),
           speaker: only(200, 150),
@@ -713,7 +713,7 @@ export const brandPartsData: BrandParts[] = [
         modelCode: 'A217',
         modelName: 'Galaxy A217',
         parts: {
-          display: display(350, 600, 200),
+          display: display(200, 370, 200),
           battery: two(300, 400, 150),
           back_cover: two(250, 300, 150),
           speaker: only(200, 150),
@@ -729,7 +729,7 @@ export const brandPartsData: BrandParts[] = [
         modelCode: 'A225',
         modelName: 'Galaxy A225',
         parts: {
-          display: display(350, 600, 200),
+          display: display(480, 880, 200),
           battery: two(300, 400, 150),
           back_cover: two(250, 300, 150),
           speaker: only(200, 150),
@@ -745,7 +745,7 @@ export const brandPartsData: BrandParts[] = [
         modelCode: 'A226',
         modelName: 'Galaxy A226',
         parts: {
-          display: display(350, 600, 200),
+          display: display(300, 540, 200),
           battery: two(300, 400, 150),
           back_cover: two(250, 300, 150),
           speaker: only(200, 150),
@@ -761,7 +761,7 @@ export const brandPartsData: BrandParts[] = [
         modelCode: 'A235',
         modelName: 'Galaxy A235',
         parts: {
-          display: display(350, 600, 200),
+          display: display(340, 620, 200),
           battery: two(300, 400, 150),
           back_cover: two(250, 300, 150),
           speaker: only(200, 150),
@@ -777,7 +777,7 @@ export const brandPartsData: BrandParts[] = [
         modelCode: 'A236',
         modelName: 'Galaxy A236',
         parts: {
-          display: display(350, 600, 200),
+          display: display(390, 700, 200),
           battery: two(300, 400, 150),
           back_cover: two(250, 300, 150),
           speaker: only(200, 150),
@@ -793,7 +793,7 @@ export const brandPartsData: BrandParts[] = [
         modelCode: 'A245',
         modelName: 'Galaxy A245',
         parts: {
-          display: display(350, 600, 200),
+          display: display(650, 1190, 200),
           battery: two(300, 400, 150),
           back_cover: two(250, 300, 150),
           speaker: only(200, 150),
@@ -809,7 +809,7 @@ export const brandPartsData: BrandParts[] = [
         modelCode: 'A256',
         modelName: 'Galaxy A256',
         parts: {
-          display: display(350, 600, 200),
+          display: display(690, 1260, 200),
           battery: two(300, 400, 150),
           back_cover: two(250, 300, 150),
           speaker: only(200, 150),
@@ -825,7 +825,7 @@ export const brandPartsData: BrandParts[] = [
         modelCode: 'A266',
         modelName: 'Galaxy A266',
         parts: {
-          display: display(350, 600, 200),
+          display: display(990, 1800, 200),
           battery: two(300, 400, 150),
           back_cover: two(250, 300, 150),
           speaker: only(200, 150),
@@ -841,7 +841,7 @@ export const brandPartsData: BrandParts[] = [
         modelCode: 'A305',
         modelName: 'Galaxy A305',
         parts: {
-          display: display(500, 1000, 250),
+          display: display(390, 710, 250),
           battery: two(450, 800, 150),
           back_cover: two(400, 700, 150),
           speaker: only(350, 150),
@@ -857,7 +857,7 @@ export const brandPartsData: BrandParts[] = [
         modelCode: 'A307',
         modelName: 'Galaxy A307',
         parts: {
-          display: display(500, 1000, 250),
+          display: display(590, 1080, 250),
           battery: two(450, 800, 150),
           back_cover: two(400, 700, 150),
           speaker: only(350, 150),
@@ -873,7 +873,7 @@ export const brandPartsData: BrandParts[] = [
         modelCode: 'A310',
         modelName: 'Galaxy A310',
         parts: {
-          display: display(500, 1000, 250),
+          display: display(280, 510, 250),
           battery: two(450, 800, 150),
           back_cover: two(400, 700, 150),
           speaker: only(350, 150),
@@ -889,7 +889,7 @@ export const brandPartsData: BrandParts[] = [
         modelCode: 'A315',
         modelName: 'Galaxy A315',
         parts: {
-          display: display(500, 1000, 250),
+          display: display(660, 1200, 250),
           battery: two(450, 800, 150),
           back_cover: two(400, 700, 150),
           speaker: only(350, 150),
@@ -905,7 +905,7 @@ export const brandPartsData: BrandParts[] = [
         modelCode: 'A315F',
         modelName: 'Galaxy A315F',
         parts: {
-          display: display(500, 1000, 250),
+          display: display(640, 1160, 250),
           battery: two(450, 800, 150),
           back_cover: two(400, 700, 150),
           speaker: only(350, 150),
@@ -921,7 +921,7 @@ export const brandPartsData: BrandParts[] = [
         modelCode: 'A320',
         modelName: 'Galaxy A320',
         parts: {
-          display: display(500, 1000, 250),
+          display: display(310, 570, 250),
           battery: two(450, 800, 150),
           back_cover: two(400, 700, 150),
           speaker: only(350, 150),
@@ -937,7 +937,7 @@ export const brandPartsData: BrandParts[] = [
         modelCode: 'A325',
         modelName: 'Galaxy A325',
         parts: {
-          display: display(500, 1000, 250),
+          display: display(740, 1350, 250),
           battery: two(450, 800, 150),
           back_cover: two(400, 700, 150),
           speaker: only(350, 150),
@@ -953,7 +953,7 @@ export const brandPartsData: BrandParts[] = [
         modelCode: 'A326',
         modelName: 'Galaxy A326',
         parts: {
-          display: display(500, 1000, 250),
+          display: display(320, 580, 250),
           battery: two(450, 800, 150),
           back_cover: two(400, 700, 150),
           speaker: only(350, 150),
@@ -969,7 +969,7 @@ export const brandPartsData: BrandParts[] = [
         modelCode: 'A336',
         modelName: 'Galaxy A336',
         parts: {
-          display: display(500, 1000, 250),
+          display: display(1070, 1940, 250),
           battery: two(450, 800, 150),
           back_cover: two(400, 700, 150),
           speaker: only(350, 150),
@@ -985,7 +985,7 @@ export const brandPartsData: BrandParts[] = [
         modelCode: 'A346',
         modelName: 'Galaxy A346',
         parts: {
-          display: display(500, 1000, 250),
+          display: display(1100, 2000, 250),
           battery: two(450, 800, 150),
           back_cover: two(400, 700, 150),
           speaker: only(350, 150),
@@ -1001,7 +1001,7 @@ export const brandPartsData: BrandParts[] = [
         modelCode: 'A356',
         modelName: 'Galaxy A356',
         parts: {
-          display: display(500, 1000, 250),
+          display: display(1160, 2100, 250),
           battery: two(450, 800, 150),
           back_cover: two(400, 700, 150),
           speaker: only(350, 150),
@@ -1017,7 +1017,7 @@ export const brandPartsData: BrandParts[] = [
         modelCode: 'A366',
         modelName: 'Galaxy A366',
         parts: {
-          display: display(500, 1000, 250),
+          display: display(1180, 2150, 250),
           battery: two(450, 800, 150),
           back_cover: two(400, 700, 150),
           speaker: only(350, 150),
@@ -1033,7 +1033,7 @@ export const brandPartsData: BrandParts[] = [
         modelCode: 'A405',
         modelName: 'Galaxy A405',
         parts: {
-          display: display(500, 1000, 250),
+          display: display(590, 1080, 250),
           battery: two(450, 800, 150),
           back_cover: two(400, 700, 150),
           speaker: only(350, 150),
@@ -1049,7 +1049,7 @@ export const brandPartsData: BrandParts[] = [
         modelCode: 'A415',
         modelName: 'Galaxy A415',
         parts: {
-          display: display(500, 1000, 250),
+          display: display(600, 1100, 250),
           battery: two(450, 800, 150),
           back_cover: two(400, 700, 150),
           speaker: only(350, 150),
@@ -1065,7 +1065,7 @@ export const brandPartsData: BrandParts[] = [
         modelCode: 'A426',
         modelName: 'Galaxy A426',
         parts: {
-          display: display(500, 1000, 250),
+          display: display(690, 1250, 250),
           battery: two(450, 800, 150),
           back_cover: two(400, 700, 150),
           speaker: only(350, 150),
@@ -1081,7 +1081,7 @@ export const brandPartsData: BrandParts[] = [
         modelCode: 'A500',
         modelName: 'Galaxy A500',
         parts: {
-          display: display(500, 1000, 250),
+          display: display(340, 620, 250),
           battery: two(450, 800, 150),
           back_cover: two(400, 700, 150),
           speaker: only(350, 150),
@@ -1097,7 +1097,7 @@ export const brandPartsData: BrandParts[] = [
         modelCode: 'A505',
         modelName: 'Galaxy A505',
         parts: {
-          display: display(500, 1000, 250),
+          display: display(730, 1340, 250),
           battery: two(450, 800, 150),
           back_cover: two(400, 700, 150),
           speaker: only(350, 150),
@@ -1113,7 +1113,7 @@ export const brandPartsData: BrandParts[] = [
         modelCode: 'A510',
         modelName: 'Galaxy A510',
         parts: {
-          display: display(500, 1000, 250),
+          display: display(280, 520, 250),
           battery: two(450, 800, 150),
           back_cover: two(400, 700, 150),
           speaker: only(350, 150),
@@ -1145,7 +1145,7 @@ export const brandPartsData: BrandParts[] = [
         modelCode: 'A515',
         modelName: 'Galaxy A515',
         parts: {
-          display: display(500, 1000, 250),
+          display: display(680, 1240, 250),
           battery: two(450, 800, 150),
           back_cover: two(400, 700, 150),
           speaker: only(350, 150),
@@ -1177,7 +1177,7 @@ export const brandPartsData: BrandParts[] = [
         modelCode: 'A520',
         modelName: 'Galaxy A520',
         parts: {
-          display: display(500, 1000, 250),
+          display: display(310, 570, 250),
           battery: two(450, 800, 150),
           back_cover: two(400, 700, 150),
           speaker: only(350, 150),
@@ -1193,7 +1193,7 @@ export const brandPartsData: BrandParts[] = [
         modelCode: 'A525',
         modelName: 'Galaxy A525',
         parts: {
-          display: display(500, 1000, 250),
+          display: display(1180, 2140, 250),
           battery: two(450, 800, 150),
           back_cover: two(400, 700, 150),
           speaker: only(350, 150),
@@ -1209,7 +1209,7 @@ export const brandPartsData: BrandParts[] = [
         modelCode: 'A528',
         modelName: 'Galaxy A528',
         parts: {
-          display: display(500, 1000, 250),
+          display: display(1510, 2740, 250),
           battery: two(450, 800, 150),
           back_cover: two(400, 700, 150),
           speaker: only(350, 150),
@@ -1225,7 +1225,7 @@ export const brandPartsData: BrandParts[] = [
         modelCode: 'A530',
         modelName: 'Galaxy A530',
         parts: {
-          display: display(500, 1000, 250),
+          display: display(440, 800, 250),
           battery: two(450, 800, 150),
           back_cover: two(400, 700, 150),
           speaker: only(350, 150),
@@ -1241,7 +1241,7 @@ export const brandPartsData: BrandParts[] = [
         modelCode: 'A536',
         modelName: 'Galaxy A536',
         parts: {
-          display: display(500, 1000, 250),
+          display: display(1240, 2260, 250),
           battery: two(450, 800, 150),
           back_cover: two(400, 700, 150),
           speaker: only(350, 150),
@@ -1257,7 +1257,7 @@ export const brandPartsData: BrandParts[] = [
         modelCode: 'A546',
         modelName: 'Galaxy A546',
         parts: {
-          display: display(500, 1000, 250),
+          display: display(1130, 2050, 250),
           battery: two(450, 800, 150),
           back_cover: two(400, 700, 150),
           speaker: only(350, 150),
@@ -1273,7 +1273,7 @@ export const brandPartsData: BrandParts[] = [
         modelCode: 'A556',
         modelName: 'Galaxy A556',
         parts: {
-          display: display(500, 1000, 250),
+          display: display(1130, 2060, 250),
           battery: two(450, 800, 150),
           back_cover: two(400, 700, 150),
           speaker: only(350, 150),
@@ -1289,7 +1289,7 @@ export const brandPartsData: BrandParts[] = [
         modelCode: 'A566',
         modelName: 'Galaxy A566',
         parts: {
-          display: display(500, 1000, 250),
+          display: display(1390, 2530, 250),
           battery: two(450, 800, 150),
           back_cover: two(400, 700, 150),
           speaker: only(350, 150),
@@ -1305,7 +1305,7 @@ export const brandPartsData: BrandParts[] = [
         modelCode: 'A600',
         modelName: 'Galaxy A600',
         parts: {
-          display: display(350, 600, 200),
+          display: display(430, 780, 200),
           battery: two(300, 400, 150),
           back_cover: two(250, 300, 150),
           speaker: only(200, 150),
@@ -1321,7 +1321,7 @@ export const brandPartsData: BrandParts[] = [
         modelCode: 'A605',
         modelName: 'Galaxy A605',
         parts: {
-          display: display(350, 600, 200),
+          display: display(590, 1070, 200),
           battery: two(300, 400, 150),
           back_cover: two(250, 300, 150),
           speaker: only(200, 150),
@@ -1337,7 +1337,7 @@ export const brandPartsData: BrandParts[] = [
         modelCode: 'A705',
         modelName: 'Galaxy A705',
         parts: {
-          display: display(500, 1000, 250),
+          display: display(620, 1120, 250),
           battery: two(450, 800, 150),
           back_cover: two(400, 700, 150),
           speaker: only(350, 150),
@@ -1353,7 +1353,7 @@ export const brandPartsData: BrandParts[] = [
         modelCode: 'A710',
         modelName: 'Galaxy A710',
         parts: {
-          display: display(500, 1000, 250),
+          display: display(350, 630, 250),
           battery: two(450, 800, 150),
           back_cover: two(400, 700, 150),
           speaker: only(350, 150),
@@ -1369,7 +1369,7 @@ export const brandPartsData: BrandParts[] = [
         modelCode: 'A715',
         modelName: 'Galaxy A715',
         parts: {
-          display: display(500, 1000, 250),
+          display: display(690, 1250, 250),
           battery: two(450, 800, 150),
           back_cover: two(400, 700, 150),
           speaker: only(350, 150),
@@ -1385,7 +1385,7 @@ export const brandPartsData: BrandParts[] = [
         modelCode: 'A720',
         modelName: 'Galaxy A720',
         parts: {
-          display: display(500, 1000, 250),
+          display: display(290, 540, 250),
           battery: two(450, 800, 150),
           back_cover: two(400, 700, 150),
           speaker: only(350, 150),
@@ -1401,7 +1401,7 @@ export const brandPartsData: BrandParts[] = [
         modelCode: 'A725',
         modelName: 'Galaxy A725',
         parts: {
-          display: display(500, 1000, 250),
+          display: display(1330, 2420, 250),
           battery: two(450, 800, 150),
           back_cover: two(400, 700, 150),
           speaker: only(350, 150),
@@ -1417,7 +1417,7 @@ export const brandPartsData: BrandParts[] = [
         modelCode: 'A730',
         modelName: 'Galaxy A730',
         parts: {
-          display: display(500, 1000, 250),
+          display: display(330, 610, 250),
           battery: two(450, 800, 150),
           back_cover: two(400, 700, 150),
           speaker: only(350, 150),
@@ -1433,7 +1433,7 @@ export const brandPartsData: BrandParts[] = [
         modelCode: 'A736',
         modelName: 'Galaxy A736',
         parts: {
-          display: display(500, 1000, 250),
+          display: display(920, 1670, 250),
           battery: two(450, 800, 150),
           back_cover: two(400, 700, 150),
           speaker: only(350, 150),
@@ -1449,7 +1449,7 @@ export const brandPartsData: BrandParts[] = [
         modelCode: 'A750',
         modelName: 'Galaxy A750',
         parts: {
-          display: display(500, 1000, 250),
+          display: display(570, 1030, 250),
           battery: two(450, 800, 150),
           back_cover: two(400, 700, 150),
           speaker: only(350, 150),
@@ -1481,7 +1481,7 @@ export const brandPartsData: BrandParts[] = [
         modelCode: 'A920',
         modelName: 'Galaxy A920',
         parts: {
-          display: display(350, 600, 200),
+          display: display(760, 1380, 200),
           battery: two(300, 400, 150),
           back_cover: two(250, 300, 150),
           speaker: only(200, 150),
@@ -1497,7 +1497,7 @@ export const brandPartsData: BrandParts[] = [
         modelCode: 'G570',
         modelName: 'Galaxy GG570',
         parts: {
-          display: display(350, 600, 200),
+          display: display(170, 310, 200),
           battery: two(300, 400, 150),
           back_cover: two(250, 300, 150),
           speaker: only(200, 150),
@@ -1513,7 +1513,7 @@ export const brandPartsData: BrandParts[] = [
         modelCode: 'G770',
         modelName: 'Galaxy GG770',
         parts: {
-          display: display(500, 1000, 250),
+          display: display(1110, 2020, 250),
           battery: two(450, 800, 150),
           back_cover: two(400, 700, 150),
           speaker: only(350, 150),
@@ -1529,7 +1529,7 @@ export const brandPartsData: BrandParts[] = [
         modelCode: 'G780',
         modelName: 'Galaxy GG780',
         parts: {
-          display: display(500, 1000, 250),
+          display: display(1490, 2700, 250),
           battery: two(450, 800, 150),
           back_cover: two(400, 700, 150),
           speaker: only(350, 150),
@@ -1593,7 +1593,7 @@ export const brandPartsData: BrandParts[] = [
         modelCode: 'G955',
         modelName: 'Galaxy GG955',
         parts: {
-          display: display(800, 1800, 300),
+          display: display(550, 1000, 300),
           battery: two(750, 1600, 200),
           back_cover: two(700, 1500, 150),
           speaker: only(650, 150),
@@ -1609,7 +1609,7 @@ export const brandPartsData: BrandParts[] = [
         modelCode: 'G960',
         modelName: 'Galaxy GG960',
         parts: {
-          display: display(800, 1800, 300),
+          display: display(850, 1540, 300),
           battery: two(750, 1600, 200),
           back_cover: two(700, 1500, 150),
           speaker: only(650, 150),
@@ -1625,7 +1625,7 @@ export const brandPartsData: BrandParts[] = [
         modelCode: 'G965',
         modelName: 'Galaxy GG965',
         parts: {
-          display: display(800, 1800, 300),
+          display: display(660, 1200, 300),
           battery: two(750, 1600, 200),
           back_cover: two(700, 1500, 150),
           speaker: only(650, 150),
@@ -1641,7 +1641,7 @@ export const brandPartsData: BrandParts[] = [
         modelCode: 'G970',
         modelName: 'Galaxy GG970',
         parts: {
-          display: display(800, 1800, 300),
+          display: display(150, 250, 300),
           battery: two(750, 1600, 200),
           back_cover: two(700, 1500, 150),
           speaker: only(650, 150),
@@ -1657,7 +1657,7 @@ export const brandPartsData: BrandParts[] = [
         modelCode: 'G973',
         modelName: 'Galaxy GG973',
         parts: {
-          display: display(800, 1800, 300),
+          display: display(530, 970, 300),
           battery: two(750, 1600, 200),
           back_cover: two(700, 1500, 150),
           speaker: only(650, 150),
@@ -1673,7 +1673,7 @@ export const brandPartsData: BrandParts[] = [
         modelCode: 'G975',
         modelName: 'Galaxy GG975',
         parts: {
-          display: display(800, 1800, 300),
+          display: display(580, 1060, 300),
           battery: two(750, 1600, 200),
           back_cover: two(700, 1500, 150),
           speaker: only(650, 150),
@@ -1689,7 +1689,7 @@ export const brandPartsData: BrandParts[] = [
         modelCode: 'G980',
         modelName: 'Galaxy GG980',
         parts: {
-          display: display(800, 1800, 300),
+          display: display(2080, 3780, 300),
           battery: two(750, 1600, 200),
           back_cover: two(700, 1500, 150),
           speaker: only(650, 150),
@@ -1705,7 +1705,7 @@ export const brandPartsData: BrandParts[] = [
         modelCode: 'G985',
         modelName: 'Galaxy GG985',
         parts: {
-          display: display(800, 1800, 300),
+          display: display(2860, 5200, 300),
           battery: two(750, 1600, 200),
           back_cover: two(700, 1500, 150),
           speaker: only(650, 150),
@@ -1721,7 +1721,7 @@ export const brandPartsData: BrandParts[] = [
         modelCode: 'G988',
         modelName: 'Galaxy GG988',
         parts: {
-          display: display(800, 1800, 300),
+          display: display(2700, 4900, 300),
           battery: two(750, 1600, 200),
           back_cover: two(700, 1500, 150),
           speaker: only(650, 150),
@@ -1737,7 +1737,7 @@ export const brandPartsData: BrandParts[] = [
         modelCode: 'G990',
         modelName: 'Galaxy GG990',
         parts: {
-          display: display(800, 1800, 300),
+          display: display(1040, 1880, 300),
           battery: two(750, 1600, 200),
           back_cover: two(700, 1500, 150),
           speaker: only(650, 150),
@@ -1753,7 +1753,7 @@ export const brandPartsData: BrandParts[] = [
         modelCode: 'G991',
         modelName: 'Galaxy GG991',
         parts: {
-          display: display(800, 1800, 300),
+          display: display(2640, 4800, 300),
           battery: two(750, 1600, 200),
           back_cover: two(700, 1500, 150),
           speaker: only(650, 150),
@@ -1769,7 +1769,7 @@ export const brandPartsData: BrandParts[] = [
         modelCode: 'G996',
         modelName: 'Galaxy GG996',
         parts: {
-          display: display(800, 1800, 300),
+          display: display(2360, 4290, 300),
           battery: two(750, 1600, 200),
           back_cover: two(700, 1500, 150),
           speaker: only(650, 150),
@@ -1785,7 +1785,7 @@ export const brandPartsData: BrandParts[] = [
         modelCode: 'G998',
         modelName: 'Galaxy GG998',
         parts: {
-          display: display(800, 1800, 300),
+          display: display(3050, 5550, 300),
           battery: two(750, 1600, 200),
           back_cover: two(700, 1500, 150),
           speaker: only(650, 150),
@@ -1801,7 +1801,7 @@ export const brandPartsData: BrandParts[] = [
         modelCode: 'J120',
         modelName: 'Galaxy JJ120',
         parts: {
-          display: display(350, 600, 200),
+          display: display(300, 540, 200),
           battery: two(300, 400, 150),
           back_cover: two(250, 300, 150),
           speaker: only(200, 150),
@@ -1817,7 +1817,7 @@ export const brandPartsData: BrandParts[] = [
         modelCode: 'J250',
         modelName: 'Galaxy JJ250',
         parts: {
-          display: display(350, 600, 200),
+          display: display(310, 560, 200),
           battery: two(300, 400, 150),
           back_cover: two(250, 300, 150),
           speaker: only(200, 150),
@@ -1833,7 +1833,7 @@ export const brandPartsData: BrandParts[] = [
         modelCode: 'J260',
         modelName: 'Galaxy JJ260',
         parts: {
-          display: display(350, 600, 200),
+          display: display(150, 250, 200),
           battery: two(300, 400, 150),
           back_cover: two(250, 300, 150),
           speaker: only(200, 150),
@@ -1849,7 +1849,7 @@ export const brandPartsData: BrandParts[] = [
         modelCode: 'J320',
         modelName: 'Galaxy JJ320',
         parts: {
-          display: display(350, 600, 200),
+          display: display(360, 660, 200),
           battery: two(300, 400, 150),
           back_cover: two(250, 300, 150),
           speaker: only(200, 150),
@@ -1881,7 +1881,7 @@ export const brandPartsData: BrandParts[] = [
         modelCode: 'J330',
         modelName: 'Galaxy JJ330',
         parts: {
-          display: display(350, 600, 200),
+          display: display(210, 390, 200),
           battery: two(300, 400, 150),
           back_cover: two(250, 300, 150),
           speaker: only(200, 150),
@@ -1897,7 +1897,7 @@ export const brandPartsData: BrandParts[] = [
         modelCode: 'J400',
         modelName: 'Galaxy JJ400',
         parts: {
-          display: display(350, 600, 200),
+          display: display(280, 520, 200),
           battery: two(300, 400, 150),
           back_cover: two(250, 300, 150),
           speaker: only(200, 150),
@@ -1913,7 +1913,7 @@ export const brandPartsData: BrandParts[] = [
         modelCode: 'J415',
         modelName: 'Galaxy JJ415',
         parts: {
-          display: display(350, 600, 200),
+          display: display(150, 250, 200),
           battery: two(300, 400, 150),
           back_cover: two(250, 300, 150),
           speaker: only(200, 150),
@@ -1929,7 +1929,7 @@ export const brandPartsData: BrandParts[] = [
         modelCode: 'J500',
         modelName: 'Galaxy JJ500',
         parts: {
-          display: display(350, 600, 200),
+          display: display(290, 520, 200),
           battery: two(300, 400, 150),
           back_cover: two(250, 300, 150),
           speaker: only(200, 150),
@@ -1977,7 +1977,7 @@ export const brandPartsData: BrandParts[] = [
         modelCode: 'J510F',
         modelName: 'Galaxy JJ510F',
         parts: {
-          display: display(350, 600, 200),
+          display: display(190, 350, 200),
           battery: two(300, 400, 150),
           back_cover: two(250, 300, 150),
           speaker: only(200, 150),
@@ -1993,7 +1993,7 @@ export const brandPartsData: BrandParts[] = [
         modelCode: 'J530',
         modelName: 'Galaxy JJ530',
         parts: {
-          display: display(350, 600, 200),
+          display: display(300, 540, 200),
           battery: two(300, 400, 150),
           back_cover: two(250, 300, 150),
           speaker: only(200, 150),
@@ -2009,7 +2009,7 @@ export const brandPartsData: BrandParts[] = [
         modelCode: 'J600',
         modelName: 'Galaxy JJ600',
         parts: {
-          display: display(350, 600, 200),
+          display: display(610, 1110, 200),
           battery: two(300, 400, 150),
           back_cover: two(250, 300, 150),
           speaker: only(200, 150),
@@ -2025,7 +2025,7 @@ export const brandPartsData: BrandParts[] = [
         modelCode: 'J610',
         modelName: 'Galaxy JJ610',
         parts: {
-          display: display(350, 600, 200),
+          display: display(270, 490, 200),
           battery: two(300, 400, 150),
           back_cover: two(250, 300, 150),
           speaker: only(200, 150),
@@ -2041,7 +2041,7 @@ export const brandPartsData: BrandParts[] = [
         modelCode: 'J700',
         modelName: 'Galaxy JJ700',
         parts: {
-          display: display(350, 600, 200),
+          display: display(500, 920, 200),
           battery: two(300, 400, 150),
           back_cover: two(250, 300, 150),
           speaker: only(200, 150),
@@ -2057,7 +2057,7 @@ export const brandPartsData: BrandParts[] = [
         modelCode: 'J700H',
         modelName: 'Galaxy JJ700H',
         parts: {
-          display: display(350, 600, 200),
+          display: display(210, 390, 200),
           battery: two(300, 400, 150),
           back_cover: two(250, 300, 150),
           speaker: only(200, 150),
@@ -2073,7 +2073,7 @@ export const brandPartsData: BrandParts[] = [
         modelCode: 'J701',
         modelName: 'Galaxy JJ701',
         parts: {
-          display: display(350, 600, 200),
+          display: display(390, 710, 200),
           battery: two(300, 400, 150),
           back_cover: two(250, 300, 150),
           speaker: only(200, 150),
@@ -2089,7 +2089,7 @@ export const brandPartsData: BrandParts[] = [
         modelCode: 'J710F',
         modelName: 'Galaxy JJ710F',
         parts: {
-          display: display(350, 600, 200),
+          display: display(360, 660, 200),
           battery: two(300, 400, 150),
           back_cover: two(250, 300, 150),
           speaker: only(200, 150),
@@ -2105,7 +2105,7 @@ export const brandPartsData: BrandParts[] = [
         modelCode: 'J730',
         modelName: 'Galaxy JJ730',
         parts: {
-          display: display(350, 600, 200),
+          display: display(270, 500, 200),
           battery: two(300, 400, 150),
           back_cover: two(250, 300, 150),
           speaker: only(200, 150),
@@ -2121,7 +2121,7 @@ export const brandPartsData: BrandParts[] = [
         modelCode: 'J810',
         modelName: 'Galaxy JJ810',
         parts: {
-          display: display(350, 600, 200),
+          display: display(500, 910, 200),
           battery: two(300, 400, 150),
           back_cover: two(250, 300, 150),
           speaker: only(200, 150),
@@ -2137,7 +2137,7 @@ export const brandPartsData: BrandParts[] = [
         modelCode: 'M105',
         modelName: 'Galaxy MM105',
         parts: {
-          display: display(350, 600, 200),
+          display: display(220, 390, 200),
           battery: two(300, 400, 150),
           back_cover: two(250, 300, 150),
           speaker: only(200, 150),
@@ -2169,7 +2169,7 @@ export const brandPartsData: BrandParts[] = [
         modelCode: 'M127',
         modelName: 'Galaxy MM127',
         parts: {
-          display: display(350, 600, 200),
+          display: display(320, 580, 200),
           battery: two(300, 400, 150),
           back_cover: two(250, 300, 150),
           speaker: only(200, 150),
@@ -2185,7 +2185,7 @@ export const brandPartsData: BrandParts[] = [
         modelCode: 'M135',
         modelName: 'Galaxy MM135',
         parts: {
-          display: display(350, 600, 200),
+          display: display(150, 260, 200),
           battery: two(300, 400, 150),
           back_cover: two(250, 300, 150),
           speaker: only(200, 150),
@@ -2217,7 +2217,7 @@ export const brandPartsData: BrandParts[] = [
         modelCode: 'M146',
         modelName: 'Galaxy MM146',
         parts: {
-          display: display(350, 600, 200),
+          display: display(480, 860, 200),
           battery: two(300, 400, 150),
           back_cover: two(250, 300, 150),
           speaker: only(200, 150),
@@ -2233,7 +2233,7 @@ export const brandPartsData: BrandParts[] = [
         modelCode: 'M156',
         modelName: 'Galaxy MM156',
         parts: {
-          display: display(350, 600, 200),
+          display: display(930, 1700, 200),
           battery: two(300, 400, 150),
           back_cover: two(250, 300, 150),
           speaker: only(200, 150),
@@ -2249,7 +2249,7 @@ export const brandPartsData: BrandParts[] = [
         modelCode: 'M205',
         modelName: 'Galaxy MM205',
         parts: {
-          display: display(350, 600, 200),
+          display: display(240, 440, 200),
           battery: two(300, 400, 150),
           back_cover: two(250, 300, 150),
           speaker: only(200, 150),
@@ -2265,7 +2265,7 @@ export const brandPartsData: BrandParts[] = [
         modelCode: 'M215',
         modelName: 'Galaxy MM215',
         parts: {
-          display: display(350, 600, 200),
+          display: display(590, 1080, 200),
           battery: two(300, 400, 150),
           back_cover: two(250, 300, 150),
           speaker: only(200, 150),
@@ -2281,7 +2281,7 @@ export const brandPartsData: BrandParts[] = [
         modelCode: 'M225',
         modelName: 'Galaxy MM225',
         parts: {
-          display: display(350, 600, 200),
+          display: display(570, 1030, 200),
           battery: two(300, 400, 150),
           back_cover: two(250, 300, 150),
           speaker: only(200, 150),
@@ -2297,7 +2297,7 @@ export const brandPartsData: BrandParts[] = [
         modelCode: 'M236',
         modelName: 'Galaxy MM236',
         parts: {
-          display: display(350, 600, 200),
+          display: display(380, 700, 200),
           battery: two(300, 400, 150),
           back_cover: two(250, 300, 150),
           speaker: only(200, 150),
@@ -2313,7 +2313,7 @@ export const brandPartsData: BrandParts[] = [
         modelCode: 'M305',
         modelName: 'Galaxy MM305',
         parts: {
-          display: display(350, 600, 200),
+          display: display(320, 580, 200),
           battery: two(300, 400, 150),
           back_cover: two(250, 300, 150),
           speaker: only(200, 150),
@@ -2329,7 +2329,7 @@ export const brandPartsData: BrandParts[] = [
         modelCode: 'M307',
         modelName: 'Galaxy MM307',
         parts: {
-          display: display(350, 600, 200),
+          display: display(630, 1140, 200),
           battery: two(300, 400, 150),
           back_cover: two(250, 300, 150),
           speaker: only(200, 150),
@@ -2345,7 +2345,7 @@ export const brandPartsData: BrandParts[] = [
         modelCode: 'M315',
         modelName: 'Galaxy MM315',
         parts: {
-          display: display(350, 600, 200),
+          display: display(1850, 3360, 200),
           battery: two(300, 400, 150),
           back_cover: two(250, 300, 150),
           speaker: only(200, 150),
@@ -2361,7 +2361,7 @@ export const brandPartsData: BrandParts[] = [
         modelCode: 'M317',
         modelName: 'Galaxy MM317',
         parts: {
-          display: display(350, 600, 200),
+          display: display(830, 1510, 200),
           battery: two(300, 400, 150),
           back_cover: two(250, 300, 150),
           speaker: only(200, 150),
@@ -2377,7 +2377,7 @@ export const brandPartsData: BrandParts[] = [
         modelCode: 'M325',
         modelName: 'Galaxy MM325',
         parts: {
-          display: display(350, 600, 200),
+          display: display(680, 1230, 200),
           battery: two(300, 400, 150),
           back_cover: two(250, 300, 150),
           speaker: only(200, 150),
@@ -2393,7 +2393,7 @@ export const brandPartsData: BrandParts[] = [
         modelCode: 'M336',
         modelName: 'Galaxy MM336',
         parts: {
-          display: display(350, 600, 200),
+          display: display(230, 420, 200),
           battery: two(300, 400, 150),
           back_cover: two(250, 300, 150),
           speaker: only(200, 150),
@@ -2409,7 +2409,7 @@ export const brandPartsData: BrandParts[] = [
         modelCode: 'M346',
         modelName: 'Galaxy MM346',
         parts: {
-          display: display(350, 600, 200),
+          display: display(910, 1650, 200),
           battery: two(300, 400, 150),
           back_cover: two(250, 300, 150),
           speaker: only(200, 150),
@@ -2425,7 +2425,7 @@ export const brandPartsData: BrandParts[] = [
         modelCode: 'M356',
         modelName: 'Galaxy MM356',
         parts: {
-          display: display(350, 600, 200),
+          display: display(530, 970, 200),
           battery: two(300, 400, 150),
           back_cover: two(250, 300, 150),
           speaker: only(200, 150),
@@ -2441,7 +2441,7 @@ export const brandPartsData: BrandParts[] = [
         modelCode: 'M515',
         modelName: 'Galaxy MM515',
         parts: {
-          display: display(350, 600, 200),
+          display: display(670, 1220, 200),
           battery: two(300, 400, 150),
           back_cover: two(250, 300, 150),
           speaker: only(200, 150),
@@ -2457,7 +2457,7 @@ export const brandPartsData: BrandParts[] = [
         modelCode: 'M526',
         modelName: 'Galaxy MM526',
         parts: {
-          display: display(350, 600, 200),
+          display: display(770, 1410, 200),
           battery: two(300, 400, 150),
           back_cover: two(250, 300, 150),
           speaker: only(200, 150),
@@ -2473,7 +2473,7 @@ export const brandPartsData: BrandParts[] = [
         modelCode: 'M536',
         modelName: 'Galaxy MM536',
         parts: {
-          display: display(350, 600, 200),
+          display: display(670, 1220, 200),
           battery: two(300, 400, 150),
           back_cover: two(250, 300, 150),
           speaker: only(200, 150),
@@ -2489,7 +2489,7 @@ export const brandPartsData: BrandParts[] = [
         modelCode: 'M556',
         modelName: 'Galaxy MM556',
         parts: {
-          display: display(350, 600, 200),
+          display: display(850, 1550, 200),
           battery: two(300, 400, 150),
           back_cover: two(250, 300, 150),
           speaker: only(200, 150),
@@ -2505,7 +2505,7 @@ export const brandPartsData: BrandParts[] = [
         modelCode: 'N770',
         modelName: 'Galaxy NoteN770',
         parts: {
-          display: display(800, 1800, 300),
+          display: display(2390, 4350, 300),
           battery: two(750, 1600, 200),
           back_cover: two(700, 1500, 150),
           speaker: only(650, 150),
@@ -2537,7 +2537,7 @@ export const brandPartsData: BrandParts[] = [
         modelCode: 'N960',
         modelName: 'Galaxy NoteN960',
         parts: {
-          display: display(800, 1800, 300),
+          display: display(150, 250, 300),
           battery: two(750, 1600, 200),
           back_cover: two(700, 1500, 150),
           speaker: only(650, 150),
@@ -2553,7 +2553,7 @@ export const brandPartsData: BrandParts[] = [
         modelCode: 'N970',
         modelName: 'Galaxy NoteN970',
         parts: {
-          display: display(800, 1800, 300),
+          display: display(910, 1660, 300),
           battery: two(750, 1600, 200),
           back_cover: two(700, 1500, 150),
           speaker: only(650, 150),
@@ -2569,7 +2569,7 @@ export const brandPartsData: BrandParts[] = [
         modelCode: 'N975',
         modelName: 'Galaxy NoteN975',
         parts: {
-          display: display(800, 1800, 300),
+          display: display(2060, 3750, 300),
           battery: two(750, 1600, 200),
           back_cover: two(700, 1500, 150),
           speaker: only(650, 150),
@@ -2585,7 +2585,7 @@ export const brandPartsData: BrandParts[] = [
         modelCode: 'N980',
         modelName: 'Galaxy NoteN980',
         parts: {
-          display: display(800, 1800, 300),
+          display: display(2420, 4390, 300),
           battery: two(750, 1600, 200),
           back_cover: two(700, 1500, 150),
           speaker: only(650, 150),
@@ -2601,7 +2601,7 @@ export const brandPartsData: BrandParts[] = [
         modelCode: 'N985',
         modelName: 'Galaxy NoteN985',
         parts: {
-          display: display(800, 1800, 300),
+          display: display(2140, 3890, 300),
           battery: two(750, 1600, 200),
           back_cover: two(700, 1500, 150),
           speaker: only(650, 150),
@@ -2617,7 +2617,7 @@ export const brandPartsData: BrandParts[] = [
         modelCode: 'P610',
         modelName: 'P610',
         parts: {
-          display: display(350, 600, 200),
+          display: display(300, 550, 200),
           battery: two(300, 400, 150),
           back_cover: two(250, 300, 150),
           speaker: only(200, 150),
@@ -2633,7 +2633,7 @@ export const brandPartsData: BrandParts[] = [
         modelCode: 'S711',
         modelName: 'Galaxy SS711',
         parts: {
-          display: display(800, 1800, 300),
+          display: display(1310, 2390, 300),
           battery: two(750, 1600, 200),
           back_cover: two(700, 1500, 150),
           speaker: only(650, 150),
@@ -2649,7 +2649,7 @@ export const brandPartsData: BrandParts[] = [
         modelCode: 'S721',
         modelName: 'Galaxy SS721',
         parts: {
-          display: display(800, 1800, 300),
+          display: display(1490, 2700, 300),
           battery: two(750, 1600, 200),
           back_cover: two(700, 1500, 150),
           speaker: only(650, 150),
@@ -2665,7 +2665,7 @@ export const brandPartsData: BrandParts[] = [
         modelCode: 'S901',
         modelName: 'Galaxy SS901',
         parts: {
-          display: display(800, 1800, 300),
+          display: display(1840, 3350, 300),
           battery: two(750, 1600, 200),
           back_cover: two(700, 1500, 150),
           speaker: only(650, 150),
@@ -2681,7 +2681,7 @@ export const brandPartsData: BrandParts[] = [
         modelCode: 'S906',
         modelName: 'Galaxy SS906',
         parts: {
-          display: display(800, 1800, 300),
+          display: display(1600, 2900, 300),
           battery: two(750, 1600, 200),
           back_cover: two(700, 1500, 150),
           speaker: only(650, 150),
@@ -2697,7 +2697,7 @@ export const brandPartsData: BrandParts[] = [
         modelCode: 'S908',
         modelName: 'Galaxy SS908',
         parts: {
-          display: display(800, 1800, 300),
+          display: display(3090, 5620, 300),
           battery: two(750, 1600, 200),
           back_cover: two(700, 1500, 150),
           speaker: only(650, 150),
@@ -2713,7 +2713,7 @@ export const brandPartsData: BrandParts[] = [
         modelCode: 'S911',
         modelName: 'Galaxy SS911',
         parts: {
-          display: display(800, 1800, 300),
+          display: display(2050, 3730, 300),
           battery: two(750, 1600, 200),
           back_cover: two(700, 1500, 150),
           speaker: only(650, 150),
@@ -2729,7 +2729,7 @@ export const brandPartsData: BrandParts[] = [
         modelCode: 'S916',
         modelName: 'Galaxy SS916',
         parts: {
-          display: display(800, 1800, 300),
+          display: display(2660, 4840, 300),
           battery: two(750, 1600, 200),
           back_cover: two(700, 1500, 150),
           speaker: only(650, 150),
@@ -2745,7 +2745,7 @@ export const brandPartsData: BrandParts[] = [
         modelCode: 'S918',
         modelName: 'Galaxy SS918',
         parts: {
-          display: display(800, 1800, 300),
+          display: display(3760, 6830, 300),
           battery: two(750, 1600, 200),
           back_cover: two(700, 1500, 150),
           speaker: only(650, 150),
@@ -2761,7 +2761,7 @@ export const brandPartsData: BrandParts[] = [
         modelCode: 'S921',
         modelName: 'Galaxy SS921',
         parts: {
-          display: display(800, 1800, 300),
+          display: display(2540, 4610, 300),
           battery: two(750, 1600, 200),
           back_cover: two(700, 1500, 150),
           speaker: only(650, 150),
@@ -2777,7 +2777,7 @@ export const brandPartsData: BrandParts[] = [
         modelCode: 'S926',
         modelName: 'Galaxy SS926',
         parts: {
-          display: display(800, 1800, 300),
+          display: display(2150, 3910, 300),
           battery: two(750, 1600, 200),
           back_cover: two(700, 1500, 150),
           speaker: only(650, 150),
@@ -2793,7 +2793,7 @@ export const brandPartsData: BrandParts[] = [
         modelCode: 'S928',
         modelName: 'Galaxy SS928',
         parts: {
-          display: display(800, 1800, 300),
+          display: display(3620, 6590, 300),
           battery: two(750, 1600, 200),
           back_cover: two(700, 1500, 150),
           speaker: only(650, 150),
@@ -2809,7 +2809,7 @@ export const brandPartsData: BrandParts[] = [
         modelCode: 'S931',
         modelName: 'Galaxy SS931',
         parts: {
-          display: display(800, 1800, 300),
+          display: display(2230, 4050, 300),
           battery: two(750, 1600, 200),
           back_cover: two(700, 1500, 150),
           speaker: only(650, 150),
@@ -2825,7 +2825,7 @@ export const brandPartsData: BrandParts[] = [
         modelCode: 'S936',
         modelName: 'Galaxy SS936',
         parts: {
-          display: display(800, 1800, 300),
+          display: display(2000, 3630, 300),
           battery: two(750, 1600, 200),
           back_cover: two(700, 1500, 150),
           speaker: only(650, 150),
@@ -2841,7 +2841,7 @@ export const brandPartsData: BrandParts[] = [
         modelCode: 'S938',
         modelName: 'Galaxy SS938',
         parts: {
-          display: display(800, 1800, 300),
+          display: display(3240, 5880, 300),
           battery: two(750, 1600, 200),
           back_cover: two(700, 1500, 150),
           speaker: only(650, 150),
@@ -2857,7 +2857,7 @@ export const brandPartsData: BrandParts[] = [
         modelCode: 'T220',
         modelName: 'T220',
         parts: {
-          display: display(350, 600, 200),
+          display: display(220, 400, 200),
           battery: two(300, 400, 150),
           back_cover: two(250, 300, 150),
           speaker: only(200, 150),
@@ -2873,7 +2873,7 @@ export const brandPartsData: BrandParts[] = [
         modelCode: 'T225',
         modelName: 'T225',
         parts: {
-          display: display(350, 600, 200),
+          display: display(320, 580, 200),
           battery: two(300, 400, 150),
           back_cover: two(250, 300, 150),
           speaker: only(200, 150),
@@ -2889,7 +2889,7 @@ export const brandPartsData: BrandParts[] = [
         modelCode: 'T285',
         modelName: 'T285',
         parts: {
-          display: display(350, 600, 200),
+          display: display(180, 330, 200),
           battery: two(300, 400, 150),
           back_cover: two(250, 300, 150),
           speaker: only(200, 150),
@@ -2905,7 +2905,7 @@ export const brandPartsData: BrandParts[] = [
         modelCode: 'T290',
         modelName: 'T290',
         parts: {
-          display: display(350, 600, 200),
+          display: display(150, 250, 200),
           battery: two(300, 400, 150),
           back_cover: two(250, 300, 150),
           speaker: only(200, 150),
@@ -2921,7 +2921,7 @@ export const brandPartsData: BrandParts[] = [
         modelCode: 'T295',
         modelName: 'T295',
         parts: {
-          display: display(350, 600, 200),
+          display: display(250, 460, 200),
           battery: two(300, 400, 150),
           back_cover: two(250, 300, 150),
           speaker: only(200, 150),
@@ -2937,7 +2937,7 @@ export const brandPartsData: BrandParts[] = [
         modelCode: 'T395',
         modelName: 'T395',
         parts: {
-          display: display(350, 600, 200),
+          display: display(1040, 1890, 200),
           battery: two(300, 400, 150),
           back_cover: two(250, 300, 150),
           speaker: only(200, 150),
@@ -2953,7 +2953,7 @@ export const brandPartsData: BrandParts[] = [
         modelCode: 'T500',
         modelName: 'T500',
         parts: {
-          display: display(350, 600, 200),
+          display: display(200, 370, 200),
           battery: two(300, 400, 150),
           back_cover: two(250, 300, 150),
           speaker: only(200, 150),
@@ -2969,7 +2969,7 @@ export const brandPartsData: BrandParts[] = [
         modelCode: 'T510',
         modelName: 'T510',
         parts: {
-          display: display(350, 600, 200),
+          display: display(240, 440, 200),
           battery: two(300, 400, 150),
           back_cover: two(250, 300, 150),
           speaker: only(200, 150),
@@ -2985,7 +2985,7 @@ export const brandPartsData: BrandParts[] = [
         modelCode: 'T580',
         modelName: 'T580',
         parts: {
-          display: display(350, 600, 200),
+          display: display(870, 1580, 200),
           battery: two(300, 400, 150),
           back_cover: two(250, 300, 150),
           speaker: only(200, 150),
@@ -3001,7 +3001,7 @@ export const brandPartsData: BrandParts[] = [
         modelCode: 'T590',
         modelName: 'T590',
         parts: {
-          display: display(350, 600, 200),
+          display: display(860, 1560, 200),
           battery: two(300, 400, 150),
           back_cover: two(250, 300, 150),
           speaker: only(200, 150),
@@ -3017,7 +3017,7 @@ export const brandPartsData: BrandParts[] = [
         modelCode: 'T730',
         modelName: 'T730',
         parts: {
-          display: display(350, 600, 200),
+          display: display(980, 1770, 200),
           battery: two(300, 400, 150),
           back_cover: two(250, 300, 150),
           speaker: only(200, 150),
@@ -3033,7 +3033,7 @@ export const brandPartsData: BrandParts[] = [
         modelCode: 'T870',
         modelName: 'T870',
         parts: {
-          display: display(350, 600, 200),
+          display: display(420, 760, 200),
           battery: two(300, 400, 150),
           back_cover: two(250, 300, 150),
           speaker: only(200, 150),
@@ -3049,7 +3049,7 @@ export const brandPartsData: BrandParts[] = [
         modelCode: 'X110',
         modelName: 'GalaxyX110',
         parts: {
-          display: display(350, 600, 200),
+          display: display(210, 390, 200),
           battery: two(300, 400, 150),
           back_cover: two(250, 300, 150),
           speaker: only(200, 150),
@@ -3065,7 +3065,7 @@ export const brandPartsData: BrandParts[] = [
         modelCode: 'X115',
         modelName: 'GalaxyX115',
         parts: {
-          display: display(350, 600, 200),
+          display: display(360, 660, 200),
           battery: two(300, 400, 150),
           back_cover: two(250, 300, 150),
           speaker: only(200, 150),
@@ -3081,7 +3081,7 @@ export const brandPartsData: BrandParts[] = [
         modelCode: 'X133',
         modelName: 'GalaxyX133',
         parts: {
-          display: display(350, 600, 200),
+          display: display(430, 780, 200),
           battery: two(300, 400, 150),
           back_cover: two(250, 300, 150),
           speaker: only(200, 150),
@@ -3097,7 +3097,7 @@ export const brandPartsData: BrandParts[] = [
         modelCode: 'X200',
         modelName: 'GalaxyX200',
         parts: {
-          display: display(350, 600, 200),
+          display: display(230, 410, 200),
           battery: two(300, 400, 150),
           back_cover: two(250, 300, 150),
           speaker: only(200, 150),
@@ -3113,7 +3113,7 @@ export const brandPartsData: BrandParts[] = [
         modelCode: 'X210',
         modelName: 'GalaxyX210',
         parts: {
-          display: display(350, 600, 200),
+          display: display(290, 520, 200),
           battery: two(300, 400, 150),
           back_cover: two(250, 300, 150),
           speaker: only(200, 150),
@@ -3129,7 +3129,7 @@ export const brandPartsData: BrandParts[] = [
         modelCode: 'X230',
         modelName: 'GalaxyX230',
         parts: {
-          display: display(350, 600, 200),
+          display: display(640, 1160, 200),
           battery: two(300, 400, 150),
           back_cover: two(250, 300, 150),
           speaker: only(200, 150),
@@ -3145,7 +3145,7 @@ export const brandPartsData: BrandParts[] = [
         modelCode: 'X306',
         modelName: 'GalaxyX306',
         parts: {
-          display: display(350, 600, 200),
+          display: display(810, 1470, 200),
           battery: two(300, 400, 150),
           back_cover: two(250, 300, 150),
           speaker: only(200, 150),
@@ -3161,7 +3161,7 @@ export const brandPartsData: BrandParts[] = [
         modelCode: 'X510',
         modelName: 'GalaxyX510',
         parts: {
-          display: display(350, 600, 200),
+          display: display(280, 500, 200),
           battery: two(300, 400, 150),
           back_cover: two(250, 300, 150),
           speaker: only(200, 150),
@@ -3177,7 +3177,7 @@ export const brandPartsData: BrandParts[] = [
         modelCode: 'X610',
         modelName: 'GalaxyX610',
         parts: {
-          display: display(350, 600, 200),
+          display: display(800, 1460, 200),
           battery: two(300, 400, 150),
           back_cover: two(250, 300, 150),
           speaker: only(200, 150),
@@ -3193,7 +3193,7 @@ export const brandPartsData: BrandParts[] = [
         modelCode: 'X700',
         modelName: 'GalaxyX700',
         parts: {
-          display: display(350, 600, 200),
+          display: display(790, 1430, 200),
           battery: two(300, 400, 150),
           back_cover: two(250, 300, 150),
           speaker: only(200, 150),
@@ -3808,7 +3808,7 @@ export const brandPartsData: BrandParts[] = [
         modelCode: 'Poco C40 Poco Yellow',
         modelName: 'Poco C40 Poco',
         parts: {
-          display: display(350, 600, 200),
+          display: display(170, 310, 200),
           battery: two(300, 400, 150),
           back_cover: two(250, 300, 150),
           speaker: only(200, 150),
@@ -3824,7 +3824,7 @@ export const brandPartsData: BrandParts[] = [
         modelCode: 'Poco C40 Power Black',
         modelName: 'Poco C40 Power',
         parts: {
-          display: display(350, 600, 200),
+          display: display(170, 310, 200),
           battery: two(300, 400, 150),
           back_cover: two(250, 300, 150),
           speaker: only(200, 150),
@@ -3840,7 +3840,7 @@ export const brandPartsData: BrandParts[] = [
         modelCode: 'Poco C65',
         modelName: 'Poco C65',
         parts: {
-          display: display(350, 600, 200),
+          display: display(200, 360, 200),
           battery: two(300, 400, 150),
           back_cover: two(250, 300, 150),
           speaker: only(200, 150),
@@ -3856,7 +3856,7 @@ export const brandPartsData: BrandParts[] = [
         modelCode: 'Poco C75',
         modelName: 'Poco C75',
         parts: {
-          display: display(350, 600, 200),
+          display: display(190, 340, 200),
           battery: two(300, 400, 150),
           back_cover: two(250, 300, 150),
           speaker: only(200, 150),
@@ -6487,7 +6487,7 @@ export const brandPartsData: BrandParts[] = [
         modelCode: 'Honor V10',
         modelName: 'Honor V10',
         parts: {
-          display: display(500, 1000, 250),
+          display: display(320, 580, 250),
           battery: two(450, 800, 150),
           back_cover: two(400, 700, 150),
           speaker: only(350, 150),
@@ -6503,7 +6503,7 @@ export const brandPartsData: BrandParts[] = [
         modelCode: 'Honor X10',
         modelName: 'Honor X10',
         parts: {
-          display: display(500, 1000, 250),
+          display: display(270, 500, 250),
           battery: two(450, 800, 150),
           back_cover: two(400, 700, 150),
           speaker: only(350, 150),
@@ -6807,7 +6807,7 @@ export const brandPartsData: BrandParts[] = [
         modelCode: 'MatePad T10',
         modelName: 'MatePad T10',
         parts: {
-          display: display(500, 1000, 250),
+          display: display(450, 820, 250),
           battery: two(450, 800, 150),
           back_cover: two(400, 700, 150),
           speaker: only(350, 150),
@@ -6823,7 +6823,7 @@ export const brandPartsData: BrandParts[] = [
         modelCode: 'MatePad T10S',
         modelName: 'MatePad T10S',
         parts: {
-          display: display(500, 1000, 250),
+          display: display(530, 970, 250),
           battery: two(450, 800, 150),
           back_cover: two(400, 700, 150),
           speaker: only(350, 150),
@@ -7079,7 +7079,7 @@ export const brandPartsData: BrandParts[] = [
         modelCode: 'Nova Y61',
         modelName: 'Nova Y61',
         parts: {
-          display: display(500, 1000, 250),
+          display: display(170, 310, 250),
           battery: two(450, 800, 150),
           back_cover: two(400, 700, 150),
           speaker: only(350, 150),
@@ -7095,7 +7095,7 @@ export const brandPartsData: BrandParts[] = [
         modelCode: 'Nova Y70',
         modelName: 'Nova Y70',
         parts: {
-          display: display(500, 1000, 250),
+          display: display(190, 350, 250),
           battery: two(450, 800, 150),
           back_cover: two(400, 700, 150),
           speaker: only(350, 150),
@@ -7223,7 +7223,7 @@ export const brandPartsData: BrandParts[] = [
         modelCode: 'P10',
         modelName: 'P10',
         parts: {
-          display: display(500, 1000, 250),
+          display: display(220, 410, 250),
           battery: two(450, 800, 150),
           back_cover: two(400, 700, 150),
           speaker: only(350, 150),
@@ -7239,7 +7239,7 @@ export const brandPartsData: BrandParts[] = [
         modelCode: 'P10 Lite',
         modelName: 'P10 Lite',
         parts: {
-          display: display(500, 1000, 250),
+          display: display(220, 410, 250),
           battery: two(450, 800, 150),
           back_cover: two(400, 700, 150),
           speaker: only(350, 150),
@@ -7255,7 +7255,7 @@ export const brandPartsData: BrandParts[] = [
         modelCode: 'P20',
         modelName: 'P20',
         parts: {
-          display: display(500, 1000, 250),
+          display: display(330, 610, 250),
           battery: two(450, 800, 150),
           back_cover: two(400, 700, 150),
           speaker: only(350, 150),
@@ -7271,7 +7271,7 @@ export const brandPartsData: BrandParts[] = [
         modelCode: 'P20 Lite Dual Sim',
         modelName: 'P20 Lite Dual Sim',
         parts: {
-          display: display(500, 1000, 250),
+          display: display(330, 610, 250),
           battery: two(450, 800, 150),
           back_cover: two(400, 700, 150),
           speaker: only(350, 150),
@@ -7287,7 +7287,7 @@ export const brandPartsData: BrandParts[] = [
         modelCode: 'P20 Pro',
         modelName: 'P20 Pro',
         parts: {
-          display: display(500, 1000, 250),
+          display: display(330, 610, 250),
           battery: two(450, 800, 150),
           back_cover: two(400, 700, 150),
           speaker: only(350, 150),
@@ -7303,7 +7303,7 @@ export const brandPartsData: BrandParts[] = [
         modelCode: 'P30 Lite',
         modelName: 'P30 Lite',
         parts: {
-          display: display(500, 1000, 250),
+          display: display(440, 810, 250),
           battery: two(450, 800, 150),
           back_cover: two(400, 700, 150),
           speaker: only(350, 150),
@@ -7319,7 +7319,7 @@ export const brandPartsData: BrandParts[] = [
         modelCode: 'P30 Lite 24MP Black',
         modelName: 'P30 Lite 24MP',
         parts: {
-          display: display(500, 1000, 250),
+          display: display(440, 810, 250),
           battery: two(450, 800, 150),
           back_cover: two(400, 700, 150),
           speaker: only(350, 150),
@@ -7335,7 +7335,7 @@ export const brandPartsData: BrandParts[] = [
         modelCode: 'P30 Lite 48MP',
         modelName: 'P30 Lite 48MP',
         parts: {
-          display: display(500, 1000, 250),
+          display: display(440, 810, 250),
           battery: two(450, 800, 150),
           back_cover: two(400, 700, 150),
           speaker: only(350, 150),
@@ -7351,7 +7351,7 @@ export const brandPartsData: BrandParts[] = [
         modelCode: 'P30 Pro',
         modelName: 'P30 Pro',
         parts: {
-          display: display(500, 1000, 250),
+          display: display(440, 810, 250),
           battery: two(450, 800, 150),
           back_cover: two(400, 700, 150),
           speaker: only(350, 150),
@@ -7367,7 +7367,7 @@ export const brandPartsData: BrandParts[] = [
         modelCode: 'P30 TFT',
         modelName: 'P30',
         parts: {
-          display: display(500, 1000, 250),
+          display: display(440, 810, 250),
           battery: two(450, 800, 150),
           back_cover: two(400, 700, 150),
           speaker: only(350, 150),
@@ -7383,7 +7383,7 @@ export const brandPartsData: BrandParts[] = [
         modelCode: 'P40 Lite',
         modelName: 'P40 Lite',
         parts: {
-          display: display(500, 1000, 250),
+          display: display(380, 690, 250),
           battery: two(450, 800, 150),
           back_cover: two(400, 700, 150),
           speaker: only(350, 150),
@@ -7399,7 +7399,7 @@ export const brandPartsData: BrandParts[] = [
         modelCode: 'P40 Lite 4G',
         modelName: 'P40 Lite 4G',
         parts: {
-          display: display(500, 1000, 250),
+          display: display(380, 690, 250),
           battery: two(450, 800, 150),
           back_cover: two(400, 700, 150),
           speaker: only(350, 150),
@@ -7415,7 +7415,7 @@ export const brandPartsData: BrandParts[] = [
         modelCode: 'P40 Lite 5G',
         modelName: 'P40 Lite 5G',
         parts: {
-          display: display(500, 1000, 250),
+          display: display(380, 690, 250),
           battery: two(450, 800, 150),
           back_cover: two(400, 700, 150),
           speaker: only(350, 150),
@@ -7431,7 +7431,7 @@ export const brandPartsData: BrandParts[] = [
         modelCode: 'P40 Lite E',
         modelName: 'P40 Lite E',
         parts: {
-          display: display(500, 1000, 250),
+          display: display(380, 690, 250),
           battery: two(450, 800, 150),
           back_cover: two(400, 700, 150),
           speaker: only(350, 150),
@@ -7447,7 +7447,7 @@ export const brandPartsData: BrandParts[] = [
         modelCode: 'P40 Pro',
         modelName: 'P40 Pro',
         parts: {
-          display: display(500, 1000, 250),
+          display: display(380, 690, 250),
           battery: two(450, 800, 150),
           back_cover: two(400, 700, 150),
           speaker: only(350, 150),
@@ -7463,7 +7463,7 @@ export const brandPartsData: BrandParts[] = [
         modelCode: 'P50 Pro Black',
         modelName: 'P50 Pro',
         parts: {
-          display: display(500, 1000, 250),
+          display: display(460, 830, 250),
           battery: two(450, 800, 150),
           back_cover: two(400, 700, 150),
           speaker: only(350, 150),
@@ -7591,7 +7591,7 @@ export const brandPartsData: BrandParts[] = [
         modelCode: 'Y5 2018 DRA-L21',
         modelName: 'Y5 2018 DRA-L21',
         parts: {
-          display: display(500, 1000, 250),
+          display: display(250, 450, 250),
           battery: two(450, 800, 150),
           back_cover: two(400, 700, 150),
           speaker: only(350, 150),
@@ -8190,7 +8190,7 @@ export const brandPartsData: BrandParts[] = [
         modelCode: 'C10',
         modelName: 'C10',
         parts: {
-          display: display(350, 600, 200),
+          display: display(230, 420, 200),
           battery: two(300, 400, 150),
           back_cover: two(250, 300, 150),
           speaker: only(200, 150),
@@ -8206,7 +8206,7 @@ export const brandPartsData: BrandParts[] = [
         modelCode: 'C21 Plus Cyan',
         modelName: 'C21 Plus',
         parts: {
-          display: display(350, 600, 200),
+          display: display(260, 470, 200),
           battery: two(300, 400, 150),
           back_cover: two(250, 300, 150),
           speaker: only(200, 150),
@@ -8222,7 +8222,7 @@ export const brandPartsData: BrandParts[] = [
         modelCode: 'C21 Plus TA-1424',
         modelName: 'C21 Plus TA-1424',
         parts: {
-          display: display(350, 600, 200),
+          display: display(260, 470, 200),
           battery: two(300, 400, 150),
           back_cover: two(250, 300, 150),
           speaker: only(200, 150),
@@ -8238,7 +8238,7 @@ export const brandPartsData: BrandParts[] = [
         modelCode: 'C21 сіра Warm Gray',
         modelName: 'C21',
         parts: {
-          display: display(350, 600, 200),
+          display: display(260, 470, 200),
           battery: two(300, 400, 150),
           back_cover: two(250, 300, 150),
           speaker: only(200, 150),
@@ -8254,7 +8254,7 @@ export const brandPartsData: BrandParts[] = [
         modelCode: 'C22',
         modelName: 'C22',
         parts: {
-          display: display(350, 600, 200),
+          display: display(230, 420, 200),
           battery: two(300, 400, 150),
           back_cover: two(250, 300, 150),
           speaker: only(200, 150),
@@ -8270,7 +8270,7 @@ export const brandPartsData: BrandParts[] = [
         modelCode: 'C30 Dual Sim',
         modelName: 'C30 Dual Sim',
         parts: {
-          display: display(350, 600, 200),
+          display: display(270, 490, 200),
           battery: two(300, 400, 150),
           back_cover: two(250, 300, 150),
           speaker: only(200, 150),
@@ -8286,7 +8286,7 @@ export const brandPartsData: BrandParts[] = [
         modelCode: 'C31',
         modelName: 'C31',
         parts: {
-          display: display(350, 600, 200),
+          display: display(230, 410, 200),
           battery: two(300, 400, 150),
           back_cover: two(250, 300, 150),
           speaker: only(200, 150),
@@ -8302,7 +8302,7 @@ export const brandPartsData: BrandParts[] = [
         modelCode: 'G10',
         modelName: 'G10',
         parts: {
-          display: display(350, 600, 200),
+          display: display(220, 410, 200),
           battery: two(300, 400, 150),
           back_cover: two(250, 300, 150),
           speaker: only(200, 150),
@@ -8318,7 +8318,7 @@ export const brandPartsData: BrandParts[] = [
         modelCode: 'G11',
         modelName: 'G11',
         parts: {
-          display: display(350, 600, 200),
+          display: display(250, 460, 200),
           battery: two(300, 400, 150),
           back_cover: two(250, 300, 150),
           speaker: only(200, 150),
@@ -8334,7 +8334,7 @@ export const brandPartsData: BrandParts[] = [
         modelCode: 'G11 Plus',
         modelName: 'G11 Plus',
         parts: {
-          display: display(350, 600, 200),
+          display: display(250, 460, 200),
           battery: two(300, 400, 150),
           back_cover: two(250, 300, 150),
           speaker: only(200, 150),
@@ -8350,7 +8350,7 @@ export const brandPartsData: BrandParts[] = [
         modelCode: 'G20',
         modelName: 'G20',
         parts: {
-          display: display(350, 600, 200),
+          display: display(260, 470, 200),
           battery: two(300, 400, 150),
           back_cover: two(250, 300, 150),
           speaker: only(200, 150),
@@ -8366,7 +8366,7 @@ export const brandPartsData: BrandParts[] = [
         modelCode: 'G22',
         modelName: 'G22',
         parts: {
-          display: display(350, 600, 200),
+          display: display(220, 400, 200),
           battery: two(300, 400, 150),
           back_cover: two(250, 300, 150),
           speaker: only(200, 150),
@@ -8382,7 +8382,7 @@ export const brandPartsData: BrandParts[] = [
         modelCode: 'G42',
         modelName: 'G42',
         parts: {
-          display: display(350, 600, 200),
+          display: display(420, 760, 200),
           battery: two(300, 400, 150),
           back_cover: two(250, 300, 150),
           speaker: only(200, 150),
@@ -8398,7 +8398,7 @@ export const brandPartsData: BrandParts[] = [
         modelCode: 'G50',
         modelName: 'G50',
         parts: {
-          display: display(350, 600, 200),
+          display: display(150, 270, 200),
           battery: two(300, 400, 150),
           back_cover: two(250, 300, 150),
           speaker: only(200, 150),
@@ -8414,7 +8414,7 @@ export const brandPartsData: BrandParts[] = [
         modelCode: 'T20',
         modelName: 'T20',
         parts: {
-          display: display(350, 600, 200),
+          display: display(1030, 1860, 200),
           battery: two(300, 400, 150),
           back_cover: two(250, 300, 150),
           speaker: only(200, 150),
@@ -8430,7 +8430,7 @@ export const brandPartsData: BrandParts[] = [
         modelCode: 'X10',
         modelName: 'X10',
         parts: {
-          display: display(350, 600, 200),
+          display: display(270, 500, 200),
           battery: two(300, 400, 150),
           back_cover: two(250, 300, 150),
           speaker: only(200, 150),
@@ -8462,7 +8462,7 @@ export const brandPartsData: BrandParts[] = [
         modelCode: 'X30 TFT',
         modelName: 'X30',
         parts: {
-          display: display(350, 600, 200),
+          display: display(440, 810, 200),
           battery: two(300, 400, 150),
           back_cover: two(250, 300, 150),
           speaker: only(200, 150),
@@ -8597,7 +8597,7 @@ export const brandPartsData: BrandParts[] = [
         modelCode: 'XT1941-2 Moto P30 Play',
         modelName: 'XT1941-2 Moto P30 Play',
         parts: {
-          display: display(350, 600, 200),
+          display: display(440, 810, 200),
           battery: two(300, 400, 150),
           back_cover: two(250, 300, 150),
           speaker: only(200, 150),
@@ -9013,7 +9013,7 @@ export const brandPartsData: BrandParts[] = [
         modelCode: 'XT2125 Moto G100',
         modelName: 'XT2125 Moto G100',
         parts: {
-          display: display(350, 600, 200),
+          display: display(400, 720, 200),
           battery: two(300, 400, 150),
           back_cover: two(250, 300, 150),
           speaker: only(200, 150),
@@ -9029,7 +9029,7 @@ export const brandPartsData: BrandParts[] = [
         modelCode: 'XT2127 Moto G10',
         modelName: 'XT2127 Moto G10',
         parts: {
-          display: display(350, 600, 200),
+          display: display(220, 410, 200),
           battery: two(300, 400, 150),
           back_cover: two(250, 300, 150),
           speaker: only(200, 150),
@@ -9045,7 +9045,7 @@ export const brandPartsData: BrandParts[] = [
         modelCode: 'XT2127-2 Moto G10',
         modelName: 'XT2127-2 Moto G10',
         parts: {
-          display: display(350, 600, 200),
+          display: display(220, 410, 200),
           battery: two(300, 400, 150),
           back_cover: two(250, 300, 150),
           speaker: only(200, 150),
@@ -9061,7 +9061,7 @@ export const brandPartsData: BrandParts[] = [
         modelCode: 'XT2128 G20',
         modelName: 'XT2128 G20',
         parts: {
-          display: display(350, 600, 200),
+          display: display(260, 470, 200),
           battery: two(300, 400, 150),
           back_cover: two(250, 300, 150),
           speaker: only(200, 150),
@@ -9077,7 +9077,7 @@ export const brandPartsData: BrandParts[] = [
         modelCode: 'XT2129 G30',
         modelName: 'XT2129 G30',
         parts: {
-          display: display(350, 600, 200),
+          display: display(240, 440, 200),
           battery: two(300, 400, 150),
           back_cover: two(250, 300, 150),
           speaker: only(200, 150),
@@ -9093,7 +9093,7 @@ export const brandPartsData: BrandParts[] = [
         modelCode: 'XT2133-2 Moto G60s',
         modelName: 'XT2133-2 Moto G60s',
         parts: {
-          display: display(350, 600, 200),
+          display: display(260, 470, 200),
           battery: two(300, 400, 150),
           back_cover: two(250, 300, 150),
           speaker: only(200, 150),
@@ -9109,7 +9109,7 @@ export const brandPartsData: BrandParts[] = [
         modelCode: 'XT2135 G60',
         modelName: 'XT2135 G60',
         parts: {
-          display: display(350, 600, 200),
+          display: display(240, 430, 200),
           battery: two(300, 400, 150),
           back_cover: two(250, 300, 150),
           speaker: only(200, 150),
@@ -9125,7 +9125,7 @@ export const brandPartsData: BrandParts[] = [
         modelCode: 'XT2135 Moto G60 Black',
         modelName: 'XT2135 Moto G60',
         parts: {
-          display: display(350, 600, 200),
+          display: display(240, 430, 200),
           battery: two(300, 400, 150),
           back_cover: two(250, 300, 150),
           speaker: only(200, 150),
@@ -9141,7 +9141,7 @@ export const brandPartsData: BrandParts[] = [
         modelCode: 'XT2137 G50',
         modelName: 'XT2137 G50',
         parts: {
-          display: display(350, 600, 200),
+          display: display(150, 270, 200),
           battery: two(300, 400, 150),
           back_cover: two(250, 300, 150),
           speaker: only(200, 150),
@@ -9189,7 +9189,7 @@ export const brandPartsData: BrandParts[] = [
         modelCode: 'XT2149 Moto G50 5G',
         modelName: 'XT2149 Moto G50 5G',
         parts: {
-          display: display(350, 600, 200),
+          display: display(150, 270, 200),
           battery: two(300, 400, 150),
           back_cover: two(250, 300, 150),
           speaker: only(200, 150),
@@ -9205,7 +9205,7 @@ export const brandPartsData: BrandParts[] = [
         modelCode: 'XT2149-1 Moto G50 5G сіра Meteorite Grey',
         modelName: 'XT2149-1 Moto G50 5G',
         parts: {
-          display: display(350, 600, 200),
+          display: display(150, 270, 200),
           battery: two(300, 400, 150),
           back_cover: two(250, 300, 150),
           speaker: only(200, 150),
@@ -9221,7 +9221,7 @@ export const brandPartsData: BrandParts[] = [
         modelCode: 'XT2155 Moto E20',
         modelName: 'XT2155 Moto E20',
         parts: {
-          display: display(350, 600, 200),
+          display: display(180, 320, 200),
           battery: two(300, 400, 150),
           back_cover: two(250, 300, 150),
           speaker: only(200, 150),
@@ -9237,7 +9237,7 @@ export const brandPartsData: BrandParts[] = [
         modelCode: 'XT2159 Moto E40',
         modelName: 'XT2159 Moto E40',
         parts: {
-          display: display(350, 600, 200),
+          display: display(190, 340, 200),
           battery: two(300, 400, 150),
           back_cover: two(250, 300, 150),
           speaker: only(200, 150),
@@ -9253,7 +9253,7 @@ export const brandPartsData: BrandParts[] = [
         modelCode: 'XT2167-2 Moto G41',
         modelName: 'XT2167-2 Moto G41',
         parts: {
-          display: display(350, 600, 200),
+          display: display(350, 640, 200),
           battery: two(300, 400, 150),
           back_cover: two(250, 300, 150),
           speaker: only(200, 150),
@@ -9269,7 +9269,7 @@ export const brandPartsData: BrandParts[] = [
         modelCode: 'XT2169 Moto G71 5G TFT',
         modelName: 'XT2169 Moto G71 5G',
         parts: {
-          display: display(350, 600, 200),
+          display: display(150, 260, 200),
           battery: two(300, 400, 150),
           back_cover: two(250, 300, 150),
           speaker: only(200, 150),
@@ -9285,7 +9285,7 @@ export const brandPartsData: BrandParts[] = [
         modelCode: 'XT2171 Moto G51 5G',
         modelName: 'XT2171 Moto G51 5G',
         parts: {
-          display: display(350, 600, 200),
+          display: display(270, 480, 200),
           battery: two(300, 400, 150),
           back_cover: two(250, 300, 150),
           speaker: only(200, 150),
@@ -9301,7 +9301,7 @@ export const brandPartsData: BrandParts[] = [
         modelCode: 'XT2173-3 Moto G31 TFT',
         modelName: 'XT2173-3 Moto G31',
         parts: {
-          display: display(350, 600, 200),
+          display: display(390, 720, 200),
           battery: two(300, 400, 150),
           back_cover: two(250, 300, 150),
           speaker: only(200, 150),
@@ -9317,7 +9317,7 @@ export const brandPartsData: BrandParts[] = [
         modelCode: 'XT2175-1 G200 5G',
         modelName: 'XT2175-1 G200 5G',
         parts: {
-          display: display(350, 600, 200),
+          display: display(400, 740, 200),
           battery: two(300, 400, 150),
           back_cover: two(250, 300, 150),
           speaker: only(200, 150),
@@ -9333,7 +9333,7 @@ export const brandPartsData: BrandParts[] = [
         modelCode: 'XT2175-1 Moto G200 5G',
         modelName: 'XT2175-1 Moto G200 5G',
         parts: {
-          display: display(350, 600, 200),
+          display: display(400, 740, 200),
           battery: two(300, 400, 150),
           back_cover: two(250, 300, 150),
           speaker: only(200, 150),
@@ -9349,7 +9349,7 @@ export const brandPartsData: BrandParts[] = [
         modelCode: 'XT2175-1 Moto G200 Blue',
         modelName: 'XT2175-1 Moto G200',
         parts: {
-          display: display(350, 600, 200),
+          display: display(400, 740, 200),
           battery: two(300, 400, 150),
           back_cover: two(250, 300, 150),
           speaker: only(200, 150),
@@ -9381,7 +9381,7 @@ export const brandPartsData: BrandParts[] = [
         modelCode: 'XT2221 Moto G52',
         modelName: 'XT2221 Moto G52',
         parts: {
-          display: display(350, 600, 200),
+          display: display(610, 1110, 200),
           battery: two(300, 400, 150),
           back_cover: two(250, 300, 150),
           speaker: only(200, 150),
@@ -9397,7 +9397,7 @@ export const brandPartsData: BrandParts[] = [
         modelCode: 'XT2227 Moto E32',
         modelName: 'XT2227 Moto E32',
         parts: {
-          display: display(350, 600, 200),
+          display: display(260, 460, 200),
           battery: two(300, 400, 150),
           back_cover: two(250, 300, 150),
           speaker: only(200, 150),
@@ -9413,7 +9413,7 @@ export const brandPartsData: BrandParts[] = [
         modelCode: 'XT2229 Moto E32s',
         modelName: 'XT2229 Moto E32s',
         parts: {
-          display: display(350, 600, 200),
+          display: display(270, 490, 200),
           battery: two(300, 400, 150),
           back_cover: two(250, 300, 150),
           speaker: only(200, 150),
@@ -9429,7 +9429,7 @@ export const brandPartsData: BrandParts[] = [
         modelCode: 'XT2231-2 Moto G22',
         modelName: 'XT2231-2 Moto G22',
         parts: {
-          display: display(350, 600, 200),
+          display: display(220, 400, 200),
           battery: two(300, 400, 150),
           back_cover: two(250, 300, 150),
           speaker: only(200, 150),
@@ -9445,7 +9445,7 @@ export const brandPartsData: BrandParts[] = [
         modelCode: 'XT2233-2 Moto G42 IPS',
         modelName: 'XT2233-2 Moto G42',
         parts: {
-          display: display(350, 600, 200),
+          display: display(420, 760, 200),
           battery: two(300, 400, 150),
           back_cover: two(250, 300, 150),
           speaker: only(200, 150),
@@ -9461,7 +9461,7 @@ export const brandPartsData: BrandParts[] = [
         modelCode: 'XT2235 Moto G32',
         modelName: 'XT2235 Moto G32',
         parts: {
-          display: display(350, 600, 200),
+          display: display(220, 410, 200),
           battery: two(300, 400, 150),
           back_cover: two(250, 300, 150),
           speaker: only(200, 150),
@@ -9477,7 +9477,7 @@ export const brandPartsData: BrandParts[] = [
         modelCode: 'XT2235-2 Moto G32 сіра Mineral Grey',
         modelName: 'XT2235-2 Moto G32',
         parts: {
-          display: display(350, 600, 200),
+          display: display(220, 410, 200),
           battery: two(300, 400, 150),
           back_cover: two(250, 300, 150),
           speaker: only(200, 150),
@@ -9493,7 +9493,7 @@ export const brandPartsData: BrandParts[] = [
         modelCode: 'XT2237 Moto G73',
         modelName: 'XT2237 Moto G73',
         parts: {
-          display: display(350, 600, 200),
+          display: display(160, 300, 200),
           battery: two(300, 400, 150),
           back_cover: two(250, 300, 150),
           speaker: only(200, 150),
@@ -9509,7 +9509,7 @@ export const brandPartsData: BrandParts[] = [
         modelCode: 'XT2239 Moto E22',
         modelName: 'XT2239 Moto E22',
         parts: {
-          display: display(350, 600, 200),
+          display: display(180, 320, 200),
           battery: two(300, 400, 150),
           back_cover: two(250, 300, 150),
           speaker: only(200, 150),
@@ -9525,7 +9525,7 @@ export const brandPartsData: BrandParts[] = [
         modelCode: 'XT2255 Moto G72 INCELL',
         modelName: 'XT2255 Moto G72',
         parts: {
-          display: display(350, 600, 200),
+          display: display(550, 1000, 200),
           battery: two(300, 400, 150),
           back_cover: two(250, 300, 150),
           speaker: only(200, 150),
@@ -9541,7 +9541,7 @@ export const brandPartsData: BrandParts[] = [
         modelCode: 'XT2255-1 Moto G72 сіра Meteorite Gray',
         modelName: 'XT2255-1 Moto G72',
         parts: {
-          display: display(350, 600, 200),
+          display: display(550, 1000, 200),
           battery: two(300, 400, 150),
           back_cover: two(250, 300, 150),
           speaker: only(200, 150),
@@ -9637,7 +9637,7 @@ export const brandPartsData: BrandParts[] = [
         modelCode: 'XT2331 Moto G13',
         modelName: 'XT2331 Moto G13',
         parts: {
-          display: display(350, 600, 200),
+          display: display(190, 340, 200),
           battery: two(300, 400, 150),
           back_cover: two(250, 300, 150),
           speaker: only(200, 150),
@@ -9653,7 +9653,7 @@ export const brandPartsData: BrandParts[] = [
         modelCode: 'XT2341 Moto G14',
         modelName: 'XT2341 Moto G14',
         parts: {
-          display: display(350, 600, 200),
+          display: display(220, 410, 200),
           battery: two(300, 400, 150),
           back_cover: two(250, 300, 150),
           speaker: only(200, 150),
@@ -9669,7 +9669,7 @@ export const brandPartsData: BrandParts[] = [
         modelCode: 'XT2343 Moto G54',
         modelName: 'XT2343 Moto G54',
         parts: {
-          display: display(350, 600, 200),
+          display: display(230, 420, 200),
           battery: two(300, 400, 150),
           back_cover: two(250, 300, 150),
           speaker: only(200, 150),
@@ -9685,7 +9685,7 @@ export const brandPartsData: BrandParts[] = [
         modelCode: 'XT2345 Moto E13',
         modelName: 'XT2345 Moto E13',
         parts: {
-          display: display(350, 600, 200),
+          display: display(190, 340, 200),
           battery: two(300, 400, 150),
           back_cover: two(250, 300, 150),
           speaker: only(200, 150),
@@ -9701,7 +9701,7 @@ export const brandPartsData: BrandParts[] = [
         modelCode: 'XT2347-2 Moto G84 IPS',
         modelName: 'XT2347-2 Moto G84',
         parts: {
-          display: display(350, 600, 200),
+          display: display(490, 890, 200),
           battery: two(300, 400, 150),
           back_cover: two(250, 300, 150),
           speaker: only(200, 150),
@@ -9717,7 +9717,7 @@ export const brandPartsData: BrandParts[] = [
         modelCode: 'XT2347-2 Moto G84 червона Viva Magenta',
         modelName: 'XT2347-2 Moto G84 червона Viva Magenta',
         parts: {
-          display: display(350, 600, 200),
+          display: display(490, 890, 200),
           battery: two(300, 400, 150),
           back_cover: two(250, 300, 150),
           speaker: only(200, 150),
@@ -9797,7 +9797,7 @@ export const brandPartsData: BrandParts[] = [
         modelCode: 'XT2421 Moto G04',
         modelName: 'XT2421 Moto G04',
         parts: {
-          display: display(350, 600, 200),
+          display: display(240, 440, 200),
           battery: two(300, 400, 150),
           back_cover: two(250, 300, 150),
           speaker: only(200, 150),
@@ -9813,7 +9813,7 @@ export const brandPartsData: BrandParts[] = [
         modelCode: 'XT2421-13 Moto E14',
         modelName: 'XT2421-13 Moto E14',
         parts: {
-          display: display(350, 600, 200),
+          display: display(180, 330, 200),
           battery: two(300, 400, 150),
           back_cover: two(250, 300, 150),
           speaker: only(200, 150),
@@ -9829,7 +9829,7 @@ export const brandPartsData: BrandParts[] = [
         modelCode: 'XT2423 Moto G24',
         modelName: 'XT2423 Moto G24',
         parts: {
-          display: display(350, 600, 200),
+          display: display(170, 310, 200),
           battery: two(300, 400, 150),
           back_cover: two(250, 300, 150),
           speaker: only(200, 150),
@@ -9845,7 +9845,7 @@ export const brandPartsData: BrandParts[] = [
         modelCode: 'XT2425-4 Moto G24 Power',
         modelName: 'XT2425-4 Moto G24 Power',
         parts: {
-          display: display(350, 600, 200),
+          display: display(170, 310, 200),
           battery: two(300, 400, 150),
           back_cover: two(250, 300, 150),
           speaker: only(200, 150),
@@ -9861,7 +9861,7 @@ export const brandPartsData: BrandParts[] = [
         modelCode: 'XT2427 Moto G85 OLED',
         modelName: 'XT2427 Moto G85',
         parts: {
-          display: display(350, 600, 200),
+          display: display(460, 840, 200),
           battery: two(300, 400, 150),
           back_cover: two(250, 300, 150),
           speaker: only(200, 150),
@@ -9877,7 +9877,7 @@ export const brandPartsData: BrandParts[] = [
         modelCode: 'XT2427-3 Moto G85',
         modelName: 'XT2427-3 Moto G85',
         parts: {
-          display: display(350, 600, 200),
+          display: display(460, 840, 200),
           battery: two(300, 400, 150),
           back_cover: two(250, 300, 150),
           speaker: only(200, 150),
@@ -9909,7 +9909,7 @@ export const brandPartsData: BrandParts[] = [
         modelCode: 'XT2433-5 Moto G35',
         modelName: 'XT2433-5 Moto G35',
         parts: {
-          display: display(350, 600, 200),
+          display: display(320, 570, 200),
           battery: two(300, 400, 150),
           back_cover: two(250, 300, 150),
           speaker: only(200, 150),
@@ -9925,7 +9925,7 @@ export const brandPartsData: BrandParts[] = [
         modelCode: 'XT2435-2 Moto G55',
         modelName: 'XT2435-2 Moto G55',
         parts: {
-          display: display(350, 600, 200),
+          display: display(290, 520, 200),
           battery: two(300, 400, 150),
           back_cover: two(250, 300, 150),
           speaker: only(200, 150),
@@ -9941,7 +9941,7 @@ export const brandPartsData: BrandParts[] = [
         modelCode: 'XT2437-2 Moto G75',
         modelName: 'XT2437-2 Moto G75',
         parts: {
-          display: display(350, 600, 200),
+          display: display(150, 270, 200),
           battery: two(300, 400, 150),
           back_cover: two(250, 300, 150),
           speaker: only(200, 150),
@@ -10021,7 +10021,7 @@ export const brandPartsData: BrandParts[] = [
         modelCode: 'XT2521-3 Moto G15',
         modelName: 'XT2521-3 Moto G15',
         parts: {
-          display: display(350, 600, 200),
+          display: display(250, 450, 200),
           battery: two(300, 400, 150),
           back_cover: two(250, 300, 150),
           speaker: only(200, 150),
@@ -10037,7 +10037,7 @@ export const brandPartsData: BrandParts[] = [
         modelCode: 'XT2523-3 G05',
         modelName: 'XT2523-3 G05',
         parts: {
-          display: display(350, 600, 200),
+          display: display(250, 460, 200),
           battery: two(300, 400, 150),
           back_cover: two(250, 300, 150),
           speaker: only(200, 150),
@@ -10053,7 +10053,7 @@ export const brandPartsData: BrandParts[] = [
         modelCode: 'XT2523-3 Moto G05',
         modelName: 'XT2523-3 Moto G05',
         parts: {
-          display: display(350, 600, 200),
+          display: display(250, 460, 200),
           battery: two(300, 400, 150),
           back_cover: two(250, 300, 150),
           speaker: only(200, 150),
@@ -10069,7 +10069,7 @@ export const brandPartsData: BrandParts[] = [
         modelCode: 'XT2527-2 Moto G86',
         modelName: 'XT2527-2 Moto G86',
         parts: {
-          display: display(350, 600, 200),
+          display: display(1270, 2310, 200),
           battery: two(300, 400, 150),
           back_cover: two(250, 300, 150),
           speaker: only(200, 150),
@@ -10085,7 +10085,7 @@ export const brandPartsData: BrandParts[] = [
         modelCode: 'XT2535-14 Moto G06',
         modelName: 'XT2535-14 Moto G06',
         parts: {
-          display: display(350, 600, 200),
+          display: display(290, 530, 200),
           battery: two(300, 400, 150),
           back_cover: two(250, 300, 150),
           speaker: only(200, 150),
@@ -10101,7 +10101,7 @@ export const brandPartsData: BrandParts[] = [
         modelCode: 'XT2535-3 Moto G06',
         modelName: 'XT2535-3 Moto G06',
         parts: {
-          display: display(350, 600, 200),
+          display: display(290, 530, 200),
           battery: two(300, 400, 150),
           back_cover: two(250, 300, 150),
           speaker: only(200, 150),
@@ -10189,7 +10189,7 @@ export const brandPartsData: BrandParts[] = [
         modelCode: 'Tab 4 10 TB-X304L',
         modelName: 'Tab 4 10 TB-X304L',
         parts: {
-          display: display(500, 1000, 250),
+          display: display(570, 1040, 250),
           battery: two(450, 800, 150),
           back_cover: two(400, 700, 150),
           speaker: only(350, 150),
@@ -10237,7 +10237,7 @@ export const brandPartsData: BrandParts[] = [
         modelCode: 'Tab E10 TB-X104F LTE',
         modelName: 'Tab E10 TB-X104F LTE',
         parts: {
-          display: display(500, 1000, 250),
+          display: display(740, 1350, 250),
           battery: two(450, 800, 150),
           back_cover: two(400, 700, 150),
           speaker: only(350, 150),
@@ -10253,7 +10253,7 @@ export const brandPartsData: BrandParts[] = [
         modelCode: 'Tab E10 TB-X104F Wi-Fi',
         modelName: 'Tab E10 TB-X104F Wi-Fi',
         parts: {
-          display: display(500, 1000, 250),
+          display: display(740, 1350, 250),
           battery: two(450, 800, 150),
           back_cover: two(400, 700, 150),
           speaker: only(350, 150),
@@ -10269,7 +10269,7 @@ export const brandPartsData: BrandParts[] = [
         modelCode: 'Tab K10 TB-X6C6F',
         modelName: 'Tab K10 TB-X6C6F',
         parts: {
-          display: display(500, 1000, 250),
+          display: display(410, 740, 250),
           battery: two(450, 800, 150),
           back_cover: two(400, 700, 150),
           speaker: only(350, 150),
@@ -10285,7 +10285,7 @@ export const brandPartsData: BrandParts[] = [
         modelCode: 'Tab K11 Plus TB352FU',
         modelName: 'Tab K11 Plus TB352FU',
         parts: {
-          display: display(500, 1000, 250),
+          display: display(1000, 1810, 250),
           battery: two(450, 800, 150),
           back_cover: two(400, 700, 150),
           speaker: only(350, 150),
@@ -10301,7 +10301,7 @@ export const brandPartsData: BrandParts[] = [
         modelCode: 'Tab M10 Gen 3 TB328FU',
         modelName: 'Tab M10 Gen 3 TB328FU',
         parts: {
-          display: display(500, 1000, 250),
+          display: display(250, 460, 250),
           battery: two(450, 800, 150),
           back_cover: two(400, 700, 150),
           speaker: only(350, 150),
@@ -10317,7 +10317,7 @@ export const brandPartsData: BrandParts[] = [
         modelCode: 'Tab M10 HD 2nd Gen TB-X306',
         modelName: 'Tab M10 HD 2nd Gen TB-X306',
         parts: {
-          display: display(500, 1000, 250),
+          display: display(250, 460, 250),
           battery: two(450, 800, 150),
           back_cover: two(400, 700, 150),
           speaker: only(350, 150),
@@ -10333,7 +10333,7 @@ export const brandPartsData: BrandParts[] = [
         modelCode: 'Tab M10 HD Gen 2 TB-X306F',
         modelName: 'Tab M10 HD Gen 2 TB-X306F',
         parts: {
-          display: display(500, 1000, 250),
+          display: display(250, 460, 250),
           battery: two(450, 800, 150),
           back_cover: two(400, 700, 150),
           speaker: only(350, 150),
@@ -10349,7 +10349,7 @@ export const brandPartsData: BrandParts[] = [
         modelCode: 'Tab M10 HD TB-X505L LTE',
         modelName: 'Tab M10 HD TB-X505L LTE',
         parts: {
-          display: display(500, 1000, 250),
+          display: display(250, 460, 250),
           battery: two(450, 800, 150),
           back_cover: two(400, 700, 150),
           speaker: only(350, 150),
@@ -10365,7 +10365,7 @@ export const brandPartsData: BrandParts[] = [
         modelCode: 'Tab M10 Plus 3nd Gen TB125FU',
         modelName: 'Tab M10 Plus 3nd Gen TB125FU',
         parts: {
-          display: display(500, 1000, 250),
+          display: display(250, 460, 250),
           battery: two(450, 800, 150),
           back_cover: two(400, 700, 150),
           speaker: only(350, 150),
@@ -10381,7 +10381,7 @@ export const brandPartsData: BrandParts[] = [
         modelCode: 'Tab M10 Plus TB-X606F',
         modelName: 'Tab M10 Plus TB-X606F',
         parts: {
-          display: display(500, 1000, 250),
+          display: display(250, 460, 250),
           battery: two(450, 800, 150),
           back_cover: two(400, 700, 150),
           speaker: only(350, 150),
@@ -10397,7 +10397,7 @@ export const brandPartsData: BrandParts[] = [
         modelCode: 'Tab M10 TB-X605L LTE',
         modelName: 'Tab M10 TB-X605L LTE',
         parts: {
-          display: display(500, 1000, 250),
+          display: display(250, 460, 250),
           battery: two(450, 800, 150),
           back_cover: two(400, 700, 150),
           speaker: only(350, 150),
@@ -10413,7 +10413,7 @@ export const brandPartsData: BrandParts[] = [
         modelCode: 'Tab M11 TB330FU',
         modelName: 'Tab M11 TB330FU',
         parts: {
-          display: display(500, 1000, 250),
+          display: display(200, 370, 250),
           battery: two(450, 800, 150),
           back_cover: two(400, 700, 150),
           speaker: only(350, 150),
@@ -10509,7 +10509,7 @@ export const brandPartsData: BrandParts[] = [
         modelCode: 'Tab P11 2nd Gen TB-350FU',
         modelName: 'Tab P11 2nd Gen TB-350FU',
         parts: {
-          display: display(500, 1000, 250),
+          display: display(470, 850, 250),
           battery: two(450, 800, 150),
           back_cover: two(400, 700, 150),
           speaker: only(350, 150),
@@ -10526,7 +10526,7 @@ export const brandPartsData: BrandParts[] = [
         modelCode: 'Tab P11 Pro 2 Gen TB-132FU',
         modelName: 'Tab P11 Pro 2 Gen TB-132FU',
         parts: {
-          display: display(500, 1000, 250),
+          display: display(470, 850, 250),
           battery: two(450, 800, 150),
           back_cover: two(400, 700, 150),
           speaker: only(350, 150),
@@ -10542,7 +10542,7 @@ export const brandPartsData: BrandParts[] = [
         modelCode: 'Tab P11 TB-J606F',
         modelName: 'Tab P11 TB-J606F',
         parts: {
-          display: display(500, 1000, 250),
+          display: display(470, 850, 250),
           battery: two(450, 800, 150),
           back_cover: two(400, 700, 150),
           speaker: only(350, 150),
@@ -10558,7 +10558,7 @@ export const brandPartsData: BrandParts[] = [
         modelCode: 'Tab P12 TB-370FU',
         modelName: 'Tab P12 TB-370FU',
         parts: {
-          display: display(500, 1000, 250),
+          display: display(730, 1340, 250),
           battery: two(450, 800, 150),
           back_cover: two(400, 700, 150),
           speaker: only(350, 150),
@@ -10591,7 +10591,7 @@ export const brandPartsData: BrandParts[] = [
         modelCode: 'Yoga Smart Tab YT-X705F',
         modelName: 'Yoga Smart Tab YT-X705F',
         parts: {
-          display: display(500, 1000, 250),
+          display: display(740, 1350, 250),
           battery: two(450, 800, 150),
           back_cover: two(400, 700, 150),
           speaker: only(350, 150),
@@ -10607,7 +10607,7 @@ export const brandPartsData: BrandParts[] = [
         modelCode: 'Yoga Tab 11 YT-J706F',
         modelName: 'Yoga Tab 11 YT-J706F',
         parts: {
-          display: display(500, 1000, 250),
+          display: display(280, 520, 250),
           battery: two(450, 800, 150),
           back_cover: two(400, 700, 150),
           speaker: only(350, 150),
@@ -10623,7 +10623,7 @@ export const brandPartsData: BrandParts[] = [
         modelCode: 'Yoga Tab 13 YT-K606F',
         modelName: 'Yoga Tab 13 YT-K606F',
         parts: {
-          display: display(500, 1000, 250),
+          display: display(1450, 2640, 250),
           battery: two(450, 800, 150),
           back_cover: two(400, 700, 150),
           speaker: only(350, 150),
@@ -10646,7 +10646,7 @@ export const brandPartsData: BrandParts[] = [
         modelCode: 'A12',
         modelName: 'A12',
         parts: {
-          display: display(500, 1000, 250),
+          display: display(250, 450, 250),
           battery: two(450, 800, 150),
           back_cover: two(400, 700, 150),
           speaker: only(350, 150),
@@ -10662,7 +10662,7 @@ export const brandPartsData: BrandParts[] = [
         modelCode: 'A15',
         modelName: 'A15',
         parts: {
-          display: display(500, 1000, 250),
+          display: display(390, 710, 250),
           battery: two(450, 800, 150),
           back_cover: two(400, 700, 150),
           speaker: only(350, 150),
@@ -10678,7 +10678,7 @@ export const brandPartsData: BrandParts[] = [
         modelCode: 'A15 2020',
         modelName: 'A15 2020',
         parts: {
-          display: display(500, 1000, 250),
+          display: display(390, 710, 250),
           battery: two(450, 800, 150),
           back_cover: two(400, 700, 150),
           speaker: only(350, 150),
@@ -10694,7 +10694,7 @@ export const brandPartsData: BrandParts[] = [
         modelCode: 'A16',
         modelName: 'A16',
         parts: {
-          display: display(500, 1000, 250),
+          display: display(590, 1070, 250),
           battery: two(450, 800, 150),
           back_cover: two(400, 700, 150),
           speaker: only(350, 150),
@@ -10710,7 +10710,7 @@ export const brandPartsData: BrandParts[] = [
         modelCode: 'A17',
         modelName: 'A17',
         parts: {
-          display: display(500, 1000, 250),
+          display: display(520, 940, 250),
           battery: two(450, 800, 150),
           back_cover: two(400, 700, 150),
           speaker: only(350, 150),
@@ -10726,7 +10726,7 @@ export const brandPartsData: BrandParts[] = [
         modelCode: 'A18',
         modelName: 'A18',
         parts: {
-          display: display(500, 1000, 250),
+          display: display(180, 330, 250),
           battery: two(450, 800, 150),
           back_cover: two(400, 700, 150),
           speaker: only(350, 150),
@@ -10742,7 +10742,7 @@ export const brandPartsData: BrandParts[] = [
         modelCode: 'A18 2023',
         modelName: 'A18 2023',
         parts: {
-          display: display(500, 1000, 250),
+          display: display(180, 330, 250),
           battery: two(450, 800, 150),
           back_cover: two(400, 700, 150),
           speaker: only(350, 150),
@@ -10806,7 +10806,7 @@ export const brandPartsData: BrandParts[] = [
         modelCode: 'A31',
         modelName: 'A31',
         parts: {
-          display: display(500, 1000, 250),
+          display: display(390, 710, 250),
           battery: two(450, 800, 150),
           back_cover: two(400, 700, 150),
           speaker: only(350, 150),
@@ -10822,7 +10822,7 @@ export const brandPartsData: BrandParts[] = [
         modelCode: 'A31 2020',
         modelName: 'A31 2020',
         parts: {
-          display: display(500, 1000, 250),
+          display: display(390, 710, 250),
           battery: two(450, 800, 150),
           back_cover: two(400, 700, 150),
           speaker: only(350, 150),
@@ -10886,7 +10886,7 @@ export const brandPartsData: BrandParts[] = [
         modelCode: 'A40',
         modelName: 'A40',
         parts: {
-          display: display(500, 1000, 250),
+          display: display(450, 810, 250),
           battery: two(450, 800, 150),
           back_cover: two(400, 700, 150),
           speaker: only(350, 150),
@@ -10934,7 +10934,7 @@ export const brandPartsData: BrandParts[] = [
         modelCode: 'A52',
         modelName: 'A52',
         parts: {
-          display: display(500, 1000, 250),
+          display: display(700, 1270, 250),
           battery: two(450, 800, 150),
           back_cover: two(400, 700, 150),
           speaker: only(350, 150),
@@ -10950,7 +10950,7 @@ export const brandPartsData: BrandParts[] = [
         modelCode: 'A52 12MP',
         modelName: 'A52 12MP',
         parts: {
-          display: display(500, 1000, 250),
+          display: display(700, 1270, 250),
           battery: two(450, 800, 150),
           back_cover: two(400, 700, 150),
           speaker: only(350, 150),
@@ -10966,7 +10966,7 @@ export const brandPartsData: BrandParts[] = [
         modelCode: 'A53 4G 2020',
         modelName: 'A53 4G 2020',
         parts: {
-          display: display(500, 1000, 250),
+          display: display(630, 1140, 250),
           battery: two(450, 800, 150),
           back_cover: two(400, 700, 150),
           speaker: only(350, 150),
@@ -10982,7 +10982,7 @@ export const brandPartsData: BrandParts[] = [
         modelCode: 'A54 4G',
         modelName: 'A54 4G',
         parts: {
-          display: display(500, 1000, 250),
+          display: display(660, 1210, 250),
           battery: two(450, 800, 150),
           back_cover: two(400, 700, 150),
           speaker: only(350, 150),
@@ -10998,7 +10998,7 @@ export const brandPartsData: BrandParts[] = [
         modelCode: 'A54 5G',
         modelName: 'A54 5G',
         parts: {
-          display: display(500, 1000, 250),
+          display: display(660, 1210, 250),
           battery: two(450, 800, 150),
           back_cover: two(400, 700, 150),
           speaker: only(350, 150),
@@ -11014,7 +11014,7 @@ export const brandPartsData: BrandParts[] = [
         modelCode: 'A55 4G',
         modelName: 'A55 4G',
         parts: {
-          display: display(500, 1000, 250),
+          display: display(640, 1160, 250),
           battery: two(450, 800, 150),
           back_cover: two(400, 700, 150),
           speaker: only(350, 150),
@@ -11030,7 +11030,7 @@ export const brandPartsData: BrandParts[] = [
         modelCode: 'A55 5G',
         modelName: 'A55 5G',
         parts: {
-          display: display(500, 1000, 250),
+          display: display(640, 1160, 250),
           battery: two(450, 800, 150),
           back_cover: two(400, 700, 150),
           speaker: only(350, 150),
@@ -11046,7 +11046,7 @@ export const brandPartsData: BrandParts[] = [
         modelCode: 'A57 4G',
         modelName: 'A57 4G',
         parts: {
-          display: display(500, 1000, 250),
+          display: display(170, 310, 250),
           battery: two(450, 800, 150),
           back_cover: two(400, 700, 150),
           speaker: only(350, 150),
@@ -11062,7 +11062,7 @@ export const brandPartsData: BrandParts[] = [
         modelCode: 'A57s',
         modelName: 'A57s',
         parts: {
-          display: display(500, 1000, 250),
+          display: display(170, 310, 250),
           battery: two(450, 800, 150),
           back_cover: two(400, 700, 150),
           speaker: only(350, 150),
@@ -11078,7 +11078,7 @@ export const brandPartsData: BrandParts[] = [
         modelCode: 'A58 4G',
         modelName: 'A58 4G',
         parts: {
-          display: display(500, 1000, 250),
+          display: display(180, 320, 250),
           battery: two(450, 800, 150),
           back_cover: two(400, 700, 150),
           speaker: only(350, 150),
@@ -11126,7 +11126,7 @@ export const brandPartsData: BrandParts[] = [
         modelCode: 'A60',
         modelName: 'A60',
         parts: {
-          display: display(500, 1000, 250),
+          display: display(250, 450, 250),
           battery: two(450, 800, 150),
           back_cover: two(400, 700, 150),
           speaker: only(350, 150),
@@ -11142,7 +11142,7 @@ export const brandPartsData: BrandParts[] = [
         modelCode: 'A72 5G',
         modelName: 'A72 5G',
         parts: {
-          display: display(500, 1000, 250),
+          display: display(640, 1160, 250),
           battery: two(450, 800, 150),
           back_cover: two(400, 700, 150),
           speaker: only(350, 150),
@@ -11158,7 +11158,7 @@ export const brandPartsData: BrandParts[] = [
         modelCode: 'A73 4G',
         modelName: 'A73 4G',
         parts: {
-          display: display(500, 1000, 250),
+          display: display(460, 830, 250),
           battery: two(450, 800, 150),
           back_cover: two(400, 700, 150),
           speaker: only(350, 150),
@@ -11174,7 +11174,7 @@ export const brandPartsData: BrandParts[] = [
         modelCode: 'A74 4G',
         modelName: 'A74 4G',
         parts: {
-          display: display(500, 1000, 250),
+          display: display(320, 580, 250),
           battery: two(450, 800, 150),
           back_cover: two(400, 700, 150),
           speaker: only(350, 150),
@@ -11190,7 +11190,7 @@ export const brandPartsData: BrandParts[] = [
         modelCode: 'A76',
         modelName: 'A76',
         parts: {
-          display: display(500, 1000, 250),
+          display: display(290, 530, 250),
           battery: two(450, 800, 150),
           back_cover: two(400, 700, 150),
           speaker: only(350, 150),
@@ -11206,7 +11206,7 @@ export const brandPartsData: BrandParts[] = [
         modelCode: 'A77 4G',
         modelName: 'A77 4G',
         parts: {
-          display: display(500, 1000, 250),
+          display: display(180, 340, 250),
           battery: two(450, 800, 150),
           back_cover: two(400, 700, 150),
           speaker: only(350, 150),
@@ -11222,7 +11222,7 @@ export const brandPartsData: BrandParts[] = [
         modelCode: 'A78 4G',
         modelName: 'A78 4G',
         parts: {
-          display: display(500, 1000, 250),
+          display: display(470, 860, 250),
           battery: two(450, 800, 150),
           back_cover: two(400, 700, 150),
           speaker: only(350, 150),
@@ -11238,7 +11238,7 @@ export const brandPartsData: BrandParts[] = [
         modelCode: 'A80 5G',
         modelName: 'A80 5G',
         parts: {
-          display: display(500, 1000, 250),
+          display: display(290, 520, 250),
           battery: two(450, 800, 150),
           back_cover: two(400, 700, 150),
           speaker: only(350, 150),
@@ -11254,7 +11254,7 @@ export const brandPartsData: BrandParts[] = [
         modelCode: 'A91 TFT',
         modelName: 'A91',
         parts: {
-          display: display(500, 1000, 250),
+          display: display(310, 560, 250),
           battery: two(450, 800, 150),
           back_cover: two(400, 700, 150),
           speaker: only(350, 150),
@@ -11270,7 +11270,7 @@ export const brandPartsData: BrandParts[] = [
         modelCode: 'A94 4G',
         modelName: 'A94 4G',
         parts: {
-          display: display(500, 1000, 250),
+          display: display(560, 1010, 250),
           battery: two(450, 800, 150),
           back_cover: two(400, 700, 150),
           speaker: only(350, 150),
@@ -11286,7 +11286,7 @@ export const brandPartsData: BrandParts[] = [
         modelCode: 'A96 4G',
         modelName: 'A96 4G',
         parts: {
-          display: display(500, 1000, 250),
+          display: display(340, 610, 250),
           battery: two(450, 800, 150),
           back_cover: two(400, 700, 150),
           speaker: only(350, 150),
@@ -11302,7 +11302,7 @@ export const brandPartsData: BrandParts[] = [
         modelCode: 'A96 5G TFT',
         modelName: 'A96 5G',
         parts: {
-          display: display(500, 1000, 250),
+          display: display(340, 610, 250),
           battery: two(450, 800, 150),
           back_cover: two(400, 700, 150),
           speaker: only(350, 150),
@@ -11318,7 +11318,7 @@ export const brandPartsData: BrandParts[] = [
         modelCode: 'A96 Black',
         modelName: 'A96',
         parts: {
-          display: display(500, 1000, 250),
+          display: display(340, 610, 250),
           battery: two(450, 800, 150),
           back_cover: two(400, 700, 150),
           speaker: only(350, 150),
@@ -11334,7 +11334,7 @@ export const brandPartsData: BrandParts[] = [
         modelCode: 'A98',
         modelName: 'A98',
         parts: {
-          display: display(500, 1000, 250),
+          display: display(200, 370, 250),
           battery: two(450, 800, 150),
           back_cover: two(400, 700, 150),
           speaker: only(350, 150),
@@ -11350,7 +11350,7 @@ export const brandPartsData: BrandParts[] = [
         modelCode: 'A98 5G',
         modelName: 'A98 5G',
         parts: {
-          display: display(500, 1000, 250),
+          display: display(200, 370, 250),
           battery: two(450, 800, 150),
           back_cover: two(400, 700, 150),
           speaker: only(350, 150),
@@ -11766,7 +11766,7 @@ export const brandPartsData: BrandParts[] = [
         modelCode: 'Reno F11 IPS',
         modelName: 'Reno F11',
         parts: {
-          display: display(500, 1000, 250),
+          display: display(670, 1220, 250),
           battery: two(450, 800, 150),
           back_cover: two(400, 700, 150),
           speaker: only(350, 150),
@@ -11789,7 +11789,7 @@ export const brandPartsData: BrandParts[] = [
         modelCode: 'V17 Blue',
         modelName: 'V17',
         parts: {
-          display: display(500, 1000, 250),
+          display: display(220, 400, 250),
           battery: two(450, 800, 150),
           back_cover: two(400, 700, 150),
           speaker: only(350, 150),
@@ -11805,7 +11805,7 @@ export const brandPartsData: BrandParts[] = [
         modelCode: 'V17 Neo TFT',
         modelName: 'V17 Neo',
         parts: {
-          display: display(500, 1000, 250),
+          display: display(220, 400, 250),
           battery: two(450, 800, 150),
           back_cover: two(400, 700, 150),
           speaker: only(350, 150),
@@ -11821,7 +11821,7 @@ export const brandPartsData: BrandParts[] = [
         modelCode: 'V17 Ocean Black',
         modelName: 'V17 чорна Midnight Ocean',
         parts: {
-          display: display(500, 1000, 250),
+          display: display(220, 400, 250),
           battery: two(450, 800, 150),
           back_cover: two(400, 700, 150),
           speaker: only(350, 150),
@@ -11837,7 +11837,7 @@ export const brandPartsData: BrandParts[] = [
         modelCode: 'V20',
         modelName: 'V20',
         parts: {
-          display: display(500, 1000, 250),
+          display: display(250, 450, 250),
           battery: two(450, 800, 150),
           back_cover: two(400, 700, 150),
           speaker: only(350, 150),
@@ -11853,7 +11853,7 @@ export const brandPartsData: BrandParts[] = [
         modelCode: 'V21 4G',
         modelName: 'V21 4G',
         parts: {
-          display: display(500, 1000, 250),
+          display: display(250, 450, 250),
           battery: two(450, 800, 150),
           back_cover: two(400, 700, 150),
           speaker: only(350, 150),
@@ -11869,7 +11869,7 @@ export const brandPartsData: BrandParts[] = [
         modelCode: 'V21 5G',
         modelName: 'V21 5G',
         parts: {
-          display: display(500, 1000, 250),
+          display: display(250, 450, 250),
           battery: two(450, 800, 150),
           back_cover: two(400, 700, 150),
           speaker: only(350, 150),
@@ -11885,7 +11885,7 @@ export const brandPartsData: BrandParts[] = [
         modelCode: 'V23 5G',
         modelName: 'V23 5G',
         parts: {
-          display: display(500, 1000, 250),
+          display: display(170, 310, 250),
           battery: two(450, 800, 150),
           back_cover: two(400, 700, 150),
           speaker: only(350, 150),
@@ -11901,7 +11901,7 @@ export const brandPartsData: BrandParts[] = [
         modelCode: 'V23e',
         modelName: 'V23e',
         parts: {
-          display: display(500, 1000, 250),
+          display: display(330, 600, 250),
           battery: two(450, 800, 150),
           back_cover: two(400, 700, 150),
           speaker: only(350, 150),
@@ -11917,7 +11917,7 @@ export const brandPartsData: BrandParts[] = [
         modelCode: 'V40',
         modelName: 'V40',
         parts: {
-          display: display(500, 1000, 250),
+          display: display(500, 910, 250),
           battery: two(450, 800, 150),
           back_cover: two(400, 700, 150),
           speaker: only(350, 150),
@@ -11933,7 +11933,7 @@ export const brandPartsData: BrandParts[] = [
         modelCode: 'Y01',
         modelName: 'Y01',
         parts: {
-          display: display(500, 1000, 250),
+          display: display(280, 520, 250),
           battery: two(450, 800, 150),
           back_cover: two(400, 700, 150),
           speaker: only(350, 150),
@@ -11949,7 +11949,7 @@ export const brandPartsData: BrandParts[] = [
         modelCode: 'Y02',
         modelName: 'Y02',
         parts: {
-          display: display(500, 1000, 250),
+          display: display(150, 250, 250),
           battery: two(450, 800, 150),
           back_cover: two(400, 700, 150),
           speaker: only(350, 150),
@@ -11965,7 +11965,7 @@ export const brandPartsData: BrandParts[] = [
         modelCode: 'Y11 2019',
         modelName: 'Y11 2019',
         parts: {
-          display: display(500, 1000, 250),
+          display: display(150, 280, 250),
           battery: two(450, 800, 150),
           back_cover: two(400, 700, 150),
           speaker: only(350, 150),
@@ -11981,7 +11981,7 @@ export const brandPartsData: BrandParts[] = [
         modelCode: 'Y12s',
         modelName: 'Y12s',
         parts: {
-          display: display(500, 1000, 250),
+          display: display(150, 250, 250),
           battery: two(450, 800, 150),
           back_cover: two(400, 700, 150),
           speaker: only(350, 150),
@@ -11997,7 +11997,7 @@ export const brandPartsData: BrandParts[] = [
         modelCode: 'Y15',
         modelName: 'Y15',
         parts: {
-          display: display(500, 1000, 250),
+          display: display(190, 350, 250),
           battery: two(450, 800, 150),
           back_cover: two(400, 700, 150),
           speaker: only(350, 150),
@@ -12013,7 +12013,7 @@ export const brandPartsData: BrandParts[] = [
         modelCode: 'Y15s',
         modelName: 'Y15s',
         parts: {
-          display: display(500, 1000, 250),
+          display: display(270, 500, 250),
           battery: two(450, 800, 150),
           back_cover: two(400, 700, 150),
           speaker: only(350, 150),
@@ -12029,7 +12029,7 @@ export const brandPartsData: BrandParts[] = [
         modelCode: 'Y19',
         modelName: 'Y19',
         parts: {
-          display: display(500, 1000, 250),
+          display: display(250, 450, 250),
           battery: two(450, 800, 150),
           back_cover: two(400, 700, 150),
           speaker: only(350, 150),
@@ -12061,7 +12061,7 @@ export const brandPartsData: BrandParts[] = [
         modelCode: 'Y20',
         modelName: 'Y20',
         parts: {
-          display: display(500, 1000, 250),
+          display: display(150, 260, 250),
           battery: two(450, 800, 150),
           back_cover: two(400, 700, 150),
           speaker: only(350, 150),
@@ -12077,7 +12077,7 @@ export const brandPartsData: BrandParts[] = [
         modelCode: 'Y21 2021',
         modelName: 'Y21 2021',
         parts: {
-          display: display(500, 1000, 250),
+          display: display(150, 260, 250),
           battery: two(450, 800, 150),
           back_cover: two(400, 700, 150),
           speaker: only(350, 150),
@@ -12093,7 +12093,7 @@ export const brandPartsData: BrandParts[] = [
         modelCode: 'Y21s Blue',
         modelName: 'Y21s',
         parts: {
-          display: display(500, 1000, 250),
+          display: display(150, 260, 250),
           battery: two(450, 800, 150),
           back_cover: two(400, 700, 150),
           speaker: only(350, 150),
@@ -12109,7 +12109,7 @@ export const brandPartsData: BrandParts[] = [
         modelCode: 'Y22',
         modelName: 'Y22',
         parts: {
-          display: display(500, 1000, 250),
+          display: display(220, 410, 250),
           battery: two(450, 800, 150),
           back_cover: two(400, 700, 150),
           speaker: only(350, 150),
@@ -12125,7 +12125,7 @@ export const brandPartsData: BrandParts[] = [
         modelCode: 'Y27',
         modelName: 'Y27',
         parts: {
-          display: display(500, 1000, 250),
+          display: display(180, 340, 250),
           battery: two(450, 800, 150),
           back_cover: two(400, 700, 150),
           speaker: only(350, 150),
@@ -12141,7 +12141,7 @@ export const brandPartsData: BrandParts[] = [
         modelCode: 'Y30',
         modelName: 'Y30',
         parts: {
-          display: display(500, 1000, 250),
+          display: display(150, 270, 250),
           battery: two(450, 800, 150),
           back_cover: two(400, 700, 150),
           speaker: only(350, 150),
@@ -12157,7 +12157,7 @@ export const brandPartsData: BrandParts[] = [
         modelCode: 'Y31',
         modelName: 'Y31',
         parts: {
-          display: display(500, 1000, 250),
+          display: display(200, 360, 250),
           battery: two(450, 800, 150),
           back_cover: two(400, 700, 150),
           speaker: only(350, 150),
@@ -12173,7 +12173,7 @@ export const brandPartsData: BrandParts[] = [
         modelCode: 'Y31 2021',
         modelName: 'Y31 2021',
         parts: {
-          display: display(500, 1000, 250),
+          display: display(200, 360, 250),
           battery: two(450, 800, 150),
           back_cover: two(400, 700, 150),
           speaker: only(350, 150),
@@ -12189,7 +12189,7 @@ export const brandPartsData: BrandParts[] = [
         modelCode: 'Y33s',
         modelName: 'Y33s',
         parts: {
-          display: display(500, 1000, 250),
+          display: display(180, 330, 250),
           battery: two(450, 800, 150),
           back_cover: two(400, 700, 150),
           speaker: only(350, 150),
@@ -12205,7 +12205,7 @@ export const brandPartsData: BrandParts[] = [
         modelCode: 'Y35',
         modelName: 'Y35',
         parts: {
-          display: display(500, 1000, 250),
+          display: display(150, 250, 250),
           battery: two(450, 800, 150),
           back_cover: two(400, 700, 150),
           speaker: only(350, 150),
@@ -12221,7 +12221,7 @@ export const brandPartsData: BrandParts[] = [
         modelCode: 'Y36',
         modelName: 'Y36',
         parts: {
-          display: display(500, 1000, 250),
+          display: display(200, 360, 250),
           battery: two(450, 800, 150),
           back_cover: two(400, 700, 150),
           speaker: only(350, 150),
@@ -12237,7 +12237,7 @@ export const brandPartsData: BrandParts[] = [
         modelCode: 'Y36 4G',
         modelName: 'Y36 4G',
         parts: {
-          display: display(500, 1000, 250),
+          display: display(200, 360, 250),
           battery: two(450, 800, 150),
           back_cover: two(400, 700, 150),
           speaker: only(350, 150),
@@ -12253,7 +12253,7 @@ export const brandPartsData: BrandParts[] = [
         modelCode: 'Y36 5G Black',
         modelName: 'Y36 5G',
         parts: {
-          display: display(500, 1000, 250),
+          display: display(200, 360, 250),
           battery: two(450, 800, 150),
           back_cover: two(400, 700, 150),
           speaker: only(350, 150),
@@ -12269,7 +12269,7 @@ export const brandPartsData: BrandParts[] = [
         modelCode: 'Y52 5G',
         modelName: 'Y52 5G',
         parts: {
-          display: display(500, 1000, 250),
+          display: display(150, 260, 250),
           battery: two(450, 800, 150),
           back_cover: two(400, 700, 150),
           speaker: only(350, 150),
@@ -12285,7 +12285,7 @@ export const brandPartsData: BrandParts[] = [
         modelCode: 'Y53s',
         modelName: 'Y53s',
         parts: {
-          display: display(500, 1000, 250),
+          display: display(220, 390, 250),
           battery: two(450, 800, 150),
           back_cover: two(400, 700, 150),
           speaker: only(350, 150),
@@ -12301,7 +12301,7 @@ export const brandPartsData: BrandParts[] = [
         modelCode: 'Y53s 4G',
         modelName: 'Y53s 4G',
         parts: {
-          display: display(500, 1000, 250),
+          display: display(220, 390, 250),
           battery: two(450, 800, 150),
           back_cover: two(400, 700, 150),
           speaker: only(350, 150),
@@ -12317,7 +12317,7 @@ export const brandPartsData: BrandParts[] = [
         modelCode: 'Y55 5G',
         modelName: 'Y55 5G',
         parts: {
-          display: display(500, 1000, 250),
+          display: display(300, 540, 250),
           battery: two(450, 800, 150),
           back_cover: two(400, 700, 150),
           speaker: only(350, 150),
@@ -12333,7 +12333,7 @@ export const brandPartsData: BrandParts[] = [
         modelCode: 'Y77 China',
         modelName: 'Y77 China',
         parts: {
-          display: display(500, 1000, 250),
+          display: display(370, 670, 250),
           battery: two(450, 800, 150),
           back_cover: two(400, 700, 150),
           speaker: only(350, 150),
@@ -12349,7 +12349,7 @@ export const brandPartsData: BrandParts[] = [
         modelCode: 'Y91',
         modelName: 'Y91',
         parts: {
-          display: display(500, 1000, 250),
+          display: display(230, 420, 250),
           battery: two(450, 800, 150),
           back_cover: two(400, 700, 150),
           speaker: only(350, 150),
@@ -12365,7 +12365,7 @@ export const brandPartsData: BrandParts[] = [
         modelCode: 'Y91 сине-фіолетова',
         modelName: 'Y91 сине-фіолетова',
         parts: {
-          display: display(500, 1000, 250),
+          display: display(230, 420, 250),
           battery: two(450, 800, 150),
           back_cover: two(400, 700, 150),
           speaker: only(350, 150),
@@ -12381,7 +12381,7 @@ export const brandPartsData: BrandParts[] = [
         modelCode: 'Y91c Blue',
         modelName: 'Y91c',
         parts: {
-          display: display(500, 1000, 250),
+          display: display(180, 320, 250),
           battery: two(450, 800, 150),
           back_cover: two(400, 700, 150),
           speaker: only(350, 150),
@@ -12400,21 +12400,21 @@ export const brandPartsData: BrandParts[] = [
     name: 'Realme',
     logo: '/brands/realme.svg',
     models: [
-      { modelCode: 'C11', modelName: 'Realme C11', parts: { display: display(350, 600, 250), battery: two(200, 350, 150), back_cover: two(150, 250, 150), speaker: only(120, 150), glass: two(120, 200, 150), charging_flex: two(100, 200, 150), camera: two(200, 400, 200), microphone: only(100, 150), buttons: only(100, 150), connector: only(100, 150) } },
-      { modelCode: 'C21Y', modelName: 'Realme C21Y', parts: { display: display(380, 650, 250), battery: two(200, 350, 150), back_cover: two(150, 250, 150), speaker: only(120, 150), glass: two(120, 200, 150), charging_flex: two(100, 200, 150), camera: two(220, 420, 200), microphone: only(100, 150), buttons: only(100, 150), connector: only(100, 150) } },
-      { modelCode: 'C25Y', modelName: 'Realme C25Y', parts: { display: display(380, 650, 250), battery: two(200, 350, 150), back_cover: two(150, 250, 150), speaker: only(120, 150), glass: two(120, 200, 150), charging_flex: two(100, 200, 150), camera: two(220, 420, 200), microphone: only(100, 150), buttons: only(100, 150), connector: only(100, 150) } },
-      { modelCode: 'C30', modelName: 'Realme C30', parts: { display: display(350, 600, 250), battery: two(200, 350, 150), back_cover: two(150, 250, 150), speaker: only(120, 150), glass: two(120, 200, 150), charging_flex: two(100, 200, 150), camera: two(200, 400, 200), microphone: only(100, 150), buttons: only(100, 150), connector: only(100, 150) } },
-      { modelCode: 'C31', modelName: 'Realme C31', parts: { display: display(380, 650, 250), battery: two(200, 350, 150), back_cover: two(150, 250, 150), speaker: only(120, 150), glass: two(120, 200, 150), charging_flex: two(100, 200, 150), camera: two(220, 420, 200), microphone: only(100, 150), buttons: only(100, 150), connector: only(100, 150) } },
-      { modelCode: 'C33', modelName: 'Realme C33', parts: { display: display(400, 700, 250), battery: two(250, 400, 150), back_cover: two(180, 300, 150), speaker: only(150, 150), glass: two(150, 250, 150), charging_flex: two(120, 200, 150), camera: two(250, 450, 200), microphone: only(120, 150), buttons: only(120, 150), connector: only(120, 150) } },
-      { modelCode: 'C35', modelName: 'Realme C35', parts: { display: display(450, 750, 250), battery: two(250, 400, 150), back_cover: two(180, 300, 150), speaker: only(150, 150), glass: two(150, 250, 150), charging_flex: two(120, 200, 150), camera: two(250, 450, 200), microphone: only(120, 150), buttons: only(120, 150), connector: only(120, 150) } },
-      { modelCode: 'C51', modelName: 'Realme C51', parts: { display: display(450, 750, 250), battery: two(250, 400, 150), back_cover: two(180, 300, 150), speaker: only(150, 150), glass: two(150, 250, 150), charging_flex: two(120, 200, 150), camera: two(250, 450, 200), microphone: only(120, 150), buttons: only(120, 150), connector: only(120, 150) } },
-      { modelCode: 'C53', modelName: 'Realme C53', parts: { display: display(450, 750, 250), battery: two(250, 400, 150), back_cover: two(180, 300, 150), speaker: only(150, 150), glass: two(150, 250, 150), charging_flex: two(120, 200, 150), camera: two(250, 450, 200), microphone: only(120, 150), buttons: only(120, 150), connector: only(120, 150) } },
-      { modelCode: 'C55', modelName: 'Realme C55', parts: { display: display(500, 850, 300), battery: two(300, 450, 200), back_cover: two(200, 350, 150), speaker: only(150, 150), glass: two(150, 250, 150), charging_flex: two(150, 250, 150), camera: two(300, 500, 200), microphone: only(120, 150), buttons: only(120, 150), connector: only(120, 150) } },
-      { modelCode: 'C61', modelName: 'Realme C61', parts: { display: display(500, 850, 300), battery: two(300, 450, 200), back_cover: two(200, 350, 150), speaker: only(150, 150), glass: two(150, 250, 150), charging_flex: two(150, 250, 150), camera: two(300, 500, 200), microphone: only(120, 150), buttons: only(120, 150), connector: only(120, 150) } },
-      { modelCode: 'C63', modelName: 'Realme C63', parts: { display: display(550, 900, 300), battery: two(300, 450, 200), back_cover: two(200, 350, 150), speaker: only(150, 150), glass: two(150, 250, 150), charging_flex: two(150, 250, 150), camera: two(300, 500, 200), microphone: only(120, 150), buttons: only(120, 150), connector: only(120, 150) } },
-      { modelCode: 'C65', modelName: 'Realme C65', parts: { display: display(550, 900, 300), battery: two(300, 450, 200), back_cover: two(200, 350, 150), speaker: only(150, 150), glass: two(150, 250, 150), charging_flex: two(150, 250, 150), camera: two(300, 500, 200), microphone: only(120, 150), buttons: only(120, 150), connector: only(120, 150) } },
-      { modelCode: 'C67', modelName: 'Realme C67 4G', parts: { display: display(600, 1000, 300), battery: two(350, 500, 200), back_cover: two(250, 400, 150), speaker: only(150, 150), glass: two(150, 250, 150), charging_flex: two(150, 250, 150), camera: two(350, 550, 200), microphone: only(120, 150), buttons: only(120, 150), connector: only(120, 150) } },
-      { modelCode: 'C75', modelName: 'Realme C75', parts: { display: display(600, 1000, 300), battery: two(350, 500, 200), back_cover: two(250, 400, 150), speaker: only(150, 150), glass: two(150, 250, 150), charging_flex: two(150, 250, 150), camera: two(350, 550, 200), microphone: only(120, 150), buttons: only(120, 150), connector: only(120, 150) } },
+      { modelCode: 'C11', modelName: 'Realme C11', parts: { display: display(180, 330, 250), battery: two(200, 350, 150), back_cover: two(150, 250, 150), speaker: only(120, 150), glass: two(120, 200, 150), charging_flex: two(100, 200, 150), camera: two(200, 400, 200), microphone: only(100, 150), buttons: only(100, 150), connector: only(100, 150) } },
+      { modelCode: 'C21Y', modelName: 'Realme C21Y', parts: { display: display(150, 260, 250), battery: two(200, 350, 150), back_cover: two(150, 250, 150), speaker: only(120, 150), glass: two(120, 200, 150), charging_flex: two(100, 200, 150), camera: two(220, 420, 200), microphone: only(100, 150), buttons: only(100, 150), connector: only(100, 150) } },
+      { modelCode: 'C25Y', modelName: 'Realme C25Y', parts: { display: display(150, 260, 250), battery: two(200, 350, 150), back_cover: two(150, 250, 150), speaker: only(120, 150), glass: two(120, 200, 150), charging_flex: two(100, 200, 150), camera: two(220, 420, 200), microphone: only(100, 150), buttons: only(100, 150), connector: only(100, 150) } },
+      { modelCode: 'C30', modelName: 'Realme C30', parts: { display: display(270, 490, 250), battery: two(200, 350, 150), back_cover: two(150, 250, 150), speaker: only(120, 150), glass: two(120, 200, 150), charging_flex: two(100, 200, 150), camera: two(200, 400, 200), microphone: only(100, 150), buttons: only(100, 150), connector: only(100, 150) } },
+      { modelCode: 'C31', modelName: 'Realme C31', parts: { display: display(230, 410, 250), battery: two(200, 350, 150), back_cover: two(150, 250, 150), speaker: only(120, 150), glass: two(120, 200, 150), charging_flex: two(100, 200, 150), camera: two(220, 420, 200), microphone: only(100, 150), buttons: only(100, 150), connector: only(100, 150) } },
+      { modelCode: 'C33', modelName: 'Realme C33', parts: { display: display(260, 470, 250), battery: two(250, 400, 150), back_cover: two(180, 300, 150), speaker: only(150, 150), glass: two(150, 250, 150), charging_flex: two(120, 200, 150), camera: two(250, 450, 200), microphone: only(120, 150), buttons: only(120, 150), connector: only(120, 150) } },
+      { modelCode: 'C35', modelName: 'Realme C35', parts: { display: display(260, 470, 250), battery: two(250, 400, 150), back_cover: two(180, 300, 150), speaker: only(150, 150), glass: two(150, 250, 150), charging_flex: two(120, 200, 150), camera: two(250, 450, 200), microphone: only(120, 150), buttons: only(120, 150), connector: only(120, 150) } },
+      { modelCode: 'C51', modelName: 'Realme C51', parts: { display: display(220, 400, 250), battery: two(250, 400, 150), back_cover: two(180, 300, 150), speaker: only(150, 150), glass: two(150, 250, 150), charging_flex: two(120, 200, 150), camera: two(250, 450, 200), microphone: only(120, 150), buttons: only(120, 150), connector: only(120, 150) } },
+      { modelCode: 'C53', modelName: 'Realme C53', parts: { display: display(180, 320, 250), battery: two(250, 400, 150), back_cover: two(180, 300, 150), speaker: only(150, 150), glass: two(150, 250, 150), charging_flex: two(120, 200, 150), camera: two(250, 450, 200), microphone: only(120, 150), buttons: only(120, 150), connector: only(120, 150) } },
+      { modelCode: 'C55', modelName: 'Realme C55', parts: { display: display(210, 380, 300), battery: two(300, 450, 200), back_cover: two(200, 350, 150), speaker: only(150, 150), glass: two(150, 250, 150), charging_flex: two(150, 250, 150), camera: two(300, 500, 200), microphone: only(120, 150), buttons: only(120, 150), connector: only(120, 150) } },
+      { modelCode: 'C61', modelName: 'Realme C61', parts: { display: display(250, 450, 300), battery: two(300, 450, 200), back_cover: two(200, 350, 150), speaker: only(150, 150), glass: two(150, 250, 150), charging_flex: two(150, 250, 150), camera: two(300, 500, 200), microphone: only(120, 150), buttons: only(120, 150), connector: only(120, 150) } },
+      { modelCode: 'C63', modelName: 'Realme C63', parts: { display: display(230, 420, 300), battery: two(300, 450, 200), back_cover: two(200, 350, 150), speaker: only(150, 150), glass: two(150, 250, 150), charging_flex: two(150, 250, 150), camera: two(300, 500, 200), microphone: only(120, 150), buttons: only(120, 150), connector: only(120, 150) } },
+      { modelCode: 'C65', modelName: 'Realme C65', parts: { display: display(200, 360, 300), battery: two(300, 450, 200), back_cover: two(200, 350, 150), speaker: only(150, 150), glass: two(150, 250, 150), charging_flex: two(150, 250, 150), camera: two(300, 500, 200), microphone: only(120, 150), buttons: only(120, 150), connector: only(120, 150) } },
+      { modelCode: 'C67', modelName: 'Realme C67 4G', parts: { display: display(300, 540, 300), battery: two(350, 500, 200), back_cover: two(250, 400, 150), speaker: only(150, 150), glass: two(150, 250, 150), charging_flex: two(150, 250, 150), camera: two(350, 550, 200), microphone: only(120, 150), buttons: only(120, 150), connector: only(120, 150) } },
+      { modelCode: 'C75', modelName: 'Realme C75', parts: { display: display(190, 340, 300), battery: two(350, 500, 200), back_cover: two(250, 400, 150), speaker: only(150, 150), glass: two(150, 250, 150), charging_flex: two(150, 250, 150), camera: two(350, 550, 200), microphone: only(120, 150), buttons: only(120, 150), connector: only(120, 150) } },
       { modelCode: '7 Pro', modelName: 'Realme 7 Pro', parts: { display: display(600, 1200, 350), battery: two(400, 600, 250), back_cover: two(300, 500, 200), speaker: only(200, 200), glass: two(200, 350, 200), charging_flex: two(150, 250, 150), camera: two(400, 700, 250), microphone: only(150, 150), buttons: only(150, 150), connector: only(150, 150) } },
       { modelCode: '8 Pro', modelName: 'Realme 8 Pro', parts: { display: display(650, 1300, 350), battery: two(400, 600, 250), back_cover: two(300, 500, 200), speaker: only(200, 200), glass: two(200, 350, 200), charging_flex: two(150, 250, 150), camera: two(400, 700, 250), microphone: only(150, 150), buttons: only(150, 150), connector: only(150, 150) } },
       { modelCode: '9 Pro', modelName: 'Realme 9 Pro', parts: { display: display(700, 1400, 350), battery: two(450, 650, 250), back_cover: two(350, 550, 200), speaker: only(200, 200), glass: two(200, 350, 200), charging_flex: two(150, 250, 150), camera: two(450, 750, 250), microphone: only(150, 150), buttons: only(150, 150), connector: only(150, 150) } },
@@ -12434,7 +12434,7 @@ export const brandPartsData: BrandParts[] = [
         modelCode: '3 A3003',
         modelName: '3 A3003',
         parts: {
-          display: display(500, 1000, 250),
+          display: display(400, 730, 250),
           battery: two(450, 800, 150),
           back_cover: two(400, 700, 150),
           speaker: only(350, 150),
@@ -12626,7 +12626,7 @@ export const brandPartsData: BrandParts[] = [
         modelCode: 'Nord N10 5G чорний',
         modelName: 'Nord N10 5G',
         parts: {
-          display: display(500, 1000, 250),
+          display: display(410, 750, 250),
           battery: two(450, 800, 150),
           back_cover: two(400, 700, 150),
           speaker: only(350, 150),
@@ -12642,7 +12642,7 @@ export const brandPartsData: BrandParts[] = [
         modelCode: 'Nord N100 чорний',
         modelName: 'Nord N100',
         parts: {
-          display: display(500, 1000, 250),
+          display: display(250, 460, 250),
           battery: two(450, 800, 150),
           back_cover: two(400, 700, 150),
           speaker: only(350, 150),
@@ -12665,7 +12665,7 @@ export const brandPartsData: BrandParts[] = [
         modelCode: 'M10',
         modelName: 'M10',
         parts: {
-          display: display(350, 600, 200),
+          display: display(250, 460, 200),
           battery: two(300, 400, 150),
           back_cover: two(250, 300, 150),
           speaker: only(200, 150),
@@ -12921,7 +12921,7 @@ export const brandPartsData: BrandParts[] = [
         modelCode: 'U10',
         modelName: 'U10',
         parts: {
-          display: display(350, 600, 200),
+          display: display(560, 1020, 200),
           battery: two(300, 400, 150),
           back_cover: two(250, 300, 150),
           speaker: only(200, 150),
@@ -12937,7 +12937,7 @@ export const brandPartsData: BrandParts[] = [
         modelCode: 'U20',
         modelName: 'U20',
         parts: {
-          display: display(350, 600, 200),
+          display: display(280, 500, 200),
           battery: two(300, 400, 150),
           back_cover: two(250, 300, 150),
           speaker: only(200, 150),
@@ -12976,7 +12976,7 @@ export const brandPartsData: BrandParts[] = [
         modelCode: 'D6603 Xperia Z3',
         modelName: 'D6603 Xperia Z3',
         parts: {
-          display: display(500, 1000, 250),
+          display: display(320, 570, 250),
           battery: two(450, 800, 150),
           back_cover: two(400, 700, 150),
           speaker: only(350, 150),
@@ -12992,7 +12992,7 @@ export const brandPartsData: BrandParts[] = [
         modelCode: 'F3111 Xperia XA',
         modelName: 'F3111 Xperia XA',
         parts: {
-          display: display(500, 1000, 250),
+          display: display(260, 470, 250),
           battery: two(450, 800, 150),
           back_cover: two(400, 700, 150),
           speaker: only(350, 150),
@@ -13008,7 +13008,7 @@ export const brandPartsData: BrandParts[] = [
         modelCode: 'F5121 Xperia X',
         modelName: 'F5121 Xperia X',
         parts: {
-          display: display(500, 1000, 250),
+          display: display(350, 630, 250),
           battery: two(450, 800, 150),
           back_cover: two(400, 700, 150),
           speaker: only(350, 150),
@@ -13024,7 +13024,7 @@ export const brandPartsData: BrandParts[] = [
         modelCode: 'G3112 Xperia XA1 Dual',
         modelName: 'G3112 Xperia XA1 Dual',
         parts: {
-          display: display(500, 1000, 250),
+          display: display(210, 390, 250),
           battery: two(450, 800, 150),
           back_cover: two(400, 700, 150),
           speaker: only(350, 150),
@@ -13040,7 +13040,7 @@ export const brandPartsData: BrandParts[] = [
         modelCode: 'G3412 Xperia XA1 Plus Dual чорний',
         modelName: 'G3412 Xperia XA1 Plus Dual',
         parts: {
-          display: display(500, 1000, 250),
+          display: display(560, 1020, 250),
           battery: two(450, 800, 150),
           back_cover: two(400, 700, 150),
           speaker: only(350, 150),
@@ -13056,7 +13056,7 @@ export const brandPartsData: BrandParts[] = [
         modelCode: 'G8341 Xperia XZ 1',
         modelName: 'G8341 Xperia XZ 1',
         parts: {
-          display: display(500, 1000, 250),
+          display: display(560, 1020, 250),
           battery: two(450, 800, 150),
           back_cover: two(400, 700, 150),
           speaker: only(350, 150),
@@ -13072,7 +13072,7 @@ export const brandPartsData: BrandParts[] = [
         modelCode: 'i3113 Xperia 10',
         modelName: 'i3113 Xperia 10',
         parts: {
-          display: display(500, 1000, 250),
+          display: display(300, 550, 250),
           battery: two(450, 800, 150),
           back_cover: two(400, 700, 150),
           speaker: only(350, 150),
@@ -13278,7 +13278,7 @@ export const brandPartsData: BrandParts[] = [
         modelCode: 'Blade A31 2021',
         modelName: 'Blade A31 2021',
         parts: {
-          display: display(350, 600, 200),
+          display: display(390, 710, 200),
           battery: two(300, 400, 150),
           back_cover: two(250, 300, 150),
           speaker: only(200, 150),
@@ -13294,7 +13294,7 @@ export const brandPartsData: BrandParts[] = [
         modelCode: 'Blade A31 Plus 2021',
         modelName: 'Blade A31 Plus 2021',
         parts: {
-          display: display(350, 600, 200),
+          display: display(390, 710, 200),
           battery: two(300, 400, 150),
           back_cover: two(250, 300, 150),
           speaker: only(200, 150),
@@ -13310,7 +13310,7 @@ export const brandPartsData: BrandParts[] = [
         modelCode: 'Blade A34',
         modelName: 'Blade A34',
         parts: {
-          display: display(350, 600, 200),
+          display: display(920, 1670, 200),
           battery: two(300, 400, 150),
           back_cover: two(250, 300, 150),
           speaker: only(200, 150),
@@ -13326,7 +13326,7 @@ export const brandPartsData: BrandParts[] = [
         modelCode: 'Blade A35',
         modelName: 'Blade A35',
         parts: {
-          display: display(350, 600, 200),
+          display: display(770, 1410, 200),
           battery: two(300, 400, 150),
           back_cover: two(250, 300, 150),
           speaker: only(200, 150),
@@ -13342,7 +13342,7 @@ export const brandPartsData: BrandParts[] = [
         modelCode: 'Blade A36',
         modelName: 'Blade A36',
         parts: {
-          display: display(350, 600, 200),
+          display: display(770, 1400, 200),
           battery: two(300, 400, 150),
           back_cover: two(250, 300, 150),
           speaker: only(200, 150),
@@ -13390,7 +13390,7 @@ export const brandPartsData: BrandParts[] = [
         modelCode: 'Blade A51',
         modelName: 'Blade A51',
         parts: {
-          display: display(350, 600, 200),
+          display: display(470, 850, 200),
           battery: two(300, 400, 150),
           back_cover: two(250, 300, 150),
           speaker: only(200, 150),
@@ -13406,7 +13406,7 @@ export const brandPartsData: BrandParts[] = [
         modelCode: 'Blade A51 Lite',
         modelName: 'Blade A51 Lite',
         parts: {
-          display: display(350, 600, 200),
+          display: display(470, 850, 200),
           battery: two(300, 400, 150),
           back_cover: two(250, 300, 150),
           speaker: only(200, 150),
@@ -13422,7 +13422,7 @@ export const brandPartsData: BrandParts[] = [
         modelCode: 'Blade A52',
         modelName: 'Blade A52',
         parts: {
-          display: display(350, 600, 200),
+          display: display(700, 1270, 200),
           battery: two(300, 400, 150),
           back_cover: two(250, 300, 150),
           speaker: only(200, 150),
@@ -13438,7 +13438,7 @@ export const brandPartsData: BrandParts[] = [
         modelCode: 'Blade A53',
         modelName: 'Blade A53',
         parts: {
-          display: display(350, 600, 200),
+          display: display(630, 1140, 200),
           battery: two(300, 400, 150),
           back_cover: two(250, 300, 150),
           speaker: only(200, 150),
@@ -13454,7 +13454,7 @@ export const brandPartsData: BrandParts[] = [
         modelCode: 'Blade A54',
         modelName: 'Blade A54',
         parts: {
-          display: display(350, 600, 200),
+          display: display(660, 1210, 200),
           battery: two(300, 400, 150),
           back_cover: two(250, 300, 150),
           speaker: only(200, 150),
@@ -13470,7 +13470,7 @@ export const brandPartsData: BrandParts[] = [
         modelCode: 'Blade A55',
         modelName: 'Blade A55',
         parts: {
-          display: display(350, 600, 200),
+          display: display(640, 1160, 200),
           battery: two(300, 400, 150),
           back_cover: two(250, 300, 150),
           speaker: only(200, 150),
@@ -13502,7 +13502,7 @@ export const brandPartsData: BrandParts[] = [
         modelCode: 'Blade A71',
         modelName: 'Blade A71',
         parts: {
-          display: display(350, 600, 200),
+          display: display(530, 960, 200),
           battery: two(300, 400, 150),
           back_cover: two(250, 300, 150),
           speaker: only(200, 150),
@@ -13518,7 +13518,7 @@ export const brandPartsData: BrandParts[] = [
         modelCode: 'Blade A72 4G',
         modelName: 'Blade A72 4G',
         parts: {
-          display: display(350, 600, 200),
+          display: display(640, 1160, 200),
           battery: two(300, 400, 150),
           back_cover: two(250, 300, 150),
           speaker: only(200, 150),
@@ -13534,7 +13534,7 @@ export const brandPartsData: BrandParts[] = [
         modelCode: 'Blade A72 5G',
         modelName: 'Blade A72 5G',
         parts: {
-          display: display(350, 600, 200),
+          display: display(640, 1160, 200),
           battery: two(300, 400, 150),
           back_cover: two(250, 300, 150),
           speaker: only(200, 150),
@@ -13550,7 +13550,7 @@ export const brandPartsData: BrandParts[] = [
         modelCode: 'Blade A72s',
         modelName: 'Blade A72s',
         parts: {
-          display: display(350, 600, 200),
+          display: display(240, 440, 200),
           battery: two(300, 400, 150),
           back_cover: two(250, 300, 150),
           speaker: only(200, 150),
@@ -13566,7 +13566,7 @@ export const brandPartsData: BrandParts[] = [
         modelCode: 'Blade A73 4G',
         modelName: 'Blade A73 4G',
         parts: {
-          display: display(350, 600, 200),
+          display: display(460, 830, 200),
           battery: two(300, 400, 150),
           back_cover: two(250, 300, 150),
           speaker: only(200, 150),
@@ -13582,7 +13582,7 @@ export const brandPartsData: BrandParts[] = [
         modelCode: 'Blade A73 5G',
         modelName: 'Blade A73 5G',
         parts: {
-          display: display(350, 600, 200),
+          display: display(460, 830, 200),
           battery: two(300, 400, 150),
           back_cover: two(250, 300, 150),
           speaker: only(200, 150),
@@ -13598,7 +13598,7 @@ export const brandPartsData: BrandParts[] = [
         modelCode: 'Blade A75 4G',
         modelName: 'Blade A75 4G',
         parts: {
-          display: display(350, 600, 200),
+          display: display(300, 550, 200),
           battery: two(300, 400, 150),
           back_cover: two(250, 300, 150),
           speaker: only(200, 150),
@@ -13614,7 +13614,7 @@ export const brandPartsData: BrandParts[] = [
         modelCode: 'Blade A75 5G',
         modelName: 'Blade A75 5G',
         parts: {
-          display: display(350, 600, 200),
+          display: display(300, 550, 200),
           battery: two(300, 400, 150),
           back_cover: two(250, 300, 150),
           speaker: only(200, 150),
@@ -13630,7 +13630,7 @@ export const brandPartsData: BrandParts[] = [
         modelCode: 'Blade A76 4G',
         modelName: 'Blade A76 4G',
         parts: {
-          display: display(350, 600, 200),
+          display: display(290, 530, 200),
           battery: two(300, 400, 150),
           back_cover: two(250, 300, 150),
           speaker: only(200, 150),
@@ -13646,7 +13646,7 @@ export const brandPartsData: BrandParts[] = [
         modelCode: 'Blade A76 5G',
         modelName: 'Blade A76 5G',
         parts: {
-          display: display(350, 600, 200),
+          display: display(290, 530, 200),
           battery: two(300, 400, 150),
           back_cover: two(250, 300, 150),
           speaker: only(200, 150),
@@ -13678,7 +13678,7 @@ export const brandPartsData: BrandParts[] = [
         modelCode: 'Blade L220',
         modelName: 'Blade L220',
         parts: {
-          display: display(350, 600, 200),
+          display: display(290, 530, 200),
           battery: two(300, 400, 150),
           back_cover: two(250, 300, 150),
           speaker: only(200, 150),
@@ -13710,7 +13710,7 @@ export const brandPartsData: BrandParts[] = [
         modelCode: 'Blade V10',
         modelName: 'Blade V10',
         parts: {
-          display: display(350, 600, 200),
+          display: display(320, 580, 200),
           battery: two(300, 400, 150),
           back_cover: two(250, 300, 150),
           speaker: only(200, 150),
@@ -13726,7 +13726,7 @@ export const brandPartsData: BrandParts[] = [
         modelCode: 'Blade V10 Vita',
         modelName: 'Blade V10 Vita',
         parts: {
-          display: display(350, 600, 200),
+          display: display(320, 580, 200),
           battery: two(300, 400, 150),
           back_cover: two(250, 300, 150),
           speaker: only(200, 150),
@@ -13742,7 +13742,7 @@ export const brandPartsData: BrandParts[] = [
         modelCode: 'Blade V2020 Smart',
         modelName: 'Blade V2020 Smart',
         parts: {
-          display: display(350, 600, 200),
+          display: display(190, 340, 200),
           battery: two(300, 400, 150),
           back_cover: two(250, 300, 150),
           speaker: only(200, 150),
@@ -13758,7 +13758,7 @@ export const brandPartsData: BrandParts[] = [
         modelCode: 'Blade V2020 Smart 8010',
         modelName: 'Blade V2020 Smart 8010',
         parts: {
-          display: display(350, 600, 200),
+          display: display(190, 340, 200),
           battery: two(300, 400, 150),
           back_cover: two(250, 300, 150),
           speaker: only(200, 150),
@@ -13774,7 +13774,7 @@ export const brandPartsData: BrandParts[] = [
         modelCode: 'Blade V30',
         modelName: 'Blade V30',
         parts: {
-          display: display(350, 600, 200),
+          display: display(240, 440, 200),
           battery: two(300, 400, 150),
           back_cover: two(250, 300, 150),
           speaker: only(200, 150),
@@ -13790,7 +13790,7 @@ export const brandPartsData: BrandParts[] = [
         modelCode: 'Blade V30 Vita',
         modelName: 'Blade V30 Vita',
         parts: {
-          display: display(350, 600, 200),
+          display: display(240, 440, 200),
           battery: two(300, 400, 150),
           back_cover: two(250, 300, 150),
           speaker: only(200, 150),
@@ -13806,7 +13806,7 @@ export const brandPartsData: BrandParts[] = [
         modelCode: 'Blade V40',
         modelName: 'Blade V40',
         parts: {
-          display: display(350, 600, 200),
+          display: display(500, 910, 200),
           battery: two(300, 400, 150),
           back_cover: two(250, 300, 150),
           speaker: only(200, 150),
@@ -13822,7 +13822,7 @@ export const brandPartsData: BrandParts[] = [
         modelCode: 'Blade V40 Pro',
         modelName: 'Blade V40 Pro',
         parts: {
-          display: display(350, 600, 200),
+          display: display(500, 910, 200),
           battery: two(300, 400, 150),
           back_cover: two(250, 300, 150),
           speaker: only(200, 150),
@@ -13838,7 +13838,7 @@ export const brandPartsData: BrandParts[] = [
         modelCode: 'Blade V40 Vita',
         modelName: 'Blade V40 Vita',
         parts: {
-          display: display(350, 600, 200),
+          display: display(500, 910, 200),
           battery: two(300, 400, 150),
           back_cover: two(250, 300, 150),
           speaker: only(200, 150),
@@ -13854,7 +13854,7 @@ export const brandPartsData: BrandParts[] = [
         modelCode: 'Blade V40s',
         modelName: 'Blade V40s',
         parts: {
-          display: display(350, 600, 200),
+          display: display(650, 1190, 200),
           battery: two(300, 400, 150),
           back_cover: two(250, 300, 150),
           speaker: only(200, 150),
@@ -13870,7 +13870,7 @@ export const brandPartsData: BrandParts[] = [
         modelCode: 'Blade V50 Design 4G',
         modelName: 'Blade V50 Design 4G',
         parts: {
-          display: display(350, 600, 200),
+          display: display(250, 450, 200),
           battery: two(300, 400, 150),
           back_cover: two(250, 300, 150),
           speaker: only(200, 150),
@@ -13886,7 +13886,7 @@ export const brandPartsData: BrandParts[] = [
         modelCode: 'Blade V50 Vita',
         modelName: 'Blade V50 Vita',
         parts: {
-          display: display(350, 600, 200),
+          display: display(250, 450, 200),
           battery: two(300, 400, 150),
           back_cover: two(250, 300, 150),
           speaker: only(200, 150),
@@ -13902,7 +13902,7 @@ export const brandPartsData: BrandParts[] = [
         modelCode: 'Blade V60 Design',
         modelName: 'Blade V60 Design',
         parts: {
-          display: display(350, 600, 200),
+          display: display(340, 620, 200),
           battery: two(300, 400, 150),
           back_cover: two(250, 300, 150),
           speaker: only(200, 150),
@@ -13918,7 +13918,7 @@ export const brandPartsData: BrandParts[] = [
         modelCode: 'Blade V70 Design',
         modelName: 'Blade V70 Design',
         parts: {
-          display: display(350, 600, 200),
+          display: display(330, 590, 200),
           battery: two(300, 400, 150),
           back_cover: two(250, 300, 150),
           speaker: only(200, 150),
@@ -13998,7 +13998,7 @@ export const brandPartsData: BrandParts[] = [
         modelCode: 'Nubia M2 X551J OLED',
         modelName: 'Nubia M2 X551J',
         parts: {
-          display: display(350, 600, 200),
+          display: display(700, 1270, 200),
           battery: two(300, 400, 150),
           back_cover: two(250, 300, 150),
           speaker: only(200, 150),
@@ -14142,7 +14142,7 @@ export const brandPartsData: BrandParts[] = [
         modelCode: 'Nubia V60',
         modelName: 'Nubia V60',
         parts: {
-          display: display(350, 600, 200),
+          display: display(340, 620, 200),
           battery: two(300, 400, 150),
           back_cover: two(250, 300, 150),
           speaker: only(200, 150),
@@ -14158,7 +14158,7 @@ export const brandPartsData: BrandParts[] = [
         modelCode: 'Nubia V60 Design',
         modelName: 'Nubia V60 Design',
         parts: {
-          display: display(350, 600, 200),
+          display: display(340, 620, 200),
           battery: two(300, 400, 150),
           back_cover: two(250, 300, 150),
           speaker: only(200, 150),
@@ -14174,7 +14174,7 @@ export const brandPartsData: BrandParts[] = [
         modelCode: 'Nubia V70',
         modelName: 'Nubia V70',
         parts: {
-          display: display(350, 600, 200),
+          display: display(330, 590, 200),
           battery: two(300, 400, 150),
           back_cover: two(250, 300, 150),
           speaker: only(200, 150),
@@ -14190,7 +14190,7 @@ export const brandPartsData: BrandParts[] = [
         modelCode: 'Nubia V70 Max',
         modelName: 'Nubia V70 Max',
         parts: {
-          display: display(350, 600, 200),
+          display: display(330, 590, 200),
           battery: two(300, 400, 150),
           back_cover: two(250, 300, 150),
           speaker: only(200, 150),
@@ -14773,7 +14773,7 @@ export const brandPartsData: BrandParts[] = [
         modelCode: 'Smart 6 X6511 чорний',
         modelName: 'Smart 6 X6511',
         parts: {
-          display: display(350, 600, 200),
+          display: display(180, 330, 200),
           battery: two(300, 400, 150),
           back_cover: two(250, 300, 150),
           speaker: only(200, 150),
@@ -14789,7 +14789,7 @@ export const brandPartsData: BrandParts[] = [
         modelCode: 'Smart 7 X6515 чорний',
         modelName: 'Smart 7 X6515',
         parts: {
-          display: display(350, 600, 200),
+          display: display(180, 320, 200),
           battery: two(300, 400, 150),
           back_cover: two(250, 300, 150),
           speaker: only(200, 150),
@@ -14821,7 +14821,7 @@ export const brandPartsData: BrandParts[] = [
         modelCode: 'Smart 8 Plus X6526 чорний',
         modelName: 'Smart 8 Plus X6526',
         parts: {
-          display: display(350, 600, 200),
+          display: display(260, 470, 200),
           battery: two(300, 400, 150),
           back_cover: two(250, 300, 150),
           speaker: only(200, 150),
@@ -14837,7 +14837,7 @@ export const brandPartsData: BrandParts[] = [
         modelCode: 'Smart 8 X6525 чорний',
         modelName: 'Smart 8 X6525',
         parts: {
-          display: display(350, 600, 200),
+          display: display(180, 330, 200),
           battery: two(300, 400, 150),
           back_cover: two(250, 300, 150),
           speaker: only(200, 150),
@@ -16003,7 +16003,7 @@ export const brandPartsData: BrandParts[] = [
         modelCode: 'A100 чорний',
         modelName: 'A100',
         parts: {
-          display: display(350, 600, 200),
+          display: display(350, 640, 200),
           battery: two(300, 400, 150),
           back_cover: two(250, 300, 150),
           speaker: only(200, 150),
@@ -16019,7 +16019,7 @@ export const brandPartsData: BrandParts[] = [
         modelCode: 'A30 чорний',
         modelName: 'A30',
         parts: {
-          display: display(350, 600, 200),
+          display: display(380, 690, 200),
           battery: two(300, 400, 150),
           back_cover: two(250, 300, 150),
           speaker: only(200, 150),
@@ -16035,7 +16035,7 @@ export const brandPartsData: BrandParts[] = [
         modelCode: 'A50 чорний',
         modelName: 'A50',
         parts: {
-          display: display(350, 600, 200),
+          display: display(660, 1200, 200),
           battery: two(300, 400, 150),
           back_cover: two(250, 300, 150),
           speaker: only(200, 150),
@@ -16051,7 +16051,7 @@ export const brandPartsData: BrandParts[] = [
         modelCode: 'A52',
         modelName: 'A52',
         parts: {
-          display: display(350, 600, 200),
+          display: display(700, 1270, 200),
           battery: two(300, 400, 150),
           back_cover: two(250, 300, 150),
           speaker: only(200, 150),
@@ -16067,7 +16067,7 @@ export const brandPartsData: BrandParts[] = [
         modelCode: 'A53',
         modelName: 'A53',
         parts: {
-          display: display(350, 600, 200),
+          display: display(630, 1140, 200),
           battery: two(300, 400, 150),
           back_cover: two(250, 300, 150),
           speaker: only(200, 150),
@@ -16083,7 +16083,7 @@ export const brandPartsData: BrandParts[] = [
         modelCode: 'A55',
         modelName: 'A55',
         parts: {
-          display: display(350, 600, 200),
+          display: display(640, 1160, 200),
           battery: two(300, 400, 150),
           back_cover: two(250, 300, 150),
           speaker: only(200, 150),
@@ -16099,7 +16099,7 @@ export const brandPartsData: BrandParts[] = [
         modelCode: 'A60',
         modelName: 'A60',
         parts: {
-          display: display(350, 600, 200),
+          display: display(250, 450, 200),
           battery: two(300, 400, 150),
           back_cover: two(250, 300, 150),
           speaker: only(200, 150),
@@ -16115,7 +16115,7 @@ export const brandPartsData: BrandParts[] = [
         modelCode: 'A70',
         modelName: 'A70',
         parts: {
-          display: display(350, 600, 200),
+          display: display(530, 970, 200),
           battery: two(300, 400, 150),
           back_cover: two(250, 300, 150),
           speaker: only(200, 150),
@@ -16131,7 +16131,7 @@ export const brandPartsData: BrandParts[] = [
         modelCode: 'A80',
         modelName: 'A80',
         parts: {
-          display: display(350, 600, 200),
+          display: display(290, 520, 200),
           battery: two(300, 400, 150),
           back_cover: two(250, 300, 150),
           speaker: only(200, 150),
@@ -16147,7 +16147,7 @@ export const brandPartsData: BrandParts[] = [
         modelCode: 'A80 Pro',
         modelName: 'A80 Pro',
         parts: {
-          display: display(350, 600, 200),
+          display: display(290, 520, 200),
           battery: two(300, 400, 150),
           back_cover: two(250, 300, 150),
           speaker: only(200, 150),
@@ -16163,7 +16163,7 @@ export const brandPartsData: BrandParts[] = [
         modelCode: 'A85 чорний',
         modelName: 'A85',
         parts: {
-          display: display(350, 600, 200),
+          display: display(310, 560, 200),
           battery: two(300, 400, 150),
           back_cover: two(250, 300, 150),
           speaker: only(200, 150),
@@ -16179,7 +16179,7 @@ export const brandPartsData: BrandParts[] = [
         modelCode: 'A90 чорний',
         modelName: 'A90',
         parts: {
-          display: display(350, 600, 200),
+          display: display(280, 510, 200),
           battery: two(300, 400, 150),
           back_cover: two(250, 300, 150),
           speaker: only(200, 150),
@@ -16195,7 +16195,7 @@ export const brandPartsData: BrandParts[] = [
         modelCode: 'A95 чорний',
         modelName: 'A95',
         parts: {
-          display: display(350, 600, 200),
+          display: display(460, 830, 200),
           battery: two(300, 400, 150),
           back_cover: two(250, 300, 150),
           speaker: only(200, 150),
@@ -16595,7 +16595,7 @@ export const brandPartsData: BrandParts[] = [
         modelCode: 'Oscal C20',
         modelName: 'Oscal C20',
         parts: {
-          display: display(350, 600, 200),
+          display: display(270, 480, 200),
           battery: two(300, 400, 150),
           back_cover: two(250, 300, 150),
           speaker: only(200, 150),
@@ -16611,7 +16611,7 @@ export const brandPartsData: BrandParts[] = [
         modelCode: 'Oscal C70',
         modelName: 'Oscal C70',
         parts: {
-          display: display(350, 600, 200),
+          display: display(280, 500, 200),
           battery: two(300, 400, 150),
           back_cover: two(250, 300, 150),
           speaker: only(200, 150),
@@ -16627,7 +16627,7 @@ export const brandPartsData: BrandParts[] = [
         modelCode: 'Oscal C80 чорний',
         modelName: 'Oscal C80',
         parts: {
-          display: display(350, 600, 200),
+          display: display(290, 530, 200),
           battery: two(300, 400, 150),
           back_cover: two(250, 300, 150),
           speaker: only(200, 150),
@@ -16739,7 +16739,7 @@ export const brandPartsData: BrandParts[] = [
         modelCode: 'Oscal S60',
         modelName: 'Oscal S60',
         parts: {
-          display: display(350, 600, 200),
+          display: display(380, 700, 200),
           battery: two(300, 400, 150),
           back_cover: two(250, 300, 150),
           speaker: only(200, 150),
@@ -17258,7 +17258,7 @@ export const brandPartsData: BrandParts[] = [
         modelCode: 'N20',
         modelName: 'N20',
         parts: {
-          display: display(350, 600, 200),
+          display: display(580, 1050, 200),
           battery: two(300, 400, 150),
           back_cover: two(250, 300, 150),
           speaker: only(200, 150),
@@ -17274,7 +17274,7 @@ export const brandPartsData: BrandParts[] = [
         modelCode: 'N30 чорний',
         modelName: 'N30',
         parts: {
-          display: display(350, 600, 200),
+          display: display(350, 630, 200),
           battery: two(300, 400, 150),
           back_cover: two(250, 300, 150),
           speaker: only(200, 150),
@@ -17290,7 +17290,7 @@ export const brandPartsData: BrandParts[] = [
         modelCode: 'N40 Pro чорний',
         modelName: 'N40 Pro',
         parts: {
-          display: display(350, 600, 200),
+          display: display(400, 720, 200),
           battery: two(300, 400, 150),
           back_cover: two(250, 300, 150),
           speaker: only(200, 150),
@@ -17322,7 +17322,7 @@ export const brandPartsData: BrandParts[] = [
         modelCode: 'N55',
         modelName: 'N55',
         parts: {
-          display: display(350, 600, 200),
+          display: display(220, 400, 200),
           battery: two(300, 400, 150),
           back_cover: two(250, 300, 150),
           speaker: only(200, 150),
@@ -17370,7 +17370,7 @@ export const brandPartsData: BrandParts[] = [
         modelCode: 'S110',
         modelName: 'S110',
         parts: {
-          display: display(350, 600, 200),
+          display: display(490, 890, 200),
           battery: two(300, 400, 150),
           back_cover: two(250, 300, 150),
           speaker: only(200, 150),
@@ -17386,7 +17386,7 @@ export const brandPartsData: BrandParts[] = [
         modelCode: 'S118',
         modelName: 'S118',
         parts: {
-          display: display(350, 600, 200),
+          display: display(370, 680, 200),
           battery: two(300, 400, 150),
           back_cover: two(250, 300, 150),
           speaker: only(200, 150),
@@ -17402,7 +17402,7 @@ export const brandPartsData: BrandParts[] = [
         modelCode: 'S200 чорний',
         modelName: 'S200',
         parts: {
-          display: display(350, 600, 200),
+          display: display(440, 800, 200),
           battery: two(300, 400, 150),
           back_cover: two(250, 300, 150),
           speaker: only(200, 150),
@@ -17418,7 +17418,7 @@ export const brandPartsData: BrandParts[] = [
         modelCode: 'S40',
         modelName: 'S40',
         parts: {
-          display: display(350, 600, 200),
+          display: display(400, 720, 200),
           battery: two(300, 400, 150),
           back_cover: two(250, 300, 150),
           speaker: only(200, 150),
@@ -17434,7 +17434,7 @@ export const brandPartsData: BrandParts[] = [
         modelCode: 'S41',
         modelName: 'S41',
         parts: {
-          display: display(350, 600, 200),
+          display: display(370, 680, 200),
           battery: two(300, 400, 150),
           back_cover: two(250, 300, 150),
           speaker: only(200, 150),
@@ -17450,7 +17450,7 @@ export const brandPartsData: BrandParts[] = [
         modelCode: 'S51 чорний',
         modelName: 'S51',
         parts: {
-          display: display(350, 600, 200),
+          display: display(370, 680, 200),
           battery: two(300, 400, 150),
           back_cover: two(250, 300, 150),
           speaker: only(200, 150),
@@ -17466,7 +17466,7 @@ export const brandPartsData: BrandParts[] = [
         modelCode: 'S58 Pro чорний',
         modelName: 'S58 Pro',
         parts: {
-          display: display(350, 600, 200),
+          display: display(380, 690, 200),
           battery: two(300, 400, 150),
           back_cover: two(250, 300, 150),
           speaker: only(200, 150),
@@ -17482,7 +17482,7 @@ export const brandPartsData: BrandParts[] = [
         modelCode: 'S59',
         modelName: 'S59',
         parts: {
-          display: display(350, 600, 200),
+          display: display(370, 670, 200),
           battery: two(300, 400, 150),
           back_cover: two(250, 300, 150),
           speaker: only(200, 150),
@@ -17498,7 +17498,7 @@ export const brandPartsData: BrandParts[] = [
         modelCode: 'S60',
         modelName: 'S60',
         parts: {
-          display: display(350, 600, 200),
+          display: display(380, 700, 200),
           battery: two(300, 400, 150),
           back_cover: two(250, 300, 150),
           speaker: only(200, 150),
@@ -17514,7 +17514,7 @@ export const brandPartsData: BrandParts[] = [
         modelCode: 'S61',
         modelName: 'S61',
         parts: {
-          display: display(350, 600, 200),
+          display: display(380, 680, 200),
           battery: two(300, 400, 150),
           back_cover: two(250, 300, 150),
           speaker: only(200, 150),
@@ -17530,7 +17530,7 @@ export const brandPartsData: BrandParts[] = [
         modelCode: 'S68',
         modelName: 'S68',
         parts: {
-          display: display(350, 600, 200),
+          display: display(380, 680, 200),
           battery: two(300, 400, 150),
           back_cover: two(250, 300, 150),
           speaker: only(200, 150),
@@ -17546,7 +17546,7 @@ export const brandPartsData: BrandParts[] = [
         modelCode: 'S70',
         modelName: 'S70',
         parts: {
-          display: display(350, 600, 200),
+          display: display(410, 740, 200),
           battery: two(300, 400, 150),
           back_cover: two(250, 300, 150),
           speaker: only(200, 150),
@@ -17562,7 +17562,7 @@ export const brandPartsData: BrandParts[] = [
         modelCode: 'S86',
         modelName: 'S86',
         parts: {
-          display: display(350, 600, 200),
+          display: display(370, 670, 200),
           battery: two(300, 400, 150),
           back_cover: two(250, 300, 150),
           speaker: only(200, 150),
@@ -17578,7 +17578,7 @@ export const brandPartsData: BrandParts[] = [
         modelCode: 'S88',
         modelName: 'S88',
         parts: {
-          display: display(350, 600, 200),
+          display: display(390, 720, 200),
           battery: two(300, 400, 150),
           back_cover: two(250, 300, 150),
           speaker: only(200, 150),
@@ -17594,7 +17594,7 @@ export const brandPartsData: BrandParts[] = [
         modelCode: 'S89',
         modelName: 'S89',
         parts: {
-          display: display(350, 600, 200),
+          display: display(430, 790, 200),
           battery: two(300, 400, 150),
           back_cover: two(250, 300, 150),
           speaker: only(200, 150),
@@ -17610,7 +17610,7 @@ export const brandPartsData: BrandParts[] = [
         modelCode: 'S90 чорний',
         modelName: 'S90',
         parts: {
-          display: display(350, 600, 200),
+          display: display(620, 1120, 200),
           battery: two(300, 400, 150),
           back_cover: two(250, 300, 150),
           speaker: only(200, 150),
@@ -17626,7 +17626,7 @@ export const brandPartsData: BrandParts[] = [
         modelCode: 'S95',
         modelName: 'S95',
         parts: {
-          display: display(350, 600, 200),
+          display: display(480, 870, 200),
           battery: two(300, 400, 150),
           back_cover: two(250, 300, 150),
           speaker: only(200, 150),
@@ -17642,7 +17642,7 @@ export const brandPartsData: BrandParts[] = [
         modelCode: 'S96 Pro',
         modelName: 'S96 Pro',
         parts: {
-          display: display(350, 600, 200),
+          display: display(350, 640, 200),
           battery: two(300, 400, 150),
           back_cover: two(250, 300, 150),
           speaker: only(200, 150),
@@ -17658,7 +17658,7 @@ export const brandPartsData: BrandParts[] = [
         modelCode: 'S97 Pro',
         modelName: 'S97 Pro',
         parts: {
-          display: display(350, 600, 200),
+          display: display(430, 790, 200),
           battery: two(300, 400, 150),
           back_cover: two(250, 300, 150),
           speaker: only(200, 150),
@@ -17674,7 +17674,7 @@ export const brandPartsData: BrandParts[] = [
         modelCode: 'S98',
         modelName: 'S98',
         parts: {
-          display: display(350, 600, 200),
+          display: display(370, 680, 200),
           battery: two(300, 400, 150),
           back_cover: two(250, 300, 150),
           speaker: only(200, 150),
@@ -17690,7 +17690,7 @@ export const brandPartsData: BrandParts[] = [
         modelCode: 'T10s 10.1" чорний',
         modelName: 'T10s',
         parts: {
-          display: display(350, 600, 200),
+          display: display(530, 970, 200),
           battery: two(300, 400, 150),
           back_cover: two(250, 300, 150),
           speaker: only(200, 150),
@@ -17706,7 +17706,7 @@ export const brandPartsData: BrandParts[] = [
         modelCode: 'U11 11" чорний',
         modelName: 'U11 11"',
         parts: {
-          display: display(350, 600, 200),
+          display: display(1020, 1860, 200),
           battery: two(300, 400, 150),
           back_cover: two(250, 300, 150),
           speaker: only(200, 150),
@@ -17722,7 +17722,7 @@ export const brandPartsData: BrandParts[] = [
         modelCode: 'V10 чорний',
         modelName: 'V10',
         parts: {
-          display: display(350, 600, 200),
+          display: display(320, 580, 200),
           battery: two(300, 400, 150),
           back_cover: two(250, 300, 150),
           speaker: only(200, 150),
@@ -17738,7 +17738,7 @@ export const brandPartsData: BrandParts[] = [
         modelCode: 'V30',
         modelName: 'V30',
         parts: {
-          display: display(350, 600, 200),
+          display: display(240, 440, 200),
           battery: two(300, 400, 150),
           back_cover: two(250, 300, 150),
           speaker: only(200, 150),
@@ -17754,7 +17754,7 @@ export const brandPartsData: BrandParts[] = [
         modelCode: 'X53 чорний',
         modelName: 'X53',
         parts: {
-          display: display(350, 600, 200),
+          display: display(280, 520, 200),
           battery: two(300, 400, 150),
           back_cover: two(250, 300, 150),
           speaker: only(200, 150),
@@ -17770,7 +17770,7 @@ export const brandPartsData: BrandParts[] = [
         modelCode: 'X60L',
         modelName: 'X60L',
         parts: {
-          display: display(350, 600, 200),
+          display: display(440, 810, 200),
           battery: two(300, 400, 150),
           back_cover: two(250, 300, 150),
           speaker: only(200, 150),
@@ -17786,7 +17786,7 @@ export const brandPartsData: BrandParts[] = [
         modelCode: 'X95',
         modelName: 'X95',
         parts: {
-          display: display(350, 600, 200),
+          display: display(390, 720, 200),
           battery: two(300, 400, 150),
           back_cover: two(250, 300, 150),
           speaker: only(200, 150),
@@ -17802,7 +17802,7 @@ export const brandPartsData: BrandParts[] = [
         modelCode: 'X97',
         modelName: 'X97',
         parts: {
-          display: display(350, 600, 200),
+          display: display(620, 1120, 200),
           battery: two(300, 400, 150),
           back_cover: two(250, 300, 150),
           speaker: only(200, 150),
@@ -17818,7 +17818,7 @@ export const brandPartsData: BrandParts[] = [
         modelCode: 'X98',
         modelName: 'X98',
         parts: {
-          display: display(350, 600, 200),
+          display: display(440, 810, 200),
           battery: two(300, 400, 150),
           back_cover: two(250, 300, 150),
           speaker: only(200, 150),
@@ -17873,7 +17873,7 @@ export const brandPartsData: BrandParts[] = [
         modelCode: 'C18 Pro чорний',
         modelName: 'C18 Pro',
         parts: {
-          display: display(350, 600, 200),
+          display: display(350, 640, 200),
           battery: two(300, 400, 150),
           back_cover: two(250, 300, 150),
           speaker: only(200, 150),
@@ -17889,7 +17889,7 @@ export const brandPartsData: BrandParts[] = [
         modelCode: 'C19',
         modelName: 'C19',
         parts: {
-          display: display(350, 600, 200),
+          display: display(390, 720, 200),
           battery: two(300, 400, 150),
           back_cover: two(250, 300, 150),
           speaker: only(200, 150),
@@ -17905,7 +17905,7 @@ export const brandPartsData: BrandParts[] = [
         modelCode: 'C21 Pro чорний',
         modelName: 'C21 Pro',
         parts: {
-          display: display(350, 600, 200),
+          display: display(260, 470, 200),
           battery: two(300, 400, 150),
           back_cover: two(250, 300, 150),
           speaker: only(200, 150),
@@ -17921,7 +17921,7 @@ export const brandPartsData: BrandParts[] = [
         modelCode: 'C21 чорний',
         modelName: 'C21',
         parts: {
-          display: display(350, 600, 200),
+          display: display(260, 470, 200),
           battery: two(300, 400, 150),
           back_cover: two(250, 300, 150),
           speaker: only(200, 150),
@@ -17937,7 +17937,7 @@ export const brandPartsData: BrandParts[] = [
         modelCode: 'C23 Pro чорний',
         modelName: 'C23 Pro',
         parts: {
-          display: display(350, 600, 200),
+          display: display(410, 750, 200),
           battery: two(300, 400, 150),
           back_cover: two(250, 300, 150),
           speaker: only(200, 150),
@@ -17953,7 +17953,7 @@ export const brandPartsData: BrandParts[] = [
         modelCode: 'C31',
         modelName: 'C31',
         parts: {
-          display: display(350, 600, 200),
+          display: display(230, 410, 200),
           battery: two(300, 400, 150),
           back_cover: two(250, 300, 150),
           speaker: only(200, 150),
@@ -17969,7 +17969,7 @@ export const brandPartsData: BrandParts[] = [
         modelCode: 'C32 чорний',
         modelName: 'C32',
         parts: {
-          display: display(350, 600, 200),
+          display: display(270, 480, 200),
           battery: two(300, 400, 150),
           back_cover: two(250, 300, 150),
           speaker: only(200, 150),
@@ -17985,7 +17985,7 @@ export const brandPartsData: BrandParts[] = [
         modelCode: 'C33 чорний',
         modelName: 'C33',
         parts: {
-          display: display(350, 600, 200),
+          display: display(260, 470, 200),
           battery: two(300, 400, 150),
           back_cover: two(250, 300, 150),
           speaker: only(200, 150),
@@ -18001,7 +18001,7 @@ export const brandPartsData: BrandParts[] = [
         modelCode: 'C35',
         modelName: 'C35',
         parts: {
-          display: display(350, 600, 200),
+          display: display(260, 470, 200),
           battery: two(300, 400, 150),
           back_cover: two(250, 300, 150),
           speaker: only(200, 150),
@@ -18017,7 +18017,7 @@ export const brandPartsData: BrandParts[] = [
         modelCode: 'C38 чорний',
         modelName: 'C38',
         parts: {
-          display: display(350, 600, 200),
+          display: display(360, 650, 200),
           battery: two(300, 400, 150),
           back_cover: two(250, 300, 150),
           speaker: only(200, 150),
@@ -18033,7 +18033,7 @@ export const brandPartsData: BrandParts[] = [
         modelCode: 'C50 чорний',
         modelName: 'C50',
         parts: {
-          display: display(350, 600, 200),
+          display: display(310, 560, 200),
           battery: two(300, 400, 150),
           back_cover: two(250, 300, 150),
           speaker: only(200, 150),
@@ -18049,7 +18049,7 @@ export const brandPartsData: BrandParts[] = [
         modelCode: 'C51 чорний',
         modelName: 'C51',
         parts: {
-          display: display(350, 600, 200),
+          display: display(220, 400, 200),
           battery: two(300, 400, 150),
           back_cover: two(250, 300, 150),
           speaker: only(200, 150),
@@ -18065,7 +18065,7 @@ export const brandPartsData: BrandParts[] = [
         modelCode: 'C59 Pro',
         modelName: 'C59 Pro',
         parts: {
-          display: display(350, 600, 200),
+          display: display(340, 620, 200),
           battery: two(300, 400, 150),
           back_cover: two(250, 300, 150),
           speaker: only(200, 150),
@@ -18081,7 +18081,7 @@ export const brandPartsData: BrandParts[] = [
         modelCode: 'F150 B1',
         modelName: 'F150 B1',
         parts: {
-          display: display(350, 600, 200),
+          display: display(390, 700, 200),
           battery: two(300, 400, 150),
           back_cover: two(250, 300, 150),
           speaker: only(200, 150),
@@ -18097,7 +18097,7 @@ export const brandPartsData: BrandParts[] = [
         modelCode: 'F150 Bison 2021 чорний',
         modelName: 'F150 Bison 2021',
         parts: {
-          display: display(350, 600, 200),
+          display: display(390, 700, 200),
           battery: two(300, 400, 150),
           back_cover: two(250, 300, 150),
           speaker: only(200, 150),
@@ -18113,7 +18113,7 @@ export const brandPartsData: BrandParts[] = [
         modelCode: 'F150 H2022 чорний',
         modelName: 'F150 H2022',
         parts: {
-          display: display(350, 600, 200),
+          display: display(390, 700, 200),
           battery: two(300, 400, 150),
           back_cover: two(250, 300, 150),
           speaker: only(200, 150),
@@ -18129,7 +18129,7 @@ export const brandPartsData: BrandParts[] = [
         modelCode: 'F150 R2022',
         modelName: 'F150 R2022',
         parts: {
-          display: display(350, 600, 200),
+          display: display(390, 700, 200),
           battery: two(300, 400, 150),
           back_cover: two(250, 300, 150),
           speaker: only(200, 150),
@@ -18209,7 +18209,7 @@ export const brandPartsData: BrandParts[] = [
         modelCode: 'K15 Plus',
         modelName: 'K15 Plus',
         parts: {
-          display: display(350, 600, 200),
+          display: display(410, 750, 200),
           battery: two(300, 400, 150),
           back_cover: two(250, 300, 150),
           speaker: only(200, 150),
@@ -18792,7 +18792,7 @@ export const brandPartsData: BrandParts[] = [
         modelCode: 'Armor X11',
         modelName: 'Armor X11',
         parts: {
-          display: display(350, 600, 200),
+          display: display(370, 680, 200),
           battery: two(300, 400, 150),
           back_cover: two(250, 300, 150),
           speaker: only(200, 150),
@@ -18808,7 +18808,7 @@ export const brandPartsData: BrandParts[] = [
         modelCode: 'Armor X12',
         modelName: 'Armor X12',
         parts: {
-          display: display(350, 600, 200),
+          display: display(400, 720, 200),
           battery: two(300, 400, 150),
           back_cover: two(250, 300, 150),
           speaker: only(200, 150),
@@ -18824,7 +18824,7 @@ export const brandPartsData: BrandParts[] = [
         modelCode: 'Armor X13 чорний',
         modelName: 'Armor X13',
         parts: {
-          display: display(350, 600, 200),
+          display: display(400, 730, 200),
           battery: two(300, 400, 150),
           back_cover: two(250, 300, 150),
           speaker: only(200, 150),
@@ -18856,7 +18856,7 @@ export const brandPartsData: BrandParts[] = [
         modelCode: 'Armor X32 чорний',
         modelName: 'Armor X32',
         parts: {
-          display: display(350, 600, 200),
+          display: display(660, 1200, 200),
           battery: two(300, 400, 150),
           back_cover: two(250, 300, 150),
           speaker: only(200, 150),
@@ -19080,7 +19080,7 @@ export const brandPartsData: BrandParts[] = [
         modelCode: 'Power Armor X11',
         modelName: 'Power Armor X11',
         parts: {
-          display: display(350, 600, 200),
+          display: display(370, 680, 200),
           battery: two(300, 400, 150),
           back_cover: two(250, 300, 150),
           speaker: only(200, 150),
@@ -19096,7 +19096,7 @@ export const brandPartsData: BrandParts[] = [
         modelCode: 'S11',
         modelName: 'S11',
         parts: {
-          display: display(350, 600, 200),
+          display: display(480, 870, 200),
           battery: two(300, 400, 150),
           back_cover: two(250, 300, 150),
           speaker: only(200, 150),
@@ -19119,7 +19119,7 @@ export const brandPartsData: BrandParts[] = [
         modelCode: 'A10 чорний',
         modelName: 'A10',
         parts: {
-          display: display(350, 600, 200),
+          display: display(160, 290, 200),
           battery: two(300, 400, 150),
           back_cover: two(250, 300, 150),
           speaker: only(200, 150),
@@ -19135,7 +19135,7 @@ export const brandPartsData: BrandParts[] = [
         modelCode: 'A20',
         modelName: 'A20',
         parts: {
-          display: display(350, 600, 200),
+          display: display(400, 720, 200),
           battery: two(300, 400, 150),
           back_cover: two(250, 300, 150),
           speaker: only(200, 150),
@@ -19359,7 +19359,7 @@ export const brandPartsData: BrandParts[] = [
         modelCode: 'P40',
         modelName: 'P40',
         parts: {
-          display: display(350, 600, 200),
+          display: display(380, 690, 200),
           battery: two(300, 400, 150),
           back_cover: two(250, 300, 150),
           speaker: only(200, 150),
@@ -19375,7 +19375,7 @@ export const brandPartsData: BrandParts[] = [
         modelCode: 'P80 чорний',
         modelName: 'P80',
         parts: {
-          display: display(350, 600, 200),
+          display: display(300, 540, 200),
           battery: two(300, 400, 150),
           back_cover: two(250, 300, 150),
           speaker: only(200, 150),
@@ -19391,7 +19391,7 @@ export const brandPartsData: BrandParts[] = [
         modelCode: 'P90 чорний',
         modelName: 'P90',
         parts: {
-          display: display(350, 600, 200),
+          display: display(340, 620, 200),
           battery: two(300, 400, 150),
           back_cover: two(250, 300, 150),
           speaker: only(200, 150),
@@ -19407,7 +19407,7 @@ export const brandPartsData: BrandParts[] = [
         modelCode: 'X30 чорний',
         modelName: 'X30',
         parts: {
-          display: display(350, 600, 200),
+          display: display(440, 810, 200),
           battery: two(300, 400, 150),
           back_cover: two(250, 300, 150),
           speaker: only(200, 150),
@@ -19423,7 +19423,7 @@ export const brandPartsData: BrandParts[] = [
         modelCode: 'X50 чорний',
         modelName: 'X50',
         parts: {
-          display: display(350, 600, 200),
+          display: display(350, 630, 200),
           battery: two(300, 400, 150),
           back_cover: two(250, 300, 150),
           speaker: only(200, 150),
@@ -19439,7 +19439,7 @@ export const brandPartsData: BrandParts[] = [
         modelCode: 'X70 чорний',
         modelName: 'X70',
         parts: {
-          display: display(350, 600, 200),
+          display: display(150, 250, 200),
           battery: two(300, 400, 150),
           back_cover: two(250, 300, 150),
           speaker: only(200, 150),
@@ -19828,7 +19828,7 @@ export const brandPartsData: BrandParts[] = [
         modelCode: 'W10',
         modelName: 'W10',
         parts: {
-          display: display(350, 600, 200),
+          display: display(370, 680, 200),
           battery: two(300, 400, 150),
           back_cover: two(250, 300, 150),
           speaker: only(200, 150),
@@ -19844,7 +19844,7 @@ export const brandPartsData: BrandParts[] = [
         modelCode: 'W11 чорний',
         modelName: 'W11',
         parts: {
-          display: display(350, 600, 200),
+          display: display(390, 710, 200),
           battery: two(300, 400, 150),
           back_cover: two(250, 300, 150),
           speaker: only(200, 150),
@@ -19867,7 +19867,7 @@ export const brandPartsData: BrandParts[] = [
         modelCode: 'UmiDigi A11 Pro Max чорний',
         modelName: 'UmiDigi A11 Pro Max',
         parts: {
-          display: display(350, 600, 200),
+          display: display(280, 510, 200),
           battery: two(300, 400, 150),
           back_cover: two(250, 300, 150),
           speaker: only(200, 150),
@@ -19883,7 +19883,7 @@ export const brandPartsData: BrandParts[] = [
         modelCode: 'UmiDigi A13',
         modelName: 'UmiDigi A13',
         parts: {
-          display: display(350, 600, 200),
+          display: display(260, 470, 200),
           battery: two(300, 400, 150),
           back_cover: two(250, 300, 150),
           speaker: only(200, 150),
@@ -19899,7 +19899,7 @@ export const brandPartsData: BrandParts[] = [
         modelCode: 'UmiDigi A15',
         modelName: 'UmiDigi A15',
         parts: {
-          display: display(350, 600, 200),
+          display: display(390, 710, 200),
           battery: two(300, 400, 150),
           back_cover: two(250, 300, 150),
           speaker: only(200, 150),
@@ -19995,7 +19995,7 @@ export const brandPartsData: BrandParts[] = [
         modelCode: 'UmiDigi Bison X10',
         modelName: 'UmiDigi Bison X10',
         parts: {
-          display: display(350, 600, 200),
+          display: display(270, 500, 200),
           battery: two(300, 400, 150),
           back_cover: two(250, 300, 150),
           speaker: only(200, 150),
@@ -20011,7 +20011,7 @@ export const brandPartsData: BrandParts[] = [
         modelCode: 'UmiDigi Bison X10S',
         modelName: 'UmiDigi Bison X10S',
         parts: {
-          display: display(350, 600, 200),
+          display: display(530, 960, 200),
           battery: two(300, 400, 150),
           back_cover: two(250, 300, 150),
           speaker: only(200, 150),
@@ -20066,7 +20066,7 @@ export const brandPartsData: BrandParts[] = [
         modelCode: 'Power U10 чорний',
         modelName: 'Power U10',
         parts: {
-          display: display(350, 600, 200),
+          display: display(560, 1020, 200),
           battery: two(300, 400, 150),
           back_cover: two(250, 300, 150),
           speaker: only(200, 150),
@@ -20082,7 +20082,7 @@ export const brandPartsData: BrandParts[] = [
         modelCode: 'T10 чорний',
         modelName: 'T10',
         parts: {
-          display: display(350, 600, 200),
+          display: display(450, 820, 200),
           battery: two(300, 400, 150),
           back_cover: two(250, 300, 150),
           speaker: only(200, 150),
@@ -20192,7 +20192,7 @@ export const brandPartsData: BrandParts[] = [
         modelCode: 'F102 чорний',
         modelName: 'F102',
         parts: {
-          display: display(350, 600, 200),
+          display: display(390, 720, 200),
           battery: two(300, 400, 150),
           back_cover: two(250, 300, 150),
           speaker: only(200, 150),
@@ -20208,7 +20208,7 @@ export const brandPartsData: BrandParts[] = [
         modelCode: 'F105 чорний',
         modelName: 'F105',
         parts: {
-          display: display(350, 600, 200),
+          display: display(350, 640, 200),
           battery: two(300, 400, 150),
           back_cover: two(250, 300, 150),
           speaker: only(200, 150),
@@ -20224,7 +20224,7 @@ export const brandPartsData: BrandParts[] = [
         modelCode: 'F106 Pro чорний',
         modelName: 'F106 Pro',
         parts: {
-          display: display(350, 600, 200),
+          display: display(410, 750, 200),
           battery: two(300, 400, 150),
           back_cover: two(250, 300, 150),
           speaker: only(200, 150),
@@ -20240,7 +20240,7 @@ export const brandPartsData: BrandParts[] = [
         modelCode: 'F109 чорний',
         modelName: 'F109',
         parts: {
-          display: display(350, 600, 200),
+          display: display(330, 610, 200),
           battery: two(300, 400, 150),
           back_cover: two(250, 300, 150),
           speaker: only(200, 150),
@@ -20256,7 +20256,7 @@ export const brandPartsData: BrandParts[] = [
         modelCode: 'F113 чорний',
         modelName: 'F113',
         parts: {
-          display: display(350, 600, 200),
+          display: display(380, 700, 200),
           battery: two(300, 400, 150),
           back_cover: two(250, 300, 150),
           speaker: only(200, 150),

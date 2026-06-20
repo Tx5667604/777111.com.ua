@@ -57,6 +57,7 @@ import { PART_CATEGORIES } from "@/app/types"
 import { useAdmins, isSuperadmin } from "@/lib/admin"
 import VisitCalendar from '@/components/admin/VisitCalendar'
 import PageViewsTab from '@/components/admin/PageViewsTab'
+import StatsDashboard from '@/components/admin/StatsDashboard'
 import AdminChat from "@/components/chat/AdminChat"
 
 const ADMIN_EMAILS = ["fit5667604@gmail.com", "pavlovich2008@gmail.com", "vihnykov354@gmail.com", "perpetoto@gmail.com"]
@@ -195,6 +196,28 @@ function CalculatorTab() {
   const [statusMsg, setStatusMsg] = useState("")
   const [modelSearch, setModelSearch] = useState("")
 
+  const PART_COLS = [
+    { key: 'display', label: 'Дисплей' },
+    { key: 'battery', label: 'АКБ' },
+    { key: 'back_cover', label: 'Зад. кришка' },
+    { key: 'speaker', label: 'Спікер' },
+    { key: 'charging_flex', label: 'Шлейф зарядки' },
+    { key: 'glass', label: 'Скло' },
+    { key: 'camera', label: 'Камера' },
+    { key: 'microphone', label: 'Мікрофон' },
+    { key: 'buttons', label: 'Кнопки' },
+    { key: 'connector', label: 'Конектори' },
+  ]
+
+  const codePrice = (p: any) => {
+    if (!p) return null
+    if (Array.isArray(p)) {
+      const costs = p.map((x: any) => x.partCost).filter(Boolean) as number[]
+      return costs.length ? Math.min(...costs) : null
+    }
+    return p.copy || p.price || null
+  }
+
   useEffect(() => {
     // Load from static data and merge with Firestore
     loadData()
@@ -283,6 +306,12 @@ function CalculatorTab() {
             battery: { copy: 150, orig: 250, labor: 150 },
             back_cover: { copy: 100, orig: 200, labor: 100 },
             speaker: { price: 100, labor: 100 },
+            charging_flex: { copy: 150, orig: 250, labor: 150 },
+            glass: { copy: 200, orig: 400, labor: 200 },
+            camera: { copy: 200, orig: 350, labor: 150 },
+            microphone: { price: 100, labor: 100 },
+            buttons: { price: 100, labor: 100 },
+            connector: { price: 100, labor: 100 },
           },
         }
         return { ...b, models: [...b.models, newModel] }
@@ -369,10 +398,9 @@ function CalculatorTab() {
                     <tr className="border-b text-left text-muted-foreground">
                       <th className="pb-2 font-medium pr-2">Модель</th>
                       <th className="pb-2 font-medium px-2">Назва</th>
-                      <th className="pb-2 font-medium px-2">Дисплей</th>
-                      <th className="pb-2 font-medium px-2">АКБ</th>
-                      <th className="pb-2 font-medium px-2">Зад. кришка</th>
-                      <th className="pb-2 font-medium px-2">Спікер</th>
+                      {PART_COLS.map((col) => (
+                        <th key={col.key} className="pb-2 font-medium px-2">{col.label}</th>
+                      ))}
                       <th className="pb-2 font-medium px-2"></th>
                     </tr>
                   </thead>
@@ -396,16 +424,11 @@ function CalculatorTab() {
                               <span className="max-w-[120px] truncate block">{model.modelName}</span>
                             )}
                           </td>
-                          <td className="py-1.5 px-2 text-muted-foreground">
-                            {p.display ? `${p.display[0]?.price || p.display.copy || "?"}₴` : "—"}
-                          </td>
-                          <td className="py-1.5 px-2 text-muted-foreground">
-                            {p.battery ? `${p.battery[0]?.price || p.battery.copy || "?"}₴` : "—"}
-                          </td>
-                          <td className="py-1.5 px-2 text-muted-foreground">
-                            {p.back_cover ? `${p.back_cover[0]?.price || p.back_cover.copy || "?"}₴` : "—"}
-                          </td>
-                          <td className="py-1.5 px-2 text-muted-foreground">{p.speaker ? `${p.speaker.price || "?"}₴` : "—"}</td>
+                          {PART_COLS.map((col) => (
+                            <td key={col.key} className="py-1.5 px-2 text-muted-foreground">
+                              {codePrice(p[col.key]) !== null ? `${codePrice(p[col.key])}₴` : "—"}
+                            </td>
+                          ))}
                           <td className="py-1.5">
                             <div className="flex items-center gap-1">
                               {isEditing ? (
@@ -1121,32 +1144,48 @@ function PagesTab() {
   const [expandedBrand, setExpandedBrand] = useState<string | null>(null)
   const [search, setSearch] = useState("")
   const [sortBy, setSortBy] = useState<"name" | "price" | "brand">("brand")
+  const [selectedPartType, setSelectedPartType] = useState('display')
+
+  const PART_TYPE_OPTIONS = [
+    { dataKey: 'display', urlKey: 'display', label: 'Дисплей' },
+    { dataKey: 'charging_flex', urlKey: 'charging-flex', label: 'Шлейф зарядки' },
+    { dataKey: 'battery', urlKey: 'battery', label: 'Акумулятор' },
+    { dataKey: 'back_cover', urlKey: 'back-cover', label: 'Задня кришка' },
+    { dataKey: 'glass', urlKey: 'glass', label: 'Скло' },
+    { dataKey: 'speaker', urlKey: 'speaker', label: 'Динамік/Дзвінок' },
+    { dataKey: 'camera', urlKey: 'camera', label: 'Камера' },
+    { dataKey: 'microphone', urlKey: 'microphone', label: 'Мікрофон' },
+    { dataKey: 'buttons', urlKey: 'buttons', label: 'Кнопки' },
+    { dataKey: 'connector', urlKey: 'connector', label: 'Конектори/SIM' },
+  ]
+
+  const currentPartType = PART_TYPE_OPTIONS.find(o => o.dataKey === selectedPartType)!
 
   useEffect(() => {
-    // Filter brands to only those with display-capable models
-    const withDisplay = brandPartsData.map((b: any) => ({
+    // Filter brands to only those with models that have the selected part type
+    const withPart = brandPartsData.map((b: any) => ({
       ...b,
-      models: b.models.filter((m: any) => m.parts && m.parts.display)
+      models: b.models.filter((m: any) => m.parts && m.parts[selectedPartType])
     })).filter((b: any) => b.models.length > 0)
-    setBrands(withDisplay)
-  }, [])
+    setBrands(withPart)
+  }, [selectedPartType])
 
   const slug = (text: string) =>
     text.toLowerCase().replace(/[^a-z0-9]+/g, "-").replace(/^-+|-+$/g, "")
 
   const minPrice = (model: any) => {
-    const p = model.parts?.display
+    const p = model.parts?.[selectedPartType]
     if (!p || !Array.isArray(p)) return 0
     return Math.min(...p.map((x: any) => x.partCost || 0))
   }
 
   const maxPrice = (model: any) => {
-    const p = model.parts?.display
+    const p = model.parts?.[selectedPartType]
     if (!p || !Array.isArray(p)) return 0
     return Math.max(...p.map((x: any) => x.partCost || 0))
   }
 
-  const totalDisplayPages = brands.reduce((s: number, b: any) => s + b.models.length, 0)
+  const totalPages = brands.reduce((s: number, b: any) => s + b.models.length, 0)
 
   const filteredBrands = brands
     .map((b: any) => ({
@@ -1174,7 +1213,13 @@ function PagesTab() {
           <Search className="absolute left-3 top-1/2 -translate-y-1/2 w-4 h-4 text-muted-foreground" />
           <Input placeholder="Пошук..." value={search} onChange={(e) => setSearch(e.target.value)} className="pl-9" />
         </div>
-        <p className="text-sm text-muted-foreground">{totalDisplayPages} сторінок</p>
+        <select value={selectedPartType} onChange={(e) => setSelectedPartType(e.target.value)}
+          className="h-9 text-xs border rounded-md px-2 bg-background">
+          {PART_TYPE_OPTIONS.map((opt) => (
+            <option key={opt.dataKey} value={opt.dataKey}>{opt.label}</option>
+          ))}
+        </select>
+        <p className="text-sm text-muted-foreground">{totalPages} сторінок</p>
         <select value={sortBy} onChange={(e) => setSortBy(e.target.value as any)}
           className="h-9 text-xs border rounded-md px-2 bg-background">
           <option value="brand">Бренд</option>
@@ -1215,12 +1260,12 @@ function PagesTab() {
                     </thead>
                     <tbody>
                       {sorted.map((model: any, idx: number) => {
-                        const p = model.parts?.display || []
+                        const p = model.parts?.[selectedPartType] || []
                         const copy = p.find((x: any) => x.quality === "copy")
                         const orig = p.find((x: any) => x.quality === "original")
                         const frame = p.find((x: any) => x.quality === "original_with_frame")
                         const modelSlug = slug(model.modelCode)
-                        const url = `/${brand.id}/display/${modelSlug}`
+                        const url = `/${brand.id}/${currentPartType.urlKey}/${modelSlug}`
                         return (
                           <tr key={idx} className="border-b hover:bg-muted/20">
                             <td className="py-1.5 pr-2">
@@ -1240,7 +1285,7 @@ function PagesTab() {
                             <td className="py-1.5 px-2">
                               <a href={url} target="_blank" rel="noopener noreferrer"
                                 className="text-primary hover:underline font-mono text-[10px]"
-                                title={url}>/{brand.id}/display/{modelSlug}</a>
+                                title={url}>/{brand.id}/{currentPartType.urlKey}/{modelSlug}</a>
                             </td>
                           </tr>
                         )
@@ -1263,7 +1308,7 @@ function PagesTab() {
               <div className="text-[10px] text-muted-foreground">Брендів</div>
             </div>
             <div className="text-center">
-              <div className="text-2xl font-bold text-primary">{totalDisplayPages}</div>
+              <div className="text-2xl font-bold text-primary">{totalPages}</div>
               <div className="text-[10px] text-muted-foreground">Сторінок</div>
             </div>
           </div>
@@ -1349,7 +1394,8 @@ export default function AdminPage() {
               <TabsTrigger value="orders"><ShoppingCart className="w-4 h-4" />Замовлення</TabsTrigger>
               <TabsTrigger value="phones"><Smartphone className="w-4 h-4" />Телефони</TabsTrigger>
               <TabsTrigger value="pages"><Smartphone className="w-4 h-4" />Сторінки</TabsTrigger>
-              <TabsTrigger value="stats"><Eye className="w-4 h-4" />Статистика</TabsTrigger>
+              <TabsTrigger value="stats"><Eye className="w-4 h-4" />Відвідування</TabsTrigger>
+              <TabsTrigger value="dashboard"><BarChart3 className="w-4 h-4" />Статистика</TabsTrigger>
               <TabsTrigger value="pageviews"><BarChart3 className="w-4 h-4" />Перегляди</TabsTrigger>
               {isSuper && <TabsTrigger value="admins"><Users className="w-4 h-4" />Адміни</TabsTrigger>}
               <TabsTrigger value="chats" className="relative">
@@ -1368,6 +1414,7 @@ export default function AdminPage() {
           <TabsContent value="phones"><PhonesTab /></TabsContent>
           <TabsContent value="pages"><PagesTab /></TabsContent>
           <TabsContent value="stats"><VisitCalendar /></TabsContent>
+          <TabsContent value="dashboard"><StatsDashboard /></TabsContent>
           <TabsContent value="pageviews"><PageViewsTab /></TabsContent>
           <TabsContent value="chats"><AdminChat /></TabsContent>
           {isSuper && <TabsContent value="admins"><AdminsManagement /></TabsContent>}

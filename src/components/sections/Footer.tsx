@@ -1,6 +1,6 @@
 'use client'
 
-import { Wrench, Phone, MapPin, Instagram, MessageCircle, Heart } from 'lucide-react'
+import { Wrench, Phone, MapPin, Instagram, MessageCircle, Heart, Star } from 'lucide-react'
 import { trackPhoneClick } from '@/lib/routeTracker'
 
 const navLinks = [
@@ -8,6 +8,7 @@ const navLinks = [
   { href: '/#calculator', label: 'Ціни' },
   { href: '/#gallery', label: 'Товари' },
   { href: '/#contacts', label: 'Контакти' },
+  { href: '/sitemap', label: 'Карта сайту' },
 ]
 
 const serviceLinks = [
@@ -27,6 +28,7 @@ const socialLinks = [
   { icon: MessageCircle, label: 'Telegram', href: 'https://t.me/tx5667604bot' },
   { icon: Phone, label: 'Viber', href: 'viber://chat?number=%2B380960777111' },
   { icon: Phone, label: 'WhatsApp', href: 'https://wa.me/380960777111' },
+  { icon: Star, label: 'Google Отзывы', href: 'https://search.google.com/local/writereview?placeid=0x40cf77f2bef69811:0xcf2f3b40e05122f9' },
 ]
 
 export default function Footer() {

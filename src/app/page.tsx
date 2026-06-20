@@ -54,7 +54,7 @@ export default function Home() {
           </p>
         </div>
       </section>
-      <SEOLinks />
+      <SEOLinks singleSection="display" />
       <Footer />
     </div>
   )

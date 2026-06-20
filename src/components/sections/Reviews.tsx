@@ -22,7 +22,7 @@ export default function Reviews() {
           className="bg-primary hover:bg-primary/90 gap-2 text-base h-12 px-8"
         >
           <a
-            href="https://maps.app.goo.gl/Qj2mRAwwWJDh9Uif8"
+            href="https://maps.app.goo.gl/XRhaZaVCwTfE8W7Q7"
             target="_blank"
             rel="noopener noreferrer"
           >

@@ -5,6 +5,7 @@ import type { Metadata } from 'next'
 import ViewCounter from '@/components/ViewCounterWrapper'
 import seoTexts from '@/app/display-seo.json'
 import seoTextsRu from '@/app/display-seo-ru.json'
+import SEOLinks from '@/components/sections/SEOLinks'
 
 // Slug helpers
 function slug(text: string): string {
@@ -351,9 +352,19 @@ export default async function DisplayPage({ params }: Props) {
               >
                 На головний сайт →
               </Link>
+              <a
+                href="https://search.google.com/local/writereview?placeid=0x40cf77f2bef69811:0xcf2f3b40e05122f9"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-flex items-center gap-2 bg-yellow-50 text-yellow-700 border border-yellow-300 px-6 py-3 rounded-full font-medium hover:bg-yellow-100"
+              >
+                ⭐ Оставить отзыв на Google
+              </a>
             </div>
           </div>
         </main>
+
+        <SEOLinks currentType="display" />
 
         {/* Footer */}
         <footer className="border-t bg-white py-6">

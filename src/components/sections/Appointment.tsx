@@ -48,7 +48,7 @@ export default function Appointment() {
             {/* Address — opens Google Maps */}
             <a
               onClick={trackRouteClick}
-              href="https://maps.app.goo.gl/Qj2mRAwwWJDh9Uif8"
+              href="https://maps.app.goo.gl/XRhaZaVCwTfE8W7Q7"
               target="_blank"
               rel="noopener noreferrer"
               className="block"

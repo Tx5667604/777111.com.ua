@@ -215,7 +215,7 @@ export default function Contacts() {
             transition={{ duration: 0.5 }}
           >
             <a
-              href="https://maps.app.goo.gl/Qj2mRAwwWJDh9Uif8"
+              href="https://maps.app.goo.gl/XRhaZaVCwTfE8W7Q7"
               target="_blank"
               rel="noopener noreferrer"
               onClick={trackRouteClick}

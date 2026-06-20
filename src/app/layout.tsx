@@ -6,7 +6,8 @@ import { AuthProvider } from "@/lib/auth-context";
 import { CartProvider } from "@/lib/cart-context";
 import { FloatingAdminButton } from "@/components/admin/FloatingAdminButton";
 import PwaInstallPrompt from "@/components/PwaInstallPrompt";
-import VisitTracker from "@/components/VisitTracker";
+import VisitTracker from "@/components/VisitTracker"
+import ActionTracker from "@/components/ActionTracker";
 import ChatWidget from "@/components/chat/ChatWidget";
 import Script from "next/script";
 
@@ -224,6 +225,7 @@ export default function RootLayout({
           <PwaInstallPrompt />
           <FloatingAdminButton />
           <VisitTracker />
+          <ActionTracker />
           <ChatWidget />
           <Toaster richColors position="top-right" />
           {/* Google Analytics with PII sanitizer */}

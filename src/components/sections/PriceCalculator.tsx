@@ -2,7 +2,7 @@
 
 import { useState, useMemo } from 'react'
 import { motion, AnimatePresence } from 'framer-motion'
-import { Search, ShoppingCart, ChevronDown, ChevronRight, ChevronLeft, Check, ExternalLink } from 'lucide-react'
+import { Search, ShoppingCart, ChevronDown, ChevronRight, ChevronLeft, Check } from 'lucide-react'
 import { Button } from '@/components/ui/button'
 import { Input } from '@/components/ui/input'
 import { Card, CardContent } from '@/components/ui/card'
@@ -12,7 +12,6 @@ import { brandPartsData } from '@/app/phone-parts-data'
 import { PART_CATEGORIES } from '@/app/types'
 import type { PartVariant, BrandParts, PartCategory } from '@/app/types'
 import { useCart } from '@/lib/cart-context'
-import Link from 'next/link'
 
 const brands: { id: string; name: string; logo: string }[] = brandPartsData.map((b) => ({
   id: b.name,
@@ -270,10 +269,6 @@ export default function PriceCalculator() {
                     m.modelName.toLowerCase().includes(modelSearch.toLowerCase()) ||
                     m.modelCode.toLowerCase().includes(modelSearch.toLowerCase())
                   ).map((m) => {
-                    const hasDisplay = !!m.parts.display
-                    const displayUrl = hasDisplay && selectedBrand
-                      ? `/${brandPartsData.find(b => b.name === selectedBrand)?.id ?? ''}/display/${slug(m.modelCode)}`
-                      : null
                     return (
                     <div key={m.modelCode} className="relative">
                       <motion.button
@@ -293,17 +288,6 @@ export default function PriceCalculator() {
                           {Object.keys(m.parts).length} типів запчастин
                         </span>
                       </motion.button>
-                      {hasDisplay && displayUrl && (
-                        <Link
-                          href={displayUrl}
-                          className="absolute top-1 right-1 w-6 h-6 flex items-center justify-center
-                                     rounded-md bg-orange-50 hover:bg-orange-100 text-orange-600
-                                     border border-orange-200 transition-colors"
-                          title="Сторінка дисплея"
-                        >
-                          <ExternalLink className="w-3 h-3" />
-                        </Link>
-                      )}
                     </div>
                     )
                   })}
