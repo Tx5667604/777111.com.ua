@@ -8,8 +8,12 @@
 const fs = require('fs')
 const path = require('path')
 
-// Gemini 2.5 Flash Lite (DeepSeek key died 31.08.2026 — 401)
-const GEMINI_KEY = 'AIzaSyBVpTcGh_413iCcdM_qoPVfg8nYs2236TA'
+// Gemini 2.5 Flash Lite. Key priority: env GEMINI_KEY > scripts/.gemini-key.local (untracked) > legacy (dead 31.08.2026)
+let GEMINI_KEY = process.env.GEMINI_KEY || ''
+if (!GEMINI_KEY) {
+  try { GEMINI_KEY = fs.readFileSync(path.join(__dirname, '.gemini-key.local'), 'utf-8').trim() } catch (e) {}
+}
+if (!GEMINI_KEY) { console.error('NO GEMINI KEY: set GEMINI_KEY env or scripts/.gemini-key.local'); process.exit(1) }
 const API_URL = 'https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-lite:generateContent'
 const BATCH_SIZE = 20
 
