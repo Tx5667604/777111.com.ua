@@ -1,0 +1,117 @@
+
+	
+
+home
+Обзор
+lightbulb_2
+Статистика
+trending_up
+Эффективность
+keyboard_arrow_down
+search
+Проверка URL
+Индексирование
+keyboard_arrow_up
+file_copy
+Страницы
+account_tree
+Файлы Sitemap
+visibility_off
+Удаления
+Качество
+keyboard_arrow_up
+speed
+Core Web Vitals
+Проблемы безопасности и меры, принятые вручную
+keyboard_arrow_down
+link_2
+Ссылки
+trophy
+Достижения
+settings
+Настройки
+feedback
+Отправить отзыв
+info
+Общие сведения о Search Console
+КонфиденциальностьУсловия использования
+Индексирование страниц
+
+Обнаружена, не проиндексирована
+
+ЭКСПОРТИРОВАТЬ
+
+ОТПРАВИТЬ
+Все обработанные страницы
+Все отправленные страницы
+Только страницы, которые не были отправлены
+https://apple.cx.ua/sitemap.xml
+Последнее обновление: 21.08.2026
+info
+Обнаружена, не проиндексирована
+Указанные ниже страницы не индексируются Google и не появляются в результатах поиска.
+ПОДРОБНЕЕ
+Дата выявления: 05.08.2026
+Устранена ли проблема?
+ПРОВЕРИТЬ ИСПРАВЛЕНИЕ
+Затронутые страницы
+451
+02.06.2026
+13.06.2026
+24.06.2026
+05.07.2026
+16.07.2026
+27.07.2026
+07.08.2026
+18.08.2026
+600
+400
+200
+0
+Примеры
+
+
+URL
+	
+Последнее сканирование
+
+https://apple.cx.ua/iphone-11-pro-max/backglass/original-used/
+	Отсутствует
+
+https://apple.cx.ua/iphone-11-pro-max/backglass/original/
+	Отсутствует
+
+https://apple.cx.ua/iphone-11-pro-max/battery/original-used/
+	Отсутствует
+
+https://apple.cx.ua/iphone-11-pro-max/battery/original/
+	Отсутствует
+
+https://apple.cx.ua/iphone-11-pro-max/camera/original-used/
+	Отсутствует
+
+https://apple.cx.ua/iphone-11-pro-max/camera/original/
+	Отсутствует
+
+https://apple.cx.ua/iphone-11-pro-max/charging/original/
+	Отсутствует
+
+https://apple.cx.ua/iphone-11-pro-max/screen/original-used/
+	Отсутствует
+
+https://apple.cx.ua/iphone-11-pro-max/screen/original/
+	Отсутствует
+
+https://apple.cx.ua/iphone-11-pro-max/speaker/original/
+	Отсутствует
+Строк на странице:
+5
+10
+25
+50
+100
+250
+500
+1–10 из 451
+
+Индексирование страниц

@@ -6,6 +6,7 @@ import SEOLinks from '@/components/sections/SEOLinks'
 import PriceCalculator from '@/components/sections/PriceCalculator'
 import seoTexts from '@/app/parts-seo.json'
 import seoTextsRu from '@/app/parts-seo-ru.json'
+import { PART_CATEGORY_CONTENT } from '@/app/part-category-content'
 
 const PART_CONFIG: Record<string, { label: string; labelRu: string; icon: string }> = {
   'charging-flex': { label: 'Шлейф зарядки', labelRu: 'Шлейф зарядки', icon: '🔌' },
@@ -91,7 +92,12 @@ export default async function PartPage({ params }: Props) {
   const data = findData(brand, partType, model)
   if (!data) return <div className="p-8 text-center text-gray-500">Сторінка не знайдена</div>
   const { brand: b, phoneModel: m, parts, config } = data
-  const seoKey = partType + ':' + b.id + ':' + m.modelCode
+  const STORAGE_KEYS: Record<string, string> = {
+    'charging-flex': 'charging_flex',
+    'back-cover': 'back_cover',
+  }
+  const storageKey = STORAGE_KEYS[partType] || partType
+  const seoKey = storageKey + ':' + b.id + ':' + m.modelCode
   const seoText = (seoTexts as Record<string, string>)[seoKey]
   const seoTextRu = (seoTextsRu as Record<string, string>)[seoKey]
   const labelLow = config.label.toLowerCase()
@@ -142,6 +148,50 @@ export default async function PartPage({ params }: Props) {
             <a href="tel:+380960777111" className="inline-flex items-center gap-2 bg-primary text-white px-6 py-3 rounded-full font-medium hover:bg-primary/90">📞 Подзвонити</a>
             <a href="https://maps.app.goo.gl/XRhaZaVCwTfE8W7Q7" target="_blank" rel="noopener noreferrer" className="inline-flex items-center gap-2 bg-white text-gray-700 border border-gray-300 px-6 py-3 rounded-full font-medium hover:bg-gray-50">📍 Як дістатись</a>
           </div>
+          {/* Category-specific content */}
+          {PART_CATEGORY_CONTENT[partType] && (() => {
+            const cc = PART_CATEGORY_CONTENT[partType]
+            return (
+              <>
+                {/* Symptoms */}
+                <section className="bg-white rounded-2xl border border-red-100 p-6 mb-6">
+                  <h2 className="text-lg font-semibold text-gray-900 mb-3">⚠️ Ознаки несправності</h2>
+                  <ul className="space-y-2">
+                    {cc.symptoms.map((s, i) => (
+                      <li key={i} className="flex items-start gap-2 text-gray-700">
+                        <span className="text-red-400 mt-0.5 shrink-0">•</span>
+                        <span>{s}</span>
+                      </li>
+                    ))}
+                  </ul>
+                </section>
+                {/* Features */}
+                <section className="bg-white rounded-2xl border border-green-100 p-6 mb-6">
+                  <h2 className="text-lg font-semibold text-gray-900 mb-3">✅ Чому обирають нас</h2>
+                  <ul className="space-y-2">
+                    {cc.features.map((f, i) => (
+                      <li key={i} className="flex items-start gap-2 text-gray-700">
+                        <span className="text-green-500 mt-0.5 shrink-0">✓</span>
+                        <span>{f}</span>
+                      </li>
+                    ))}
+                  </ul>
+                </section>
+                {/* FAQ */}
+                <section className="bg-white rounded-2xl border border-gray-200 p-6 mb-6">
+                  <h2 className="text-lg font-semibold text-gray-900 mb-3">❓ Часті запитання</h2>
+                  <div className="space-y-4">
+                    {cc.faq.map((item, i) => (
+                      <div key={i}>
+                        <h3 className="font-medium text-gray-800 mb-1">{item.q}</h3>
+                        <p className="text-gray-600 text-sm">{item.a}</p>
+                      </div>
+                    ))}
+                  </div>
+                </section>
+              </>
+            )
+          })()}
           <div className="mb-8"><PriceCalculator initialBrand={b.name} initialModelCode={m.modelCode} /></div>
           {seoText && <section className="prose prose-gray max-w-none mb-6"><p>{seoText}</p></section>}
           <div className="bg-white rounded-2xl border border-gray-200 overflow-hidden mb-8">

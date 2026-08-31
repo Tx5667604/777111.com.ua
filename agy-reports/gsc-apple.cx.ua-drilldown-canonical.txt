@@ -1,0 +1,118 @@
+
+	
+
+home
+Обзор
+lightbulb_2
+Статистика
+trending_up
+Эффективность
+keyboard_arrow_down
+search
+Проверка URL
+Индексирование
+keyboard_arrow_up
+file_copy
+Страницы
+account_tree
+Файлы Sitemap
+visibility_off
+Удаления
+Качество
+keyboard_arrow_up
+speed
+Core Web Vitals
+Проблемы безопасности и меры, принятые вручную
+keyboard_arrow_down
+link_2
+Ссылки
+trophy
+Достижения
+settings
+Настройки
+feedback
+Отправить отзыв
+info
+Общие сведения о Search Console
+КонфиденциальностьУсловия использования
+Индексирование страниц
+
+Вариант страницы с тегом canonical
+
+ЭКСПОРТИРОВАТЬ
+
+ОТПРАВИТЬ
+Все обработанные страницы
+Все отправленные страницы
+Только страницы, которые не были отправлены
+https://apple.cx.ua/sitemap.xml
+Последнее обновление: 21.08.2026
+info
+Вариант страницы с тегом canonical
+Указанные ниже страницы не индексируются Google и не появляются в результатах поиска.
+ПОДРОБНЕЕ
+Дата выявления: 05.08.2026
+Устранена ли проблема?
+ПРОВЕРИТЬ ИСПРАВЛЕНИЕ
+Затронутые страницы
+20
+02.06.2026
+12.06.2026
+22.06.2026
+02.07.2026
+12.07.2026
+22.07.2026
+01.08.2026
+11.08.2026
+21.08.2026
+30
+20
+10
+0
+Примеры
+
+
+URL
+	
+Последнее сканирование
+
+https://apple.cx.ua/iphone-14-pro/water/standard/
+	31 июл. 2026 г.
+
+https://apple.cx.ua/iphone-16/unlock/standard/
+	31 июл. 2026 г.
+
+https://apple.cx.ua/iphone-6/water/standard/
+	31 июл. 2026 г.
+
+https://apple.cx.ua/iphone-12-mini/water/standard/
+	31 июл. 2026 г.
+
+https://apple.cx.ua/iphone-8-plus/water/standard/
+	31 июл. 2026 г.
+
+https://apple.cx.ua/iphone-16/water/standard/
+	31 июл. 2026 г.
+
+https://apple.cx.ua/iphone-15/water/standard/
+	31 июл. 2026 г.
+
+https://apple.cx.ua/iphone-14-pro-max/unlock/standard/
+	30 июл. 2026 г.
+
+https://apple.cx.ua/iphone-13/unlock/standard/
+	30 июл. 2026 г.
+
+https://apple.cx.ua/iphone-11-pro/unlock/standard/
+	30 июл. 2026 г.
+Строк на странице:
+5
+10
+25
+50
+100
+250
+500
+1–10 из 20
+
+Индексирование страниц

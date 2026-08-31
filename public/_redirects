@@ -1,2 +1,21 @@
-/rozblokuvannya-icloud /rozblokuvannja-icloud 301
-/prishivka-telefonu /proshivka-telefonu 301
+# 301 Redirects from old/broken URLs to correct ones
+# Format: source destination status
+
+# Brand pages (не существуют как отдельные страницы) → главная
+/wiko                          /           301
+/blackview                     /           301
+/cubot                         /           301
+/zte                           /           301
+
+# Old slug: modelName-based → modelCode-based (Samsung Galaxy)
+/samsung/display/galaxy-a037g  /samsung/display/a037g  301
+/samsung/display/galaxy-a145   /samsung/display/a145   301
+/samsung/display/galaxy-jj260  /samsung/display/j260  301
+
+# Old slug: truncated color names (Xiaomi)
+/xiaomi/display/redmi-note-11-pro-5g-polar  /xiaomi/display/redmi-note-11-pro-5g-polar-white  301
+/xiaomi/display/poco-m4-5g-cool              /xiaomi/display/poco-m4-5g-cool-blue             301
+/xiaomi/display/poco-x3-pro-metal            /xiaomi/display/poco-x3-pro-metal-bronze        301
+
+# Catch-all: any old Samsung galaxy-* pattern → remove galaxy- prefix
+/samsung/display/galaxy-*      /samsung/display/:splat  301
